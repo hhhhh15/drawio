@@ -1,0 +1,73 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="第 1 页" id="7lZsyl3Pqlk0aqkjQhdw">
+    <mxGraphModel dx="2483" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="awkSBdXz16l4ONheyCv7-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MQTT原理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-2" value="主题、Broker、订阅" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-3" value="请问硬件的WIFI模块到底是啥做的？用到啥协议啊，就能软硬件结合了啊？" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="80" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-4" value="WiFi 模块 ≈ 一块“带无线网卡功能的小电脑 + 射频电路”&lt;div&gt;&lt;div&gt;┌────────────────────────────┐&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; WiFi 模块&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;│ ┌───────────────┐&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;│ │ MCU / SoC&amp;nbsp; &amp;nbsp; &amp;nbsp;│ ← 跑固件 │&lt;/div&gt;&lt;div&gt;│ └───────────────┘&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;│ ┌───────────────┐&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;│ │ RF 射频电路&amp;nbsp; &amp;nbsp;│ ← 发/收无线 │&lt;/div&gt;&lt;div&gt;│ └───────────────┘&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;│ ┌───────────────┐&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;│ │ Flash / RAM&amp;nbsp; &amp;nbsp;│ ← 存固件 │&lt;/div&gt;&lt;div&gt;│ └───────────────┘&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;│ ┌───────────────┐&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;│ │ 天线 Antenna&amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;│ └───────────────┘&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;└────────────────────────────┘&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="130" width="335" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;整个流程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-7" value="Android端逻辑代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="160" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-8" value="使用到MQTT协议\HTTP 协议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="235" width="185" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-9" value="&lt;div&gt;[TCP/IP 协议栈]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;↓&lt;/div&gt;&lt;div&gt;[WiFi 驱动]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;↓&lt;/div&gt;&lt;div&gt;[WiFi 模块硬件]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="300" width="145" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-10" value="主控单片机和WiFi模块关系：主控芯片通过 UART、SPI 等接口使用 AT 指令或驱动与 WiFi 模块通信的通行协议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="370" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-11" value="单片机和这个WiFi模块是已经焊接在一起了的，重点是这个协议应该也是能和其他模块，例如通过线连接到这个单片机的模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="awkSBdXz16l4ONheyCv7-15" target="awkSBdXz16l4ONheyCv7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-15" value="AT指令是啥，为啥语音模块和这个有关啊？我是不是得看这个模块的手册啊，看手册应该看什么？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="560" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-16" value="FreeRTOS是啥东西啊？" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="245" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-17" value="&lt;div&gt;┌──────── 应用层 ────────┐&lt;/div&gt;&lt;div&gt;│ AT 指令 / 二进制命令&amp;nbsp; &amp;nbsp;│ ← 控制模块“做什么”&lt;/div&gt;&lt;div&gt;└──────── 通信格式 ─────┘&lt;/div&gt;&lt;div&gt;┌──────── 传输层 ────────┐&lt;/div&gt;&lt;div&gt;│ UART / SPI / I2C&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│ ← 数据怎么传&lt;/div&gt;&lt;div&gt;└──────── 硬件电气 ─────┘&lt;/div&gt;&lt;div&gt;┌──────── 物理层 ────────┐&lt;/div&gt;&lt;div&gt;│ TX / RX 电平&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&lt;/div&gt;&lt;div&gt;└───────────────────────┘&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="550" width="255" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="awkSBdXz16l4ONheyCv7-18" target="awkSBdXz16l4ONheyCv7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-18" value="因为每个模块有自己的通信规范，有些模块通过AT指令，有些是二进制指令来控制模块具体操作的，所以看手册需要看" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="225" y="630" width="375" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-20" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;1.物理接口：引脚名称、编号、电压。告诉你怎么接线，接错了烧模块&lt;/font&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;通信协议：用AT指令还是二进制。决定你用什么方式写代码&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据帧格式：一条命令长什么样。知道每一位填什么，模块才能理解&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;命令定义：每个命令代码是什么意思。想实现某功能，需要发哪个命令码&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;返回数据：模块回复什么意思知道命令成功没，获取结果数据&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="660" y="600" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-23" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;先搞清楚LUA-ASRPRO-01的具体控制指令，看有没有关于串口指令的说明。通常会有类似&quot;发送某个指令唤醒模块&quot;或&quot;开始对话&quot;的说明&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="480" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-24" value="&lt;ul style=&quot;box-sizing: border-box; list-style: none; margin: 0px 0px 16px; padding: 0px 0px 0px 2em; border: 0px; vertical-align: baseline; color: rgb(25, 26, 36); font-family: &amp;quot;Microsoft YaHei&amp;quot;, Helvetica, &amp;quot;Meiryo UI&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Trebuchet MS&amp;quot;, Monaco, monospace, Tahoma, STXihei, 华文细黑, STHeiti, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;wenquanyi micro hei&amp;quot;, FreeSans, Arimo, Arial, SimSun, 宋体, Heiti, 黑体, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; list-style: disc;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;UART接口&lt;/span&gt;：TX（PA9）→ LU_ASR01_RX，RX（PA10）→ LU_ASR01_TX；&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Microsoft YaHei, Helvetica, Meiryo UI, Malgun Gothic, Segoe UI, Trebuchet MS, Monaco, monospace, Tahoma, STXihei, 华文细黑, STHeiti, Helvetica Neue, Droid Sans, wenquanyi micro hei, FreeSans, Arimo, Arial, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#191a24&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;我根本就没有看到这个语音模块有这个PA10或则是这个TX（PA9）。明明问问客服拿到这个使用手册看看&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="630" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-25" value="先学会用这个语音模块烧录实现语音对话【学会天问Bloack的使用】" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="790" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="awkSBdXz16l4ONheyCv7-26" value="再加上esp32主控，实现语音控制点亮一个灯，或则电机" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="145" y="795" width="220" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
