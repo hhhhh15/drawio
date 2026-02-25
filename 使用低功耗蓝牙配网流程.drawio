@@ -67,6 +67,9 @@
         <mxCell id="IitFOCUhvjcfD-siwt_Q-18" parent="IitFOCUhvjcfD-siwt_Q-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="开启 Notify" vertex="1">
           <mxGeometry height="30" width="60" as="geometry" />
         </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="读取信号值，设置mtu值" vertex="1">
+          <mxGeometry height="60" width="200" x="160" y="590" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
