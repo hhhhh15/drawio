@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.3">
   <diagram name="第 1 页" id="iIzMlqGgh8Y-ytgdO5i3">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-5" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="310" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-1" parent="IitFOCUhvjcfD-siwt_Q-5" style="rounded=0;whiteSpace=wrap;html=1;" value="BluetoothDevice → connectGatt → BluetoothGatt" vertex="1">
+          <mxGeometry height="50" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-2" parent="IitFOCUhvjcfD-siwt_Q-5" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GAtt对象，获取连接通道对象" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-6" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="230" x="160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-3" parent="IitFOCUhvjcfD-siwt_Q-6" style="rounded=0;whiteSpace=wrap;html=1;" value="bluetoothGatt.discoverServices()" vertex="1">
+          <mxGeometry height="50" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-4" parent="IitFOCUhvjcfD-siwt_Q-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="发现service" vertex="1">
+          <mxGeometry height="30" width="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="310" x="640" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-7" parent="IitFOCUhvjcfD-siwt_Q-9" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;BleManager.get().readData(bleDevice: BleDevice,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; serviceUUID: String,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; readUUID: String,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bleIndicateCallback: BleReadCallback)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-8" parent="IitFOCUhvjcfD-siwt_Q-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="读取特征值" vertex="1">
+          <mxGeometry height="30" width="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-12" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="120" width="540" x="630" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-10" parent="IitFOCUhvjcfD-siwt_Q-12" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;BleManager.get().notify(bleDevice: BleDevice,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; serviceUUID: String,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; notifyUUID: String,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bleDescriptorGetType: BleDescriptorGetType = BleDescriptorGetType.Default,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bleIndicateCallback: BleIndicateCallback)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="540" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-11" parent="IitFOCUhvjcfD-siwt_Q-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="订阅、找到service、设置特征值等流程全做完" vertex="1">
+          <mxGeometry height="30" width="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-13" edge="1" parent="1" source="IitFOCUhvjcfD-siwt_Q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="IitFOCUhvjcfD-siwt_Q-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-16" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="70" width="180" x="160" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-14" parent="IitFOCUhvjcfD-siwt_Q-16" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;getService(UUID)&lt;/div&gt;&lt;div&gt;getCharacteristic(UUID)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-15" parent="IitFOCUhvjcfD-siwt_Q-16" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="找到特征" vertex="1">
+          <mxGeometry height="30" width="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-19" edge="1" parent="1" source="IitFOCUhvjcfD-siwt_Q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="IitFOCUhvjcfD-siwt_Q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-20" edge="1" parent="1" source="IitFOCUhvjcfD-siwt_Q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="IitFOCUhvjcfD-siwt_Q-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-21" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="180" x="160" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-17" parent="IitFOCUhvjcfD-siwt_Q-21" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;setCharacteristicNotification()&lt;/div&gt;&lt;div&gt;写入CCCD&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IitFOCUhvjcfD-siwt_Q-18" parent="IitFOCUhvjcfD-siwt_Q-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="开启 Notify" vertex="1">
+          <mxGeometry height="30" width="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
