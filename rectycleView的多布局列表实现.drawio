@@ -40,6 +40,9 @@
         <mxCell id="-tMs5jpSI9W-vm8HncjR-6" parent="1" style="whiteSpace=wrap;html=1;" value="方法&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;getItemViewType&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;是必须重写的，为了区分数据源不同数据类型inflate的不同的视图，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;否则在&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;onCreateViewHolder&lt;/span&gt;中&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;R.id.item_arrt_number区分不了数据源List&amp;lt;MultiModelData&amp;gt;是什么类型&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="280" x="710" y="405" as="geometry" />
         </mxCell>
+        <mxCell id="-tMs5jpSI9W-vm8HncjR-8" parent="1" style="whiteSpace=wrap;html=1;" value="每个viewHolder类中进行bind绑定点击事件，" vertex="1">
+          <mxGeometry height="60" width="170" x="360" y="530" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
