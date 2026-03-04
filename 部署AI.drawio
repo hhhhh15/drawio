@@ -31,6 +31,24 @@
         <mxCell id="IHbPs8N1mpdUhGn42tJ_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="skill是什么东西？" vertex="1">
           <mxGeometry height="40" width="110" x="240" y="790" as="geometry" />
         </mxCell>
+        <mxCell id="IHbPs8N1mpdUhGn42tJ_-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有 &lt;strong data-start=&quot;207&quot; data-end=&quot;225&quot;&gt;GitHub Copilot&lt;/strong&gt;（Pro/Pro+/Business/Enterprise）或者是 &lt;strong data-start=&quot;259&quot; data-end=&quot;297&quot;&gt;ChatGPT 的 Plus/Pro/Edu/Business 订阅&lt;/strong&gt;（能启用 Codex 访问权限）" vertex="1">
+          <mxGeometry height="60" width="390" x="880" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="IHbPs8N1mpdUhGn42tJ_-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;登录 Copilot/ChatGPT&lt;/p&gt;&lt;p&gt;选择并启用 Codex 作为助理&lt;/p&gt;&lt;p&gt;使用侧边栏的任务会话输入提示&lt;/p&gt;&lt;p&gt;查看并接受生成的代码或任务结果&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="310" x="900" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="IHbPs8N1mpdUhGn42tJ_-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="等下，好像可以使用，那我要看这个这个额度一点点用，不能一下弄完卧槽" vertex="1">
+          <mxGeometry height="60" width="160" x="920" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="IHbPs8N1mpdUhGn42tJ_-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="还有好多code cil，这个是啥意思，是说人家的ai产品的api+本地终端，然后实现对本地项目进行agent和生成项目吗" vertex="1">
+          <mxGeometry height="40" width="230" x="240" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="IHbPs8N1mpdUhGn42tJ_-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有没有就是使用这个openclaw实现对文档的文字的扫描整理啊，就是现在网页引进的ai使用途径一样，我想能对这个小红书的帖子，或则是搜刮某个网站整理总结的功能，" vertex="1">
+          <mxGeometry height="80" width="220" x="300" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="IHbPs8N1mpdUhGn42tJ_-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="还有agent分工，前后端的核实，是怎么使用的呢" vertex="1">
+          <mxGeometry height="30" width="60" x="670" y="980" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
