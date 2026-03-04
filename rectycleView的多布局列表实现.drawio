@@ -49,6 +49,9 @@
         <mxCell id="4h-JXF7mCeOeSxiMV15v-2" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;onBindViewHolder&lt;/span&gt;中就是将viewHolder会查找复用池中是否有对应的viewHolder类，将对应的&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(135, 16, 148);&quot;&gt;modelData&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;position&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据传入到viewHolder类中写的方法，简称调用方法&lt;/span&gt;" vertex="1">
           <mxGeometry height="70" width="320" x="685" y="560" as="geometry" />
         </mxCell>
+        <mxCell id="4h-JXF7mCeOeSxiMV15v-6" parent="1" style="whiteSpace=wrap;html=1;" value="接口事件回调都是写在初始化构造adptar的时候" vertex="1">
+          <mxGeometry height="50" width="160" x="380" y="710" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
