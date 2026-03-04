@@ -13,6 +13,15 @@
         <mxCell id="Hi_-S84UOorx7b470ouE-4" parent="1" style="whiteSpace=wrap;html=1;" value="使用ai工具" vertex="1">
           <mxGeometry height="40" width="90" x="190" y="250" as="geometry" />
         </mxCell>
+        <mxCell id="Hi_-S84UOorx7b470ouE-5" parent="1" style="whiteSpace=wrap;html=1;" value="国内：魔音工坊的克隆&lt;div&gt;垃圾中的垃圾&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="320" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Hi_-S84UOorx7b470ouE-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="、" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Hi_-S84UOorx7b470ouE-7" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;a href=&quot;https://elevenlabscn.com/&quot;&gt;ElevenLabs官网中文站&lt;/a&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="320" y="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
