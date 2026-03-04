@@ -8,16 +8,16 @@
           <mxGeometry height="50" width="80" x="90" y="340" as="geometry" />
         </mxCell>
         <mxCell id="RETjoENm9cjdLkZU22kn-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有没有不花钱使用这个cursor的方法啊，不想得cursor充钱，" vertex="1">
-          <mxGeometry height="70" width="150" x="260" as="geometry" />
+          <mxGeometry height="70" width="150" x="280" y="20" as="geometry" />
         </mxCell>
         <mxCell id="RETjoENm9cjdLkZU22kn-3" parent="1" style="whiteSpace=wrap;html=1;" value="api key密钥：API Key 就是你访问云端服务的“数字钥匙”。用途：认证 + 授权 + 计费" vertex="1">
-          <mxGeometry height="60" width="315" x="285" y="130" as="geometry" />
+          <mxGeometry height="60" width="315" x="280" y="130" as="geometry" />
         </mxCell>
         <mxCell id="RETjoENm9cjdLkZU22kn-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="cli形式，命令行形式使用这个codex，但我选择vscode可视化图面能实现这个东西" vertex="1">
-          <mxGeometry height="60" width="190" x="250" y="280" as="geometry" />
+          <mxGeometry height="60" width="190" x="280" y="280" as="geometry" />
         </mxCell>
         <mxCell id="RETjoENm9cjdLkZU22kn-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1 class=&quot;heading-2xl md:heading-2xl&quot; style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px; scrollbar-color: oklab(0.159065 0.00000723451 0.00000317395 / 0.3) rgba(0, 0, 0, 0); scrollbar-width: thin; color: rgb(24, 24, 24); letter-spacing: -0.6px; line-height: 42px; font-family: &amp;quot;OpenAI Sans&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px; scrollbar-color: oklab(0.159065 0.00000723451 0.00000317395 / 0.3) rgba(0, 0, 0, 0); scrollbar-width: thin; vertical-align: inherit; font-size: 11px;&quot;&gt;Codex 到底是怎么使用啊，我怎么部署都不行，没有额度，没有额度，我靠&lt;/font&gt;&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="50" width="370" x="250" y="370" as="geometry" />
+          <mxGeometry height="50" width="370" x="280" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
