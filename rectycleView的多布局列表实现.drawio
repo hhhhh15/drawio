@@ -50,13 +50,19 @@
           <mxGeometry height="70" width="320" x="685" y="560" as="geometry" />
         </mxCell>
         <mxCell id="4h-JXF7mCeOeSxiMV15v-6" parent="1" style="whiteSpace=wrap;html=1;" value="接口事件回调都是写在初始化构造adptar的时候" vertex="1">
-          <mxGeometry height="50" width="160" x="380" y="710" as="geometry" />
+          <mxGeometry height="50" width="160" x="350" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4h-JXF7mCeOeSxiMV15v-11" edge="1" parent="1" source="4h-JXF7mCeOeSxiMV15v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4h-JXF7mCeOeSxiMV15v-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4h-JXF7mCeOeSxiMV15v-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="为什么需要回调呢，明明适配器就能修改显示选择的数据了" vertex="1">
-          <mxGeometry height="50" width="170" x="570" y="710" as="geometry" />
+          <mxGeometry height="50" width="170" x="550" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="4h-JXF7mCeOeSxiMV15v-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="因为RecyclerView 会复用 ViewHolder，当滚动的时候，显示其他的viewHolder，之前的数据是被清理没保存，况且如果item.selected数据需要做业务逻辑处理，也是需要在UI页面处理" vertex="1">
-          <mxGeometry height="80" width="280" x="760" y="695" as="geometry" />
+        <mxCell id="4h-JXF7mCeOeSxiMV15v-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="因为RecyclerView 会复用 ViewHolder，当滚动的时候，显示其他的viewHolder，之前的数据是被清理没保存，况且如果item.selected数据需要做业务逻辑处理，也是需要在UI页面处理。接口回调方法需要写参数，例如：" vertex="1">
+          <mxGeometry height="80" width="280" x="760" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="4h-JXF7mCeOeSxiMV15v-10" edge="1" parent="1" source="4h-JXF7mCeOeSxiMV15v-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="4h-JXF7mCeOeSxiMV15v-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
