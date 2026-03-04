@@ -10,8 +10,8 @@
         <mxCell id="RETjoENm9cjdLkZU22kn-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有没有不花钱使用这个cursor的方法啊，不想得cursor充钱，" vertex="1">
           <mxGeometry height="70" width="150" x="260" as="geometry" />
         </mxCell>
-        <mxCell id="RETjoENm9cjdLkZU22kn-3" parent="1" style="whiteSpace=wrap;html=1;" value="api key密钥：" vertex="1">
-          <mxGeometry height="60" width="120" x="240" y="130" as="geometry" />
+        <mxCell id="RETjoENm9cjdLkZU22kn-3" parent="1" style="whiteSpace=wrap;html=1;" value="api key密钥：API Key 就是你访问云端服务的“数字钥匙”。用途：认证 + 授权 + 计费" vertex="1">
+          <mxGeometry height="60" width="315" x="285" y="130" as="geometry" />
         </mxCell>
         <mxCell id="RETjoENm9cjdLkZU22kn-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="cli形式，命令行形式使用这个codex，但我选择vscode可视化图面能实现这个东西" vertex="1">
           <mxGeometry height="60" width="190" x="250" y="280" as="geometry" />
