@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="第 1 页" id="-ggvwp68RWzVhLRTXByv">
-    <mxGraphModel dx="1406" dy="1535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1661" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,35 +13,41 @@
         <mxCell id="MtdQN4pQLqxafOUwaejv-4" parent="1" style="whiteSpace=wrap;html=1;" value="封装数据类型" vertex="1">
           <mxGeometry height="50" width="90" x="200" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="MtdQN4pQLqxafOUwaejv-5" parent="1" style="whiteSpace=wrap;html=1;" value="适配器" vertex="1">
-          <mxGeometry height="40" width="90" x="200" y="380" as="geometry" />
-        </mxCell>
-        <mxCell id="MtdQN4pQLqxafOUwaejv-6" parent="1" style="whiteSpace=wrap;html=1;" value="ui页面调用" vertex="1">
-          <mxGeometry height="40" width="100" x="140" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="-tMs5jpSI9W-vm8HncjR-3" edge="1" parent="1" source="-tMs5jpSI9W-vm8HncjR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-tMs5jpSI9W-vm8HncjR-2" value="">
+        <mxCell id="4h-JXF7mCeOeSxiMV15v-4" edge="1" parent="1" source="MtdQN4pQLqxafOUwaejv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-tMs5jpSI9W-vm8HncjR-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-tMs5jpSI9W-vm8HncjR-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="返回的数据类型是struct是事件，然后需要打开一个fragment。" vertex="1">
-          <mxGeometry height="40" width="220" x="350" y="260" as="geometry" />
+        <mxCell id="4h-JXF7mCeOeSxiMV15v-5" edge="1" parent="1" source="MtdQN4pQLqxafOUwaejv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-tMs5jpSI9W-vm8HncjR-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-tMs5jpSI9W-vm8HncjR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="注册在对应的viewHoder适配器中，到时候回调在fragment中执行跳转页面事件" vertex="1">
-          <mxGeometry height="50" width="240" x="350" y="330" as="geometry" />
+        <mxCell id="MtdQN4pQLqxafOUwaejv-5" parent="1" style="whiteSpace=wrap;html=1;" value="适配器" vertex="1">
+          <mxGeometry height="40" width="90" x="200" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="MtdQN4pQLqxafOUwaejv-6" parent="1" style="whiteSpace=wrap;html=1;" value="ui页面调用" vertex="1">
+          <mxGeometry height="40" width="100" x="200" y="710" as="geometry" />
         </mxCell>
         <mxCell id="-tMs5jpSI9W-vm8HncjR-7" edge="1" parent="1" source="-tMs5jpSI9W-vm8HncjR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-tMs5jpSI9W-vm8HncjR-6" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-tMs5jpSI9W-vm8HncjR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="adapter.getItemViewType(position)是recycleview源码的方法，当其内部LayoutManager 要一个 View，会调用这个getItemViewType获取到viewtype，Int类型的（所以一般是R.id.xxxx），所以&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;onCreateViewHolder&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;方法中直接转变为TYPE_NUMBER&lt;/span&gt;" vertex="1">
-          <mxGeometry height="70" width="290" x="350" y="410" as="geometry" />
+          <mxGeometry height="80" width="290" x="350" y="410" as="geometry" />
         </mxCell>
         <mxCell id="-tMs5jpSI9W-vm8HncjR-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;RecyclerView&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ↓&lt;/div&gt;&lt;div&gt;LayoutManager 要一个 View&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ↓&lt;/div&gt;&lt;div&gt;RecyclerView 调用 adapter.getItemViewType(position)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ↓&lt;/div&gt;&lt;div&gt;根据 viewType 查找缓存&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ↓&lt;/div&gt;&lt;div&gt;如果没有缓存&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ↓&lt;/div&gt;&lt;div&gt;adapter.onCreateViewHolder(parent, viewType)&lt;/div&gt;" vertex="1">
           <mxGeometry height="195" width="208.85" x="-100" y="235" as="geometry" />
         </mxCell>
         <mxCell id="-tMs5jpSI9W-vm8HncjR-6" parent="1" style="whiteSpace=wrap;html=1;" value="方法&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;getItemViewType&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;是必须重写的，为了区分数据源不同数据类型inflate的不同的视图，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;否则在&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;onCreateViewHolder&lt;/span&gt;中&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;R.id.item_arrt_number区分不了数据源List&amp;lt;MultiModelData&amp;gt;是什么类型&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="280" x="710" y="405" as="geometry" />
+          <mxGeometry height="80" width="280" x="710" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="-tMs5jpSI9W-vm8HncjR-8" parent="1" style="whiteSpace=wrap;html=1;" value="每个viewHolder类中进行bind绑定点击事件，" vertex="1">
-          <mxGeometry height="60" width="170" x="360" y="530" as="geometry" />
+        <mxCell id="4h-JXF7mCeOeSxiMV15v-3" edge="1" parent="1" source="-tMs5jpSI9W-vm8HncjR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4h-JXF7mCeOeSxiMV15v-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMs5jpSI9W-vm8HncjR-8" parent="1" style="whiteSpace=wrap;html=1;" value="viewHolder类中bind(item:xxData.A)方法的参数是接收到的数据的某一个Bool数据，在其中注册回调事件" vertex="1">
+          <mxGeometry height="60" width="290" x="350" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="4h-JXF7mCeOeSxiMV15v-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="应该对数据源进行分类，分成事件和属性和xx，然后三个适配器，每个适配器中对应不同的布局，viewHolder中bind" vertex="1">
+          <mxGeometry height="50" width="320" x="350" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="4h-JXF7mCeOeSxiMV15v-2" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;onBindViewHolder&lt;/span&gt;中就是将viewHolder会查找复用池中是否有对应的viewHolder类，将对应的&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(135, 16, 148);&quot;&gt;modelData&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;position&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据传入到viewHolder类中写的方法，简称调用方法&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="685" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
