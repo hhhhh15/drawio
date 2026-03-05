@@ -82,6 +82,9 @@
         <mxCell id="zlLjiEvinjBhVECCgKAF-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="注册机是什么东西，还分本地部署和云端部署，这个可以注册啥，能薅codex的free额度" vertex="1">
           <mxGeometry height="40" width="250" x="495" y="1150" as="geometry" />
         </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="skills网站地址：https://github.com/anthropics/skills" vertex="1">
+          <mxGeometry height="40" width="240" x="510" y="1240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
