@@ -67,14 +67,20 @@
         <mxCell id="zlLjiEvinjBhVECCgKAF-13" edge="1" parent="1" source="zlLjiEvinjBhVECCgKAF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zlLjiEvinjBhVECCgKAF-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-15" edge="1" parent="1" source="zlLjiEvinjBhVECCgKAF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zlLjiEvinjBhVECCgKAF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zlLjiEvinjBhVECCgKAF-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.5问题" vertex="1">
           <mxGeometry height="30" width="50" x="360" y="1070" as="geometry" />
         </mxCell>
         <mxCell id="zlLjiEvinjBhVECCgKAF-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GLM是哪家公司的模型，查一下，" vertex="1">
           <mxGeometry height="30" width="200" x="495" y="1060" as="geometry" />
         </mxCell>
-        <mxCell id="zlLjiEvinjBhVECCgKAF-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="中转站到底是什么意思，查一下" vertex="1">
-          <mxGeometry height="30" width="180" x="495" y="1110" as="geometry" />
+        <mxCell id="zlLjiEvinjBhVECCgKAF-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="中转站到底是什么意思，查一下。这个中转站是不是cil+大模型api" vertex="1">
+          <mxGeometry height="30" width="205" x="495" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="注册机是什么东西，还分本地部署和云端部署，这个可以注册啥，能薅codex的free额度" vertex="1">
+          <mxGeometry height="40" width="250" x="495" y="1150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
