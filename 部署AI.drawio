@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="第 1 页" id="Wr_Sq1rrlJDAl0MNulnw">
-    <mxGraphModel dx="1454" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="834" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry height="60" width="360" x="827" y="510" as="geometry" />
         </mxCell>
         <mxCell id="IHbPs8N1mpdUhGn42tJ_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="skill是什么东西？" vertex="1">
-          <mxGeometry height="40" width="110" x="240" y="790" as="geometry" />
+          <mxGeometry height="40" width="110" x="490" y="780" as="geometry" />
         </mxCell>
         <mxCell id="IHbPs8N1mpdUhGn42tJ_-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有 &lt;strong data-start=&quot;207&quot; data-end=&quot;225&quot;&gt;GitHub Copilot&lt;/strong&gt;（Pro/Pro+/Business/Enterprise）或者是 &lt;strong data-start=&quot;259&quot; data-end=&quot;297&quot;&gt;ChatGPT 的 Plus/Pro/Edu/Business 订阅&lt;/strong&gt;（能启用 Codex 访问权限）" vertex="1">
           <mxGeometry height="60" width="390" x="880" y="590" as="geometry" />
@@ -41,13 +41,40 @@
           <mxGeometry height="60" width="160" x="920" y="790" as="geometry" />
         </mxCell>
         <mxCell id="IHbPs8N1mpdUhGn42tJ_-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="还有好多code cil，这个是啥意思，是说人家的ai产品的api+本地终端，然后实现对本地项目进行agent和生成项目吗" vertex="1">
-          <mxGeometry height="40" width="230" x="240" y="880" as="geometry" />
+          <mxGeometry height="40" width="230" x="490" y="850" as="geometry" />
         </mxCell>
         <mxCell id="IHbPs8N1mpdUhGn42tJ_-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有没有就是使用这个openclaw实现对文档的文字的扫描整理啊，就是现在网页引进的ai使用途径一样，我想能对这个小红书的帖子，或则是搜刮某个网站整理总结的功能，" vertex="1">
-          <mxGeometry height="80" width="220" x="300" y="960" as="geometry" />
+          <mxGeometry height="70" width="250" x="490" y="910" as="geometry" />
         </mxCell>
         <mxCell id="IHbPs8N1mpdUhGn42tJ_-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="还有agent分工，前后端的核实，是怎么使用的呢" vertex="1">
-          <mxGeometry height="30" width="60" x="670" y="980" as="geometry" />
+          <mxGeometry height="40" width="280" x="490" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-6" edge="1" parent="1" source="zlLjiEvinjBhVECCgKAF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IHbPs8N1mpdUhGn42tJ_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-7" edge="1" parent="1" source="zlLjiEvinjBhVECCgKAF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IHbPs8N1mpdUhGn42tJ_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-8" edge="1" parent="1" source="zlLjiEvinjBhVECCgKAF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IHbPs8N1mpdUhGn42tJ_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.4问题" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-12" edge="1" parent="1" source="zlLjiEvinjBhVECCgKAF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zlLjiEvinjBhVECCgKAF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-13" edge="1" parent="1" source="zlLjiEvinjBhVECCgKAF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zlLjiEvinjBhVECCgKAF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.5问题" vertex="1">
+          <mxGeometry height="30" width="50" x="360" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GLM是哪家公司的模型，查一下，" vertex="1">
+          <mxGeometry height="30" width="200" x="495" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="zlLjiEvinjBhVECCgKAF-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="中转站到底是什么意思，查一下" vertex="1">
+          <mxGeometry height="30" width="180" x="495" y="1110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
