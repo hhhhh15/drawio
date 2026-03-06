@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="第 1 页" id="Wr_Sq1rrlJDAl0MNulnw">
-    <mxGraphModel dx="834" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,18 @@
         </mxCell>
         <mxCell id="zlLjiEvinjBhVECCgKAF-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="skills网站地址：https://github.com/anthropics/skills" vertex="1">
           <mxGeometry height="40" width="240" x="510" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="UHBTDMCIOc7C3LgmwSTn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="开始使用&lt;div&gt;使用体验&lt;/div&gt;&lt;div&gt;功能实现&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="UHBTDMCIOc7C3LgmwSTn-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MCP服务器" vertex="1">
+          <mxGeometry height="30" width="90" x="350" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="UHBTDMCIOc7C3LgmwSTn-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;filesystem MCP&lt;/div&gt;&lt;div&gt;github MCP&lt;/div&gt;&lt;div&gt;mysql MCP&lt;/div&gt;&lt;div&gt;slack MCP&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="480" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="UHBTDMCIOc7C3LgmwSTn-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RAG管道：&lt;strong data-start=&quot;101&quot; data-end=&quot;111&quot;&gt;检索增强生成&lt;/strong&gt;。提交资料依据给ai，让ai再生成结果" vertex="1">
+          <mxGeometry height="50" width="130" x="350" y="1370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
