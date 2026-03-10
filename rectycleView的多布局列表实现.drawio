@@ -163,6 +163,9 @@
         <mxCell id="Xm3smKhT7YvbAOB-7Hb9-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="每个viewhodler中都需要注册事件，要不每个编辑都设置弄一个弹窗出来，然后当修改完，点击确定就调用接口" vertex="1">
           <mxGeometry height="70" width="240" x="1290" y="1180" as="geometry" />
         </mxCell>
+        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="在适配器类中创建一个弹窗，将spec的数据作为弹窗里面的数据类容，弹窗的确定按钮设置一个回调事件还是说" vertex="1">
+          <mxGeometry height="70" width="250" x="1320" y="1280" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
