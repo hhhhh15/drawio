@@ -109,6 +109,9 @@
         <mxCell id="MiGxU9tNZ9fQGSuQ_CJE-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="区分预训练模型和微调模型" vertex="1">
           <mxGeometry height="50" width="200" x="670" y="690" as="geometry" />
         </mxCell>
+        <mxCell id="MiGxU9tNZ9fQGSuQ_CJE-17" parent="1" style="whiteSpace=wrap;html=1;" value="推理" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="770" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
