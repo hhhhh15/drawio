@@ -163,15 +163,6 @@
         <mxCell id="Xm3smKhT7YvbAOB-7Hb9-34" edge="1" parent="1" source="Xm3smKhT7YvbAOB-7Hb9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Xm3smKhT7YvbAOB-7Hb9-33" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="每个viewhodler中都需要注册事件，要不每个编辑都设置弄一个弹窗出来，然后当修改完，点击确定就调用接口" vertex="1">
-          <mxGeometry height="70" width="240" x="1280" y="1240" as="geometry" />
-        </mxCell>
-        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="在适配器类中创建一个弹窗，将spec的数据作为弹窗里面的数据类容，弹窗的确定按钮设置一个回调事件为了请求网络" vertex="1">
-          <mxGeometry height="70" width="250" x="1290" y="1350" as="geometry" />
-        </mxCell>
-        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="还是将网络请求写在viewmodel的方法中，还是写回调事件，然后调用这个方法，因为bool不需要弹窗也要网络请求" vertex="1">
-          <mxGeometry height="60" width="340" x="1580" y="1360" as="geometry" />
-        </mxCell>
         <mxCell id="Xm3smKhT7YvbAOB-7Hb9-40" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(0, 98, 122);&quot;&gt;getTypeKind&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;item&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;ModelData&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;)&lt;/span&gt;根据接口ModelData的属性type来分类处理的数据是错误的❌(用于&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;getItemViewType&lt;/span&gt;)，因为Event的type不是number、enum、bool其中一种，需要&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;item.output_data.type才行&lt;/span&gt;" vertex="1">
           <mxGeometry height="85" width="280" x="1050" y="407.5" as="geometry" />
         </mxCell>
@@ -184,35 +175,21 @@
             <mxPoint x="1350" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-46" edge="1" parent="1" source="Xm3smKhT7YvbAOB-7Hb9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Xm3smKhT7YvbAOB-7Hb9-45" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-46" edge="1" parent="1" source="Xm3smKhT7YvbAOB-7Hb9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930" y="1195" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-48" edge="1" parent="1" source="Xm3smKhT7YvbAOB-7Hb9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Xm3smKhT7YvbAOB-7Hb9-47">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-48" edge="1" parent="1" source="Xm3smKhT7YvbAOB-7Hb9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930" y="1245" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Xm3smKhT7YvbAOB-7Hb9-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="我懂了，就是在不同的viewhodler布局中集齐各种类型的数据，比如enum的枚举数据选择弹窗，或则是number中传入max、min、mult、step的步长选择弹窗，" vertex="1">
           <mxGeometry height="70" width="250" x="1580" y="1160" as="geometry" />
         </mxCell>
-        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;formatNumberValue，这个里面就是切换弹窗种类的方法&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="340" x="1930" y="1170" as="geometry" />
-        </mxCell>
-        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="或则你可以创建不同的弹窗dialog就不用格式化这些数据了" vertex="1">
-          <mxGeometry height="50" width="330" x="1930" y="1220" as="geometry" />
-        </mxCell>
-        <mxCell id="Xm3smKhT7YvbAOB-7Hb9-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="还有一个问题就是为网络请求的逻辑是回调吗，还是写在弹窗里面？" vertex="1">
-          <mxGeometry height="50" width="210" x="2310" y="1200" as="geometry" />
-        </mxCell>
         <mxCell id="HplVmotTXcEFJHrZTdzu-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.11事件不用修改，那事件里面的三个类型的item，就只是显示，就不用打开弹窗，那这个逻辑要怎么实现啊&lt;br&gt;&lt;div&gt;狗得，事件不用那个适配器，没有那三种布局，单独弄一个item显示就行了，没有注册回调事件。只用改eventfragment就行了&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="290" x="1620" y="1460" as="geometry" />
-        </mxCell>
-        <mxCell id="HplVmotTXcEFJHrZTdzu-5" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-4" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HplVmotTXcEFJHrZTdzu-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.11真烦，没有搞清楚这个具体的数据，导致我现在这个都不知道咋写布局了，" vertex="1">
-          <mxGeometry height="50" width="170" x="1430" y="1610" as="geometry" />
-        </mxCell>
-        <mxCell id="HplVmotTXcEFJHrZTdzu-4" parent="1" style="whiteSpace=wrap;html=1;" value="现在" vertex="1">
-          <mxGeometry height="30" width="80" x="1654" y="1600" as="geometry" />
         </mxCell>
         <mxCell id="HplVmotTXcEFJHrZTdzu-13" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-12" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -320,6 +297,24 @@
         </mxCell>
         <mxCell id="HplVmotTXcEFJHrZTdzu-41" parent="1" style="whiteSpace=wrap;html=1;" value="服务" vertex="1">
           <mxGeometry height="40" width="100" x="3030" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这里打开弹窗后续可以改成多样式的dialog" vertex="1">
+          <mxGeometry height="40" width="135" x="985" y="1955" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-47" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;autosizeText=1;fontSize=6;align=left;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;在适配器类中创建一个弹窗，将spec的数据作为弹窗里面的数据源，&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;在创建弹窗时，确定按钮bn_yes.setOnclickListener{}设置一个回调事件。之后在ui层注册该事件，网络请求&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="890" y="2030" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-48" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-47" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.003;entryY=0.907;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.41;exitDx=0;exitDy=0;exitPerimeter=0;" target="HplVmotTXcEFJHrZTdzu-34" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1090" y="2100" as="sourcePoint" />
+            <mxPoint x="1190" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-49" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-43" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF250A;" target="HplVmotTXcEFJHrZTdzu-34" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1120" y="1990" as="sourcePoint" />
+            <mxPoint x="1170" y="1940" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
