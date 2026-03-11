@@ -246,23 +246,41 @@
         <mxCell id="HplVmotTXcEFJHrZTdzu-18" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-17" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-23" connectable="0" parent="HplVmotTXcEFJHrZTdzu-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;EnumViewHolder&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5031" y="1" as="geometry">
+            <mxPoint x="-7" y="54" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HplVmotTXcEFJHrZTdzu-20" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-19" value="">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-24" connectable="0" parent="HplVmotTXcEFJHrZTdzu-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;NumberViewHolder&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0733" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HplVmotTXcEFJHrZTdzu-22" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-21" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-25" connectable="0" parent="HplVmotTXcEFJHrZTdzu-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;BoolViewHolder&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.6308" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HplVmotTXcEFJHrZTdzu-14" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;getItemViewType分类&lt;/span&gt;enum、number、bool" vertex="1">
           <mxGeometry height="50" width="145" x="1807.5" y="1830" as="geometry" />
         </mxCell>
-        <mxCell id="HplVmotTXcEFJHrZTdzu-17" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="1634" y="1930" as="geometry" />
+        <mxCell id="HplVmotTXcEFJHrZTdzu-17" parent="1" style="whiteSpace=wrap;html=1;" value="打开弹窗，回调事件&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(135, 16, 148);&quot;&gt;listener&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;.onEnumItemSelected(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;currentItem&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;selected&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="344" x="1320" y="1950" as="geometry" />
         </mxCell>
-        <mxCell id="HplVmotTXcEFJHrZTdzu-19" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="1820" y="1930" as="geometry" />
+        <mxCell id="HplVmotTXcEFJHrZTdzu-19" parent="1" style="whiteSpace=wrap;html=1;" value="打开弹窗，回调事件&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(135, 16, 148);&quot;&gt;listener&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;.onNumberValueSelected(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(0, 0, 0);&quot;&gt;currentItem&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(0, 0, 0);&quot;&gt;v&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="380" x="1698" y="1950" as="geometry" />
         </mxCell>
-        <mxCell id="HplVmotTXcEFJHrZTdzu-21" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="2008" y="1930" as="geometry" />
+        <mxCell id="HplVmotTXcEFJHrZTdzu-21" parent="1" style="whiteSpace=wrap;html=1;" value="点击按钮事件中回调事件，&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(135, 16, 148);&quot;&gt;listener&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;.onBoolValueChanged(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(135, 16, 148);&quot;&gt;modelData&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;pos&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;], &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;isChecked&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="372" x="2100" y="1950" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-26" parent="1" style="whiteSpace=wrap;html=1;" value="注册写在属性、服务fragment中，进行网络请求等" vertex="1">
+          <mxGeometry height="40" width="280" x="1770" y="2100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
