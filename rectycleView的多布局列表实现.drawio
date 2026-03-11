@@ -205,6 +205,65 @@
         <mxCell id="HplVmotTXcEFJHrZTdzu-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.11事件不用修改，那事件里面的三个类型的item，就只是显示，就不用打开弹窗，那这个逻辑要怎么实现啊&lt;br&gt;&lt;div&gt;狗得，事件不用那个适配器，没有那三种布局，单独弄一个item显示就行了，没有注册回调事件。只用改eventfragment就行了&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="290" x="1620" y="1460" as="geometry" />
         </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-5" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.11真烦，没有搞清楚这个具体的数据，导致我现在这个都不知道咋写布局了，" vertex="1">
+          <mxGeometry height="50" width="170" x="1430" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-4" parent="1" style="whiteSpace=wrap;html=1;" value="现在" vertex="1">
+          <mxGeometry height="30" width="80" x="1654" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-13" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-7" parent="1" style="whiteSpace=wrap;html=1;" value="属性+服务" vertex="1">
+          <mxGeometry height="40" width="105" x="1827.5" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-9" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-11" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-8" parent="1" style="whiteSpace=wrap;html=1;" value="ModelData" vertex="1">
+          <mxGeometry height="37" width="85" x="1837.5" y="1593" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-10" parent="1" style="whiteSpace=wrap;html=1;" value="事件" vertex="1">
+          <mxGeometry height="60" width="120" x="1985" y="1581.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-15" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-16" connectable="0" parent="HplVmotTXcEFJHrZTdzu-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="modelData" vertex="1">
+          <mxGeometry relative="1" x="-0.0611" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-12" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;ModelTypeAdapter&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="120" x="1820" y="1723" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-18" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-20" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-22" edge="1" parent="1" source="HplVmotTXcEFJHrZTdzu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HplVmotTXcEFJHrZTdzu-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-14" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;getItemViewType分类&lt;/span&gt;enum、number、bool" vertex="1">
+          <mxGeometry height="50" width="145" x="1807.5" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-17" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="1634" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-19" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="1820" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="HplVmotTXcEFJHrZTdzu-21" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="2008" y="1930" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
