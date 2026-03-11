@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
   <diagram name="第 1 页" id="iLh2vTo0etiYqBMFG_ME">
-    <mxGraphModel dx="852" dy="1587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="397" dy="1508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,8 +73,8 @@
         <mxCell id="gCEbaXcwHmvGpB1Ei8nf-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个uvr5的&lt;span style=&quot;color: rgb(25, 27, 31); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;MiSans L3&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;MDX-NET模型是将音频最后分个出伴奏instrument和人声vocal音频&lt;br&gt;这三个模型应该都是音频分离。适合无伴奏的音频分离，只要vocal。否则有原曲伴奏得用别的软件效果比较好&lt;/span&gt;" vertex="1">
           <mxGeometry height="70" width="310" x="350" y="-330" as="geometry" />
         </mxCell>
-        <mxCell id="MiGxU9tNZ9fQGSuQ_CJE-1" parent="1" style="whiteSpace=wrap;html=1;" value="模型model_bs_roformer_ep_317_sdr_12.9755" vertex="1">
-          <mxGeometry height="50" width="270" x="680" y="310" as="geometry" />
+        <mxCell id="MiGxU9tNZ9fQGSuQ_CJE-1" parent="1" style="whiteSpace=wrap;html=1;" value="模型model_bs_roformer_ep_317_sdr_12.9755获取干声vocal&lt;br&gt;模型onnx_dereverb_By_FoxJoy" vertex="1">
+          <mxGeometry height="50" width="340" x="720" y="410" as="geometry" />
         </mxCell>
         <mxCell id="MiGxU9tNZ9fQGSuQ_CJE-5" edge="1" parent="1" source="MiGxU9tNZ9fQGSuQ_CJE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MiGxU9tNZ9fQGSuQ_CJE-1">
           <mxGeometry relative="1" as="geometry" />
