@@ -32,7 +32,10 @@
           <mxGeometry height="50" width="740" x="390" y="170" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="权限申请时表示app申请蓝牙权限、位置权限。手机系统的蓝牙开关和位置开关是已经打开的" vertex="1">
-          <mxGeometry height="60" width="180" x="-10" y="30" as="geometry" />
+          <mxGeometry height="60" width="180" x="-120" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DqgpAyFfKN_Rnzvj8xzN-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="app权限允许+开关打开" vertex="1">
+          <mxGeometry height="40" width="150" x="90" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
