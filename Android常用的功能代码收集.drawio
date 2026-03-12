@@ -13,7 +13,7 @@
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-1" parent="1" style="whiteSpace=wrap;html=1;" value="运行时权限" vertex="1">
           <mxGeometry height="40" width="100" x="130" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="DqgpAyFfKN_Rnzvj8xzN-4" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;ContextCompat&lt;/span&gt;.checkSelfPermission(requireContext(), &lt;span style=&quot;font-weight:bold;&quot;&gt;it&lt;/span&gt;) != &lt;span style=&quot;color:#000000;&quot;&gt;PackageManager&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;PERMISSION_GRANTED&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="DqgpAyFfKN_Rnzvj8xzN-4" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ContextCompat&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 37, 10);&quot;&gt;.checkSelfPermission(requireContext(), &lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-weight: bold;&quot;&gt;it&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 37, 10);&quot;&gt;) != &lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PackageManager&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 37, 10);&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;PERMISSION_GRANTED&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="45" width="690" x="380" y="72.5" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-9" edge="1" parent="1" source="DqgpAyFfKN_Rnzvj8xzN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DqgpAyFfKN_Rnzvj8xzN-4" value="">
@@ -28,7 +28,7 @@
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-6" parent="1" style="whiteSpace=wrap;html=1;" value="申请" vertex="1">
           <mxGeometry height="30" width="60" x="280" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="DqgpAyFfKN_Rnzvj8xzN-10" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;ActivityCompat&lt;/span&gt;.requestPermissions(requireActivity(), &lt;span style=&quot;color:#000000;&quot;&gt;missingPermissions&lt;/span&gt;.&lt;span style=&quot;color:#00627a;font-style:italic;&quot;&gt;toTypedArray&lt;/span&gt;(), &lt;span style=&quot;color:#871094;&quot;&gt;REQUEST_BLE_PERMISSIONS&lt;/span&gt;)&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="DqgpAyFfKN_Rnzvj8xzN-10" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ActivityCompat&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 37, 10);&quot;&gt;.requestPermissions(requireActivity(), &lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;missingPermissions&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 37, 10);&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-style: italic;&quot;&gt;toTypedArray&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 37, 10);&quot;&gt;(), &lt;/font&gt;&lt;span style=&quot;color: rgb(135, 16, 148);&quot;&gt;REQUEST_BLE_PERMISSIONS&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 37, 10);&quot;&gt;)&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="800" x="390" y="170" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="权限申请时表示app申请蓝牙权限、位置权限。手机系统的蓝牙开关和位置开关是已经打开的" vertex="1">
@@ -37,38 +37,44 @@
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="app权限允许+开关打开" vertex="1">
           <mxGeometry height="40" width="150" x="90" y="70" as="geometry" />
         </mxCell>
+        <mxCell id="DqgpAyFfKN_Rnzvj8xzN-29" edge="1" parent="1" source="DqgpAyFfKN_Rnzvj8xzN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DqgpAyFfKN_Rnzvj8xzN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DqgpAyFfKN_Rnzvj8xzN-30" edge="1" parent="1" source="DqgpAyFfKN_Rnzvj8xzN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DqgpAyFfKN_Rnzvj8xzN-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DqgpAyFfKN_Rnzvj8xzN-31" edge="1" parent="1" source="DqgpAyFfKN_Rnzvj8xzN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DqgpAyFfKN_Rnzvj8xzN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-16" parent="1" style="whiteSpace=wrap;html=1;" value="打开蓝牙开关" vertex="1">
-          <mxGeometry height="40" width="90" x="130" y="290" as="geometry" />
+          <mxGeometry height="40" width="90" x="110" y="410" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-20" edge="1" parent="1" source="DqgpAyFfKN_Rnzvj8xzN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DqgpAyFfKN_Rnzvj8xzN-19" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-18" parent="1" style="whiteSpace=wrap;html=1;" value="检查" vertex="1">
-          <mxGeometry height="30" width="60" x="245" y="270" as="geometry" />
+          <mxGeometry height="30" width="60" x="245" y="350" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-19" parent="1" style="whiteSpace=wrap;html=1;" value="bluetoothAdapter.isEnabled" vertex="1">
-          <mxGeometry height="50" width="190" x="410" y="260" as="geometry" />
+          <mxGeometry height="50" width="190" x="410" y="340" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-26" edge="1" parent="1" source="DqgpAyFfKN_Rnzvj8xzN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DqgpAyFfKN_Rnzvj8xzN-24" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DqgpAyFfKN_Rnzvj8xzN-28" edge="1" parent="1" source="DqgpAyFfKN_Rnzvj8xzN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DqgpAyFfKN_Rnzvj8xzN-23" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-22" parent="1" style="whiteSpace=wrap;html=1;" value="启动弹窗申请的启动器" vertex="1">
-          <mxGeometry height="40" width="95" x="245" y="495" as="geometry" />
+          <mxGeometry height="40" width="95" x="245" y="575" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-27" edge="1" parent="1" source="DqgpAyFfKN_Rnzvj8xzN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DqgpAyFfKN_Rnzvj8xzN-25" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-23" parent="1" style="whiteSpace=wrap;html=1;" value="打开和拒绝后逻辑处理" vertex="1">
-          <mxGeometry height="40" width="130" x="245" y="360" as="geometry" />
+          <mxGeometry height="40" width="130" x="245" y="440" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-24" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;nbsp;launcher&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 81, 194);&quot;&gt;launch&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 81, 194);&quot;&gt;Intent&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;(&lt;/span&gt;BluetoothAdapter&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;.&lt;/span&gt;ACTION_REQUEST_ENABLE&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="50" width="410" x="410" y="490" as="geometry" />
+          <mxGeometry height="50" width="410" x="410" y="570" as="geometry" />
         </mxCell>
         <mxCell id="DqgpAyFfKN_Rnzvj8xzN-25" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span class=&quot;token token&quot; style=&quot;color: rgb(129, 0, 194);&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token token&quot; style=&quot;color: rgb(129, 0, 194);&quot;&gt;val&lt;/span&gt; launcher &lt;span class=&quot;token token&quot; style=&quot;color: rgb(20, 24, 31);&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 81, 194);&quot;&gt;registerForActivityResult&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;(&lt;/span&gt;&lt;br&gt;    ActivityResultContracts&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 81, 194);&quot;&gt;StartActivityForResult&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;{&lt;/span&gt; result &lt;span class=&quot;token token&quot; style=&quot;color: rgb(20, 24, 31);&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token token&quot; style=&quot;color: rgb(129, 0, 194);&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;.&lt;/span&gt;resultCode &lt;span class=&quot;token token&quot; style=&quot;color: rgb(20, 24, 31);&quot;&gt;==&lt;/span&gt; Activity&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;.&lt;/span&gt;RESULT_OK&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;{&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token token&quot; style=&quot;color: rgb(110, 118, 135);&quot;&gt;// 用户开了蓝牙&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token token&quot; style=&quot;color: rgb(129, 0, 194);&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;{&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token token&quot; style=&quot;color: rgb(110, 118, 135);&quot;&gt;// 用户拒绝了&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;}&lt;/span&gt;" vertex="1">
-          <mxGeometry height="140" width="330" x="410" y="330" as="geometry" />
+          <mxGeometry height="140" width="330" x="410" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
