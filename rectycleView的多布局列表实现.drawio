@@ -319,13 +319,13 @@
           <mxGeometry height="288.15" width="426" x="1170" y="2650" as="geometry" />
         </mxCell>
         <mxCell id="e7tTcHrvs4e-m5RtA2MA-3" parent="1" style="whiteSpace=wrap;html=1;" value="xml的画图" vertex="1">
-          <mxGeometry height="60" width="120" x="1700" y="2750" as="geometry" />
+          <mxGeometry height="40" width="80" x="1700" y="2750" as="geometry" />
         </mxCell>
         <mxCell id="e7tTcHrvs4e-m5RtA2MA-4" parent="1" style="whiteSpace=wrap;html=1;" value="adptar绑定数据" vertex="1">
-          <mxGeometry height="60" width="120" x="1700" y="2850" as="geometry" />
+          <mxGeometry height="50" width="100" x="1700" y="2810" as="geometry" />
         </mxCell>
         <mxCell id="e7tTcHrvs4e-m5RtA2MA-6" parent="1" style="whiteSpace=wrap;html=1;" value="fragment将数据传输到适配器中" vertex="1">
-          <mxGeometry height="60" width="120" x="1700" y="2938.15" as="geometry" />
+          <mxGeometry height="51.85" width="120" x="1700" y="2878.15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
