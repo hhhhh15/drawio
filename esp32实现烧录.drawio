@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3">
   <diagram name="第 1 页" id="KqvwHnaYjfdr3SXBDVEs">
-    <mxGraphModel dx="1997" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1919" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -249,6 +249,9 @@
         <mxCell id="JhLxm9cYuMsRQndUIolU-12" edge="1" parent="1" source="JhLxm9cYuMsRQndUIolU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JhLxm9cYuMsRQndUIolU-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="iLKnFS0BGwE_BSYQz9Wq-2" edge="1" parent="1" source="JhLxm9cYuMsRQndUIolU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iLKnFS0BGwE_BSYQz9Wq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JhLxm9cYuMsRQndUIolU-3" parent="1" style="whiteSpace=wrap;html=1;" value="语音模块+舵机模块" vertex="1">
           <mxGeometry height="50" width="120" x="1755" y="3770" as="geometry" />
         </mxCell>
@@ -262,7 +265,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JhLxm9cYuMsRQndUIolU-6" parent="1" style="whiteSpace=wrap;html=1;" value="基础知识" vertex="1">
-          <mxGeometry height="50" width="100" x="1920" y="3710" as="geometry" />
+          <mxGeometry height="40" width="90" x="1920" y="3710" as="geometry" />
         </mxCell>
         <mxCell id="TxlST-64I39f-dWKD42J-3" edge="1" parent="1" source="JhLxm9cYuMsRQndUIolU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TxlST-64I39f-dWKD42J-2" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -307,6 +310,18 @@
         </mxCell>
         <mxCell id="TxlST-64I39f-dWKD42J-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="OTA是什么意思，固件是什么意思" vertex="1">
           <mxGeometry height="30" width="60" x="3180" y="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="iLKnFS0BGwE_BSYQz9Wq-4" edge="1" parent="1" source="iLKnFS0BGwE_BSYQz9Wq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iLKnFS0BGwE_BSYQz9Wq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iLKnFS0BGwE_BSYQz9Wq-1" parent="1" style="whiteSpace=wrap;html=1;" value="完整流程" vertex="1">
+          <mxGeometry height="40" width="90" x="1920" y="3890" as="geometry" />
+        </mxCell>
+        <mxCell id="iLKnFS0BGwE_BSYQz9Wq-3" parent="1" style="whiteSpace=wrap;html=1;" value="## 整个系统的完整原理链&lt;br/&gt;```&lt;br/&gt;你说&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 0);&quot;&gt;&quot;向左转&quot;&lt;/span&gt;&lt;br/&gt;    ↓&lt;br/&gt;麦克风采集声音波形&lt;br/&gt;    ↓&lt;br/&gt;ASRPRO内置神经网络模型匹配&lt;br/&gt;    ↓&lt;br/&gt;匹配成功返回 snid &lt;span class=&quot;token token&quot; style=&quot;color: rgb(20, 24, 31);&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;1&lt;/span&gt;&lt;br/&gt;    ↓&lt;br/&gt;程序执行 &lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 81, 194);&quot;&gt;servo_SetAngle&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;)&lt;/span&gt;&lt;br/&gt;    ↓&lt;br/&gt;函数内部计算 → 高电平&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;1&lt;/span&gt;ms 周期&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;20&lt;/span&gt;ms的PWM信号&lt;br/&gt;    ↓&lt;br/&gt;PA_6引脚输出PWM波形&lt;br/&gt;    ↓&lt;br/&gt;SG90舵机内部电路读取脉冲宽度&lt;br/&gt;    ↓&lt;br/&gt;舵机转到&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;0&lt;/span&gt;度" vertex="1">
+          <mxGeometry height="310" width="215" x="2070" y="3880" as="geometry" />
+        </mxCell>
+        <mxCell id="iLKnFS0BGwE_BSYQz9Wq-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;nbsp;天问&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 81, 194);&quot;&gt;servo_SetAngle&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;,&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;)&lt;/span&gt;方法是封装了的，这个方法里面设置了PWM输出，控制舵机，PA_6接口。" vertex="1">
+          <mxGeometry height="90" width="220" x="1800" y="3990" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
