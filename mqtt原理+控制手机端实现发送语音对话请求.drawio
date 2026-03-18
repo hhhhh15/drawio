@@ -82,8 +82,14 @@
         <mxCell id="osS3Qxamc4lotx9l5JwE-3" parent="1" style="whiteSpace=wrap;html=1;" value="自己搭建" vertex="1">
           <mxGeometry height="40" width="80" x="70" y="1040" as="geometry" />
         </mxCell>
+        <mxCell id="osS3Qxamc4lotx9l5JwE-8" edge="1" parent="1" source="osS3Qxamc4lotx9l5JwE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="osS3Qxamc4lotx9l5JwE-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="osS3Qxamc4lotx9l5JwE-4" parent="1" style="whiteSpace=wrap;html=1;" value="公用EMQ的Broker" vertex="1">
           <mxGeometry height="50" width="90" x="70" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="osS3Qxamc4lotx9l5JwE-7" parent="1" style="whiteSpace=wrap;html=1;" value="设备端连接MQTT代理" vertex="1">
+          <mxGeometry height="40" width="135" x="225" y="1150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
