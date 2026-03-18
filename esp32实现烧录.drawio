@@ -323,6 +323,9 @@
         <mxCell id="iLKnFS0BGwE_BSYQz9Wq-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;nbsp;天问&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 81, 194);&quot;&gt;servo_SetAngle&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;,&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(0, 128, 128);&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token token&quot; style=&quot;color: rgb(43, 48, 59);&quot;&gt;)&lt;/span&gt;方法是封装了的，这个方法里面设置了PWM输出，控制舵机，PA_6接口。" vertex="1">
           <mxGeometry height="90" width="220" x="1800" y="3990" as="geometry" />
         </mxCell>
+        <mxCell id="iLKnFS0BGwE_BSYQz9Wq-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="匹配成功返回snid=1，有这个就能控制输出的是高电平还是低电平，就能控制其他组件，比如舵机，或则开灯啥的" vertex="1">
+          <mxGeometry height="80" width="230" x="2300" y="3970" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
