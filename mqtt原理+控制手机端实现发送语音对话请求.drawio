@@ -67,11 +67,23 @@
         <mxCell id="awkSBdXz16l4ONheyCv7-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="再加上esp32主控，实现语音控制点亮一个灯，或则电机" vertex="1">
           <mxGeometry height="70" width="220" x="145" y="795" as="geometry" />
         </mxCell>
-        <mxCell id="osS3Qxamc4lotx9l5JwE-1" parent="1" style="whiteSpace=wrap;html=1;" value="3.18&lt;br&gt;MQTT Broker" vertex="1">
-          <mxGeometry height="60" width="120" x="-140" y="990" as="geometry" />
+        <mxCell id="osS3Qxamc4lotx9l5JwE-5" edge="1" parent="1" source="osS3Qxamc4lotx9l5JwE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="osS3Qxamc4lotx9l5JwE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osS3Qxamc4lotx9l5JwE-6" edge="1" parent="1" source="osS3Qxamc4lotx9l5JwE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="osS3Qxamc4lotx9l5JwE-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="osS3Qxamc4lotx9l5JwE-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;问题：为什么mqtt的broker不是服务器吗，如果类比服务器和这个后端搭建的话，那后端搭建的时候MVC架构+数据库+redis+docker+分布式系统，反正很多啊，为啥我感觉这个broker就像一个中转站一样啊，像是吧服务器打包封装成一个通用的&lt;/p&gt;" vertex="1">
           <mxGeometry height="80" width="440" x="30" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="osS3Qxamc4lotx9l5JwE-1" parent="1" style="whiteSpace=wrap;html=1;" value="3.18&lt;br&gt;MQTT Broker" vertex="1">
+          <mxGeometry height="60" width="120" x="-135" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="osS3Qxamc4lotx9l5JwE-3" parent="1" style="whiteSpace=wrap;html=1;" value="自己搭建" vertex="1">
+          <mxGeometry height="40" width="80" x="70" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="osS3Qxamc4lotx9l5JwE-4" parent="1" style="whiteSpace=wrap;html=1;" value="公用EMQ的Broker" vertex="1">
+          <mxGeometry height="50" width="90" x="70" y="1170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
