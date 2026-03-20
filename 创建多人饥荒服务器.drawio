@@ -11,7 +11,7 @@
           <mxGeometry height="40" width="100" x="70" y="390" as="geometry" />
         </mxCell>
         <mxCell id="HDuTr-rBornGhjvDSju1-3" parent="1" style="whiteSpace=wrap;html=1;" value="1.在终端查看ipconfig，默认网关就是路由器登录地址" vertex="1">
-          <mxGeometry height="80" width="330" x="210" y="140" as="geometry" />
+          <mxGeometry height="50" width="320" x="210" y="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
