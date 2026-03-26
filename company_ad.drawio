@@ -209,6 +209,9 @@
         <mxCell id="FdtgiW_92DGW34-r7_0Z-82" edge="1" parent="1" source="FdtgiW_92DGW34-r7_0Z-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FdtgiW_92DGW34-r7_0Z-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="FdtgiW_92DGW34-r7_0Z-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="为啥有些软件就是已经关闭后台app，虽然今天进过这个项目，这个首页广告不显示了，为啥？?" vertex="1">
+          <mxGeometry height="70" width="230" x="-390" y="1120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
