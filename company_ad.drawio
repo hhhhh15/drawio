@@ -187,7 +187,7 @@
         <mxCell id="FdtgiW_92DGW34-r7_0Z-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="为啥有些软件就是已经关闭后台app，虽然今天进过这个项目，这个首页广告不显示了，为啥？?" vertex="1">
           <mxGeometry height="70" width="230" x="-390" y="1120" as="geometry" />
         </mxCell>
-        <mxCell id="FdtgiW_92DGW34-r7_0Z-88" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;autosizeText=1;fontSize=6;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;AdActivity中有import GlideExt.preloadImage这个是glide的扩展类，这个类是可定需要的&lt;/font&gt;" vertex="1">
+        <mxCell id="FdtgiW_92DGW34-r7_0Z-88" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;autosizeText=1;fontSize=6;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;AdActivity中有import GlideExt.preloadImage这个是glide的扩展类，这个类是可肯定需要的&lt;/font&gt;" vertex="1">
           <mxGeometry height="160" width="160" x="320" y="925" as="geometry" />
         </mxCell>
       </root>
