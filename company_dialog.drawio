@@ -1,15 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="CXA8J_vAvgW_GtKImjhL">
-    <mxGraphModel dx="1042" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bTMPZ1W_HPvPt7X42Wq6-1" edge="1" parent="1" source="UKiK06y9-RcXrh1FV3xe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UKiK06y9-RcXrh1FV3xe-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bTMPZ1W_HPvPt7X42Wq6-2" edge="1" parent="1" source="UKiK06y9-RcXrh1FV3xe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UKiK06y9-RcXrh1FV3xe-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-1" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;SelectDeviceV2Activity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="140" y="142.5" as="geometry" />
         </mxCell>
@@ -17,43 +11,52 @@
           <mxGeometry height="30" width="60" x="180" y="90" as="geometry" />
         </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="接口" vertex="1">
-          <mxGeometry height="30" width="60" x="990" y="86.25" as="geometry" />
+          <mxGeometry height="30" width="60" x="1416" y="80" as="geometry" />
         </mxCell>
         <mxCell id="bTMPZ1W_HPvPt7X42Wq6-5" edge="1" parent="1" source="UKiK06y9-RcXrh1FV3xe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="UKiK06y9-RcXrh1FV3xe-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-4" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;HmCommonNetUtils类中方法&lt;br&gt;fetchCategoryProducts调用了HmApi的接口，&lt;br&gt;缓存了品类产品数据&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="82.5" width="320" x="880" y="131.25" as="geometry" />
+          <mxGeometry height="82.5" width="320" x="1306" y="125" as="geometry" />
         </mxCell>
         <mxCell id="bTMPZ1W_HPvPt7X42Wq6-4" edge="1" parent="1" source="UKiK06y9-RcXrh1FV3xe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UKiK06y9-RcXrh1FV3xe-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-5" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;fetchListOfEquipmentModels中获取到品类产品&lt;br&gt;&lt;/span&gt;allDevicesModelsData列表&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="75" width="290" x="420" y="135" as="geometry" />
+          <mxGeometry height="75" width="290" x="846" y="128.75" as="geometry" />
         </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="方法" vertex="1">
-          <mxGeometry height="30" width="60" x="490" y="90" as="geometry" />
+          <mxGeometry height="30" width="60" x="916" y="83.75" as="geometry" />
         </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-7" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;HRAirPurifierActivity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="180" x="140" y="380" as="geometry" />
+          <mxGeometry height="60" width="180" x="140" y="460" as="geometry" />
         </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-8" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font color=&quot;#00627a&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;fetchProductsAllThingMode&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;ls中调用&lt;br&gt;HmApi的/v1/products/thing-models&lt;/span&gt;&lt;font color=&quot;#080808&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;方法，&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;br&gt;获取全量物模型数据，每个pk下事件、属性、服务数据&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="320" x="890" y="555" as="geometry" />
         </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="靠&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;SPConstant的字符串-&amp;gt;存到&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;SPUtils&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); font-size: 9.8pt; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;。方法和接口取出&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="50" width="170" x="657" y="30" as="geometry" />
+          <mxGeometry height="50" width="170" x="1150" y="60" as="geometry" />
         </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-11" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#00627a;&quot;&gt;getFilterProperty&lt;/span&gt;(&lt;span style=&quot;color:#000000;&quot;&gt;product&lt;/span&gt;:&lt;span style=&quot;color:#000000;&quot;&gt;Product&lt;/span&gt;?)方法获取滤芯属性值&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="346" x="414" y="360" as="geometry" />
+          <mxGeometry height="70" width="346" x="840" y="353.75" as="geometry" />
         </mxCell>
         <mxCell id="UKiK06y9-RcXrh1FV3xe-12" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#00627a;&quot;&gt;fetchDeviceProperty&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="410" x="835" y="320" as="geometry" />
+          <mxGeometry height="80" width="410" x="1261" y="313.75" as="geometry" />
         </mxCell>
         <mxCell id="bTMPZ1W_HPvPt7X42Wq6-6" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;WelcomeActivity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="150" y="585" as="geometry" />
         </mxCell>
         <mxCell id="bTMPZ1W_HPvPt7X42Wq6-7" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#00627a;&quot;&gt;selectModelAction方法选中产品，&lt;br&gt;赋值给变量&lt;/span&gt;mSelectProduct，显示连接按钮submitBtn&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="336" x="414" y="250" as="geometry" />
+          <mxGeometry height="70" width="336" x="840" y="243.75" as="geometry" />
+        </mxCell>
+        <mxCell id="bTMPZ1W_HPvPt7X42Wq6-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="逻辑" vertex="1">
+          <mxGeometry height="30" width="60" x="520" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bTMPZ1W_HPvPt7X42Wq6-10" parent="1" style="whiteSpace=wrap;html=1;" value="蓝牙展示列表和选中逻辑" vertex="1">
+          <mxGeometry height="53.75" width="140" x="480" y="139.38" as="geometry" />
+        </mxCell>
+        <mxCell id="bTMPZ1W_HPvPt7X42Wq6-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="蓝牙展示列表，因为蓝牙搜索的时候因为连接的时候是断断续续的，有时候能连接到有时候连接不到" vertex="1">
+          <mxGeometry height="60" width="290" x="450" y="-20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
