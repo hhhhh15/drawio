@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="4Zhu_NXYVjGfUxPqoIFw">
-    <mxGraphModel dx="981" dy="1742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="960" dy="1742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,9 +323,6 @@
         <mxCell id="So6ceJ8u4Q0XCrNywXC7-23" parent="So6ceJ8u4Q0XCrNywXC7-24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); text-align: left; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;CameraFragment+&lt;br&gt;&lt;/span&gt;FullScreenRealTimeActivity&lt;/pre&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="50" as="geometry" />
         </mxCell>
-        <mxCell id="So6ceJ8u4Q0XCrNywXC7-25" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="50" width="100" x="660" y="1440" as="geometry" />
-        </mxCell>
         <mxCell id="So6ceJ8u4Q0XCrNywXC7-29" edge="1" parent="1" source="So6ceJ8u4Q0XCrNywXC7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="So6ceJ8u4Q0XCrNywXC7-27" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -337,6 +334,18 @@
         </mxCell>
         <mxCell id="So6ceJ8u4Q0XCrNywXC7-27" parent="1" style="whiteSpace=wrap;html=1;" value="layout/fragment_camera.xml" vertex="1">
           <mxGeometry height="50" width="190" x="775" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YvS5OJncH22j5YeyEIff-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="应用层调用萤石sdk预览链路" vertex="1">
+          <mxGeometry height="30" width="160" x="700" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="YvS5OJncH22j5YeyEIff-4" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="170" x="570" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="So6ceJ8u4Q0XCrNywXC7-25" parent="YvS5OJncH22j5YeyEIff-4" style="whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;color: light-dark(rgb(135, 16, 148), rgb(255, 163, 255)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;渲染视频页面：surfaceView&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(135, 16, 148);&quot;&gt;黑色遮罩：&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;mStopPlayBg&lt;/span&gt;" vertex="1">
+          <mxGeometry height="64" width="170" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="YvS5OJncH22j5YeyEIff-3" parent="YvS5OJncH22j5YeyEIff-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="控件：" vertex="1">
+          <mxGeometry height="16" width="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
