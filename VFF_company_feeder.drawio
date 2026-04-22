@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="4Zhu_NXYVjGfUxPqoIFw">
-    <mxGraphModel dx="695" dy="1584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1008" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="01u_bNaC5tWIopUwmckH-24" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="290" width="1270" x="727" y="1390" as="geometry" />
+        </mxCell>
         <mxCell id="cDvUurAN0QmndFhl90U2-15" edge="1" parent="1" source="cDvUurAN0QmndFhl90U2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cDvUurAN0QmndFhl90U2-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -315,7 +318,7 @@
           <mxGeometry height="30" width="60" x="410" y="524" as="geometry" />
         </mxCell>
         <mxCell id="So6ceJ8u4Q0XCrNywXC7-24" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="370" y="1410" as="geometry" />
+          <mxGeometry height="90" width="120" x="360" y="1610" as="geometry" />
         </mxCell>
         <mxCell id="So6ceJ8u4Q0XCrNywXC7-18" parent="So6ceJ8u4Q0XCrNywXC7-24" style="whiteSpace=wrap;html=1;" value="功能二视频实时流" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -335,26 +338,14 @@
         <mxCell id="So6ceJ8u4Q0XCrNywXC7-27" parent="1" style="whiteSpace=wrap;html=1;" value="layout/fragment_camera.xml" vertex="1">
           <mxGeometry height="50" width="190" x="775" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="YvS5OJncH22j5YeyEIff-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="应用层调用萤石sdk预览链路" vertex="1">
-          <mxGeometry height="30" width="160" x="590" y="1570" as="geometry" />
-        </mxCell>
-        <mxCell id="YvS5OJncH22j5YeyEIff-4" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="130" width="240" x="580" y="1620" as="geometry" />
-        </mxCell>
-        <mxCell id="So6ceJ8u4Q0XCrNywXC7-25" parent="YvS5OJncH22j5YeyEIff-4" style="whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;color: light-dark(rgb(135, 16, 148), rgb(255, 163, 255)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;渲染视频页面：surfaceView&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(135, 16, 148);&quot;&gt;黑色遮罩：&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;mStopPlayBg&lt;/span&gt;&lt;div&gt;&lt;font color=&quot;#080808&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;正在缓冲...:&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintLoading&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;非摄像头时段xxx:&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintCamera&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;竖着的三个图标：linearControl&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;摄像头已关闭，.:&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintCameraOpen&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="114" width="240" y="16" as="geometry" />
-        </mxCell>
-        <mxCell id="YvS5OJncH22j5YeyEIff-3" parent="YvS5OJncH22j5YeyEIff-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="控件：" vertex="1">
-          <mxGeometry height="16" width="40" as="geometry" />
-        </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-5" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(102, 102, 102); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; letter-spacing: 1.14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;EZDeviceDetailPublicInfo调整清晰度&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="210" x="880" y="1640" as="geometry" />
+          <mxGeometry height="80" width="210" x="1030" y="1780" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sdk类" vertex="1">
-          <mxGeometry height="20" width="50" x="880" y="1620" as="geometry" />
+          <mxGeometry height="20" width="50" x="1030" y="1760" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-11" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="80" width="120" x="1210" y="1620" as="geometry" />
+          <mxGeometry height="80" width="120" x="1270" y="1700" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-9" parent="YvS5OJncH22j5YeyEIff-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="功能" vertex="1">
           <mxGeometry height="20" width="40" as="geometry" />
@@ -366,37 +357,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-13" parent="1" style="whiteSpace=wrap;html=1;" value="sdk配置，混淆文件proguard-rules.pro保护第三方 SDK 不被混淆：" vertex="1">
-          <mxGeometry height="55" width="160" x="550" y="1377.5" as="geometry" />
+          <mxGeometry height="55" width="160" x="747" y="1441.56" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-18" edge="1" parent="1" source="YvS5OJncH22j5YeyEIff-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YvS5OJncH22j5YeyEIff-17" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-14" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;EzUtils中&lt;/span&gt;搭建初始化萤石sdk配置，规范取流方式，服务器地址等&lt;span style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(0, 98, 122);&quot;&gt;initEZOpenSDK&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;String ezAppkey&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;String accessToken&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;String apiUrl&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;){&lt;br&gt;&lt;div style=&quot;color: rgb(59, 59, 59); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128);&quot;&gt;EZOpenSDK&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(121, 94, 38);&quot;&gt;initLib&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128);&quot;&gt;MyApplication&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(121, 94, 38);&quot;&gt;getInstance&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;(), ezAppkey);&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="87.97" width="360" x="740" y="1361.02" as="geometry" />
+          <mxGeometry height="87.97" width="360" x="937" y="1425.08" as="geometry" />
+        </mxCell>
+        <mxCell id="01u_bNaC5tWIopUwmckH-22" edge="1" parent="1" source="YvS5OJncH22j5YeyEIff-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YvS5OJncH22j5YeyEIff-27" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-17" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 128, 0);&quot;&gt;HomeV2Activity类&lt;/span&gt;&lt;span style=&quot;color: rgb(121, 94, 38);&quot;&gt;devicesEzToken&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 128, 0), rgb(80, 190, 80)); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;中调用初始化sdk&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 128, 0);&quot;&gt;方法&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; white-space: normal;&quot;&gt;initEZOpenSDK。先调用接口获取到&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;accessToken&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; white-space: normal;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128);&quot;&gt;ysAppKey、&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128);&quot;&gt;model&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128);&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128);&quot;&gt;ysDomain&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="78.12" width="351.5" x="1146.72" y="1365.94" as="geometry" />
+          <mxGeometry height="78.12" width="351.5" x="1343.72" y="1430" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-25" edge="1" parent="1" source="YvS5OJncH22j5YeyEIff-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YvS5OJncH22j5YeyEIff-17" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-23" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#067d17;&quot;&gt;/app/v1/devices/ezToken&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="37.97" width="150" x="1532" y="1386.01" as="geometry" />
+          <mxGeometry height="37.97" width="150" x="1729" y="1450.07" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-26" edge="1" parent="1" source="YvS5OJncH22j5YeyEIff-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YvS5OJncH22j5YeyEIff-23" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-24" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;EzTokenModel&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="45.94" width="90" x="1710" y="1382.03" as="geometry" />
+          <mxGeometry height="45.94" width="90" x="1907" y="1446.09" as="geometry" />
         </mxCell>
-        <mxCell id="YvS5OJncH22j5YeyEIff-27" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;private &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;EZPlayer &lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148);&quot;&gt;mEZPlayer&lt;br&gt;&lt;/span&gt;mEZPlayer= EZOpenSDK.&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;createPlayer(&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(135, 16, 148);&quot;&gt;deviceSerial&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(135, 16, 148);&quot;&gt;channelNo&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;)&lt;br&gt;&lt;/span&gt;mEZPlayer&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;.setSurfaceHold(&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(135, 16, 148);&quot;&gt;mRealPlaySh&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;);&lt;br&gt;&lt;/span&gt;&lt;/span&gt;mEZPlayer&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;.setHandler(&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(135, 16, 148);&quot;&gt;mHandler&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;);&lt;br&gt;&lt;/span&gt;mEZPlayer&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;.startRealPlay();&lt;br&gt;&lt;/span&gt;&lt;/span&gt;mEZPlayer&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;.openSound();&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="420" x="870" y="1750" as="geometry" />
+        <mxCell id="YvS5OJncH22j5YeyEIff-27" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;private &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;EZPlayer &lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148);&quot;&gt;mEZPlayer&lt;br&gt;&lt;/span&gt;mEZPlayer= MyApplication&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal; font-style: italic;&quot;&gt;getOpenSDK&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;()&lt;/span&gt;.&lt;span style=&quot;font-size: 9.8pt; color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal;&quot;&gt;createPlayer(&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(135, 16, 148);&quot;&gt;deviceSerial&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(135, 16, 148);&quot;&gt;channelNo&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal;&quot;&gt;)&lt;/span&gt;&lt;br&gt;mEZPlayer&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;.setSurfaceHold(&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(135, 16, 148);&quot;&gt;mRealPlaySh&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;);&lt;br&gt;&lt;/span&gt;&lt;/span&gt;mEZPlayer&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;.setHandler(&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(135, 16, 148);&quot;&gt;mHandler&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;);&lt;br&gt;&lt;/span&gt;mEZPlayer&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;.startRealPlay();&lt;br&gt;&lt;/span&gt;&lt;/span&gt;mEZPlayer&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); white-space: normal;&quot;&gt;.openSound();&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="490" x="1274.47" y="1544.06" as="geometry" />
+        </mxCell>
+        <mxCell id="01u_bNaC5tWIopUwmckH-30" edge="1" parent="1" source="YvS5OJncH22j5YeyEIff-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UypdfvMTtxoribTxJqCH-2" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="怎么实现就是摄像头计划后，然后我就看不到视频了，对，我就应该调用了&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;stopRealPlay。但是是在什么方法调用摄像头后面调用的stop啊&lt;/span&gt;" vertex="1">
-          <mxGeometry height="100" width="260" x="600" y="1930" as="geometry" />
+          <mxGeometry height="70" width="260" x="600" y="1940" as="geometry" />
         </mxCell>
         <mxCell id="YvS5OJncH22j5YeyEIff-30" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#067d17;&quot;&gt;/app/v1/devices/control&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="160" x="1710" y="2180" as="geometry" />
+          <mxGeometry height="40" width="160" x="1930" y="2180" as="geometry" />
         </mxCell>
         <mxCell id="01u_bNaC5tWIopUwmckH-1" edge="1" parent="1" source="UypdfvMTtxoribTxJqCH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="UypdfvMTtxoribTxJqCH-3" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -405,7 +402,7 @@
           <mxGeometry height="70" width="220" x="620" y="2060" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-2" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="预览画面是和摄像头计划有关，非摄像头时段，关画面停止播放，显示字段非摄像头时段" vertex="1">
-          <mxGeometry height="60" width="185" x="920" y="1950" as="geometry" />
+          <mxGeometry height="60" width="185" x="915" y="1945" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="回放看不见视频，因为在非摄像头时段，摄像头关闭了，但是真的关闭了吗？假设真的关了，难道这就是item.getBitMap()保持null的原因吗，可为空" vertex="1">
           <mxGeometry height="80" width="230" x="615" y="2160" as="geometry" />
@@ -440,10 +437,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-4" parent="1" style="whiteSpace=wrap;html=1;" value="GetXXX()自己设置“method”的值调用devicesControl()" vertex="1">
-          <mxGeometry height="60" width="120" x="1530" y="2170" as="geometry" />
+          <mxGeometry height="60" width="120" x="1750" y="2170" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-5" parent="1" style="whiteSpace=wrap;html=1;" value="PUT执行" vertex="1">
-          <mxGeometry height="40" width="100" x="1440" y="2300" as="geometry" />
+          <mxGeometry height="40" width="100" x="1660" y="2300" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-12" edge="1" parent="1" source="UypdfvMTtxoribTxJqCH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="UypdfvMTtxoribTxJqCH-4">
           <mxGeometry relative="1" as="geometry" />
@@ -457,10 +454,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-9" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;CameraFragment中EventBus订阅方法&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 136, 13); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;@Subscribe&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GetMessage()&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="130" x="1525" y="2055" as="geometry" />
+          <mxGeometry height="80" width="130" x="1745" y="2055" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="物模型完整调用链路" vertex="1">
-          <mxGeometry height="40" width="134" x="1356" y="1920" as="geometry" />
+          <mxGeometry height="40" width="134" x="1576" y="1920" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-27" edge="1" parent="1" source="UypdfvMTtxoribTxJqCH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UypdfvMTtxoribTxJqCH-26" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -471,10 +468,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-15" parent="1" style="whiteSpace=wrap;html=1;" value="SocketService中&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mSocket.on(&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(6, 125, 23);&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(8, 8, 8); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(0, 51, 179);&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(0, 0, 0);&quot;&gt;Emitter&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(8, 8, 8); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(0, 0, 0);&quot;&gt;Listener&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(8, 8, 8); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;(){&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; font-size: 12px;&quot;&gt;接收消息&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(8, 8, 8); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="180" x="1502" y="1850" as="geometry" />
+          <mxGeometry height="60" width="180" x="1722" y="1850" as="geometry" />
         </mxCell>
-        <mxCell id="UypdfvMTtxoribTxJqCH-17" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;SocketService后台&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="585" y="2432.82" as="geometry" />
+        <mxCell id="01u_bNaC5tWIopUwmckH-20" edge="1" parent="1" source="UypdfvMTtxoribTxJqCH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UypdfvMTtxoribTxJqCH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01u_bNaC5tWIopUwmckH-21" edge="1" parent="1" source="UypdfvMTtxoribTxJqCH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UypdfvMTtxoribTxJqCH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UypdfvMTtxoribTxJqCH-17" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;SocketService后台&lt;br&gt;(消息推送)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="570" y="2440" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-24" edge="1" parent="1" source="UypdfvMTtxoribTxJqCH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UypdfvMTtxoribTxJqCH-23" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -498,16 +501,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-26" parent="1" style="whiteSpace=wrap;html=1;" value="发布EventBus事件，不同分支参数为不同事件实例" vertex="1">
-          <mxGeometry height="60" width="120" x="1530" y="1970" as="geometry" />
+          <mxGeometry height="60" width="120" x="1750" y="1970" as="geometry" />
         </mxCell>
         <mxCell id="UypdfvMTtxoribTxJqCH-34" parent="1" style="whiteSpace=wrap;html=1;" value="GET分支查数据" vertex="1">
-          <mxGeometry height="40" width="82.53" x="1644.94" y="2300" as="geometry" />
+          <mxGeometry height="40" width="82.53" x="1864.94" y="2300" as="geometry" />
         </mxCell>
         <mxCell id="01u_bNaC5tWIopUwmckH-4" edge="1" parent="1" source="01u_bNaC5tWIopUwmckH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YvS5OJncH22j5YeyEIff-30" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="01u_bNaC5tWIopUwmckH-6" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="195" width="180" x="1910" y="2090" as="geometry" />
+          <mxGeometry height="195" width="180" x="2130" y="2090" as="geometry" />
         </mxCell>
         <mxCell id="01u_bNaC5tWIopUwmckH-3" parent="01u_bNaC5tWIopUwmckH-6" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;code&quot;: &quot;string&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;msg&quot;: &quot;string&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;data&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;meta&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;code&quot;: 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;message&quot;: &quot;string&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;moreInfo&quot;: null&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;data&quot;: null&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="180" y="25" as="geometry" />
@@ -516,14 +519,14 @@
           <mxGeometry height="25" width="180" as="geometry" />
         </mxCell>
         <mxCell id="01u_bNaC5tWIopUwmckH-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="这两个分支分开，但是分支里面写的内容都是UI更新，get分支是根据data数据来做功能逻辑处理。那put压迫这个meta里面的code操作码后也是做一些ui更新。分开的意义？" vertex="1">
-          <mxGeometry height="115" width="180" x="1770" y="2305" as="geometry" />
+          <mxGeometry height="115" width="180" x="1990" y="2305" as="geometry" />
         </mxCell>
         <mxCell id="01u_bNaC5tWIopUwmckH-13" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="分支中逻辑处理完再调用GetXXXX()方法进行网络请求上传数据" vertex="1">
-          <mxGeometry height="50" width="135" x="1525" y="2380" as="geometry" />
+          <mxGeometry height="50" width="135" x="1745" y="2380" as="geometry" />
         </mxCell>
         <mxCell id="01u_bNaC5tWIopUwmckH-16" edge="1" parent="1" source="UypdfvMTtxoribTxJqCH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1576" y="2380" as="targetPoint" />
+            <mxPoint x="1796" y="2380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="01u_bNaC5tWIopUwmckH-17" edge="1" parent="1" source="UypdfvMTtxoribTxJqCH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.601;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" target="01u_bNaC5tWIopUwmckH-13">
@@ -532,8 +535,8 @@
         <mxCell id="01u_bNaC5tWIopUwmckH-18" edge="1" parent="1" source="01u_bNaC5tWIopUwmckH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;" target="UypdfvMTtxoribTxJqCH-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1400" y="2405" />
-              <mxPoint x="1400" y="2192" />
+              <mxPoint x="1620" y="2405" />
+              <mxPoint x="1620" y="2192" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -541,6 +544,38 @@
           <mxGeometry relative="1" x="0.2044" y="2" as="geometry">
             <mxPoint x="9" y="-18" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="01u_bNaC5tWIopUwmckH-26" parent="1" style="whiteSpace=wrap;html=1;" value="应用层调用萤石sdk预览链路" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="1439.06" as="geometry" />
+        </mxCell>
+        <mxCell id="01u_bNaC5tWIopUwmckH-27" edge="1" parent="1" source="So6ceJ8u4Q0XCrNywXC7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="01u_bNaC5tWIopUwmckH-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1670" />
+              <mxPoint x="550" y="1469" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01u_bNaC5tWIopUwmckH-29" edge="1" parent="1" source="01u_bNaC5tWIopUwmckH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;" target="01u_bNaC5tWIopUwmckH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01u_bNaC5tWIopUwmckH-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个有问题，这个流程，onGetMessage是HomeV2Activity的方法" vertex="1">
+          <mxGeometry height="50" width="140" x="1480" y="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="01u_bNaC5tWIopUwmckH-33" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="160" width="310" x="650" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="YvS5OJncH22j5YeyEIff-4" connectable="0" parent="01u_bNaC5tWIopUwmckH-33" style="group" value="" vertex="1">
+          <mxGeometry height="160" width="240" x="70" as="geometry" />
+        </mxCell>
+        <mxCell id="So6ceJ8u4Q0XCrNywXC7-25" parent="YvS5OJncH22j5YeyEIff-4" style="whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;color: light-dark(rgb(135, 16, 148), rgb(255, 163, 255)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;渲染视频页面：surfaceView&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(135, 16, 148);&quot;&gt;黑色遮罩：&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;mStopPlayBg&lt;/span&gt;&lt;div&gt;&lt;font color=&quot;#080808&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;正在缓冲...:&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintLoading&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;非摄像头时段xxx:&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintCamera&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;竖着的三个图标：linearControl&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;摄像头已关闭，.:&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintCameraOpen&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;今日手动喂食上遮罩:&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mOutLineView1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;当前为电池模式，摄像..:&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintBatteryMode&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140.31" width="310" x="-70" y="19.69" as="geometry" />
+        </mxCell>
+        <mxCell id="YvS5OJncH22j5YeyEIff-3" parent="01u_bNaC5tWIopUwmckH-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="控件：" vertex="1">
+          <mxGeometry height="19.692307692307693" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01u_bNaC5tWIopUwmckH-34" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;GetPowerMode&lt;/span&gt;()&lt;br&gt;GetVideoCtrl&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230));&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;()&lt;br&gt;&lt;/span&gt;&lt;/span&gt;GetVideoPlan&lt;span style=&quot;font-size: 9.8pt; color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;()&lt;br&gt;&lt;/span&gt;&lt;/span&gt;GetMicCtrl&lt;span style=&quot;font-size: 9.8pt; color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal;&quot;&gt;()&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="149" x="1181" y="1930" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
