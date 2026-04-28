@@ -818,14 +818,17 @@
         <mxCell id="it9YIHgWLYIwwuIv9BAi-3" parent="it9YIHgWLYIwwuIv9BAi-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;PortraitPlayActivity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="140" as="geometry" />
         </mxCell>
-        <mxCell id="it9YIHgWLYIwwuIv9BAi-9" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="190" width="280" x="580" y="2620" as="geometry" />
+        <mxCell id="it9YIHgWLYIwwuIv9BAi-10" edge="1" parent="1" source="it9YIHgWLYIwwuIv9BAi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="it9YIHgWLYIwwuIv9BAi-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="it9YIHgWLYIwwuIv9BAi-7" parent="it9YIHgWLYIwwuIv9BAi-9" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#871094;&quot;&gt;ivPicture视频占位图&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="280" y="30" as="geometry" />
+        <mxCell id="it9YIHgWLYIwwuIv9BAi-11" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="130" width="340" x="580" y="2580" as="geometry" />
         </mxCell>
-        <mxCell id="it9YIHgWLYIwwuIv9BAi-8" parent="it9YIHgWLYIwwuIv9BAi-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="控件" vertex="1">
-          <mxGeometry height="30" width="40" as="geometry" />
+        <mxCell id="it9YIHgWLYIwwuIv9BAi-7" parent="it9YIHgWLYIwwuIv9BAi-11" style="whiteSpace=wrap;html=1;align=left;container=0;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(135, 16, 148);&quot;&gt;ivPicture视频占位图&lt;br&gt;&lt;/span&gt;mConstraintPowerMode电池模型，不支持观看本地视频...&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="103.16" width="340" y="26.840000000000146" as="geometry" />
+        </mxCell>
+        <mxCell id="it9YIHgWLYIwwuIv9BAi-8" parent="it9YIHgWLYIwwuIv9BAi-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="控件" vertex="1">
+          <mxGeometry height="26.842105263157894" width="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
