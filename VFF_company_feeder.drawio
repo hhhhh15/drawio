@@ -945,8 +945,23 @@
         <mxCell id="TyK_jZXdtjql6dQ2cGoR-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="fileList的数据形式是什么？" vertex="1">
           <mxGeometry height="40" width="150" x="1640" y="2810" as="geometry" />
         </mxCell>
-        <mxCell id="TyK_jZXdtjql6dQ2cGoR-55" parent="1" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="" vertex="1">
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-55" parent="1" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="进度条变化逻辑" vertex="1">
           <mxGeometry height="60" width="120" x="580" y="3260" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-56" edge="1" parent="1" source="it9YIHgWLYIwwuIv9BAi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="TyK_jZXdtjql6dQ2cGoR-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-57" parent="1" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="进度条的更新分本地和云存，" vertex="1">
+          <mxGeometry height="60" width="120" x="754" y="3270" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="开始" vertex="1">
+          <mxGeometry height="30" width="60" x="980" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-59" parent="1" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="SDK回调触发" vertex="1">
+          <mxGeometry height="60" width="120" x="950" y="3270" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-60" parent="1" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="950" y="3350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
