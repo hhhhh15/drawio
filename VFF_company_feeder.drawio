@@ -824,7 +824,7 @@
         <mxCell id="it9YIHgWLYIwwuIv9BAi-11" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="170" width="420" x="580" y="2710" as="geometry" />
         </mxCell>
-        <mxCell id="it9YIHgWLYIwwuIv9BAi-7" parent="it9YIHgWLYIwwuIv9BAi-11" style="whiteSpace=wrap;html=1;align=left;container=0;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(135, 16, 148);&quot;&gt;ivPicture视频占位图&lt;br&gt;&lt;/span&gt;mConstraintPowerMode电池模型，不支持观看本地视频...&lt;br&gt;mConstraintLoading&lt;br&gt;mConstraintVideoExpired&lt;br&gt;mConstraintBottomFullScreen&lt;br&gt;mIvScreenshotFullScreen视频中的截图按钮&lt;br&gt;mIvSoundStateFullScreen视频中的控制声音按钮&lt;br&gt;mConstraintRight视频下面的所有按键，全屏播放、下载，截图&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="it9YIHgWLYIwwuIv9BAi-7" parent="it9YIHgWLYIwwuIv9BAi-11" style="whiteSpace=wrap;html=1;align=left;container=0;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(135, 16, 148);&quot;&gt;ivPicture视频占位图&lt;br&gt;&lt;/span&gt;mConstraintPowerMode电池模型，不支持观看本地视频...&lt;br&gt;mConstraintLoading正在缓冲...&lt;br&gt;mConstraintVideoExpired&lt;br&gt;mConstraintBottomFullScreen全屏的暂停播放按钮&lt;br&gt;mIvScreenshotFullScreen视频中的截图按钮&lt;br&gt;mIvSoundStateFullScreen视频中的控制声音按钮&lt;br&gt;mConstraintRight视频下面的所有按键，全屏播放、下载，截图&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="147.186" width="420" y="22.814" as="geometry" />
         </mxCell>
         <mxCell id="it9YIHgWLYIwwuIv9BAi-8" parent="it9YIHgWLYIwwuIv9BAi-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="控件" vertex="1">
@@ -838,9 +838,6 @@
         </mxCell>
         <mxCell id="TyK_jZXdtjql6dQ2cGoR-2" edge="1" parent="1" source="it9YIHgWLYIwwuIv9BAi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TyK_jZXdtjql6dQ2cGoR-1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TyK_jZXdtjql6dQ2cGoR-4" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;searchRecordFileFromCloud调用萤石接口&lt;br&gt;返回一段段文件&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="250" x="1190" y="3140" as="geometry" />
         </mxCell>
         <mxCell id="TyK_jZXdtjql6dQ2cGoR-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="视图上的，横屏和竖屏切换，三个按键的位置有更换，还有啥逻辑吗，进度条是自己按秒更新视图的，自定义视图吗" vertex="1">
           <mxGeometry height="90" width="340" x="487" y="3280" as="geometry" />
@@ -859,6 +856,74 @@
         </mxCell>
         <mxCell id="TyK_jZXdtjql6dQ2cGoR-12" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; background-color: rgb(255, 255, 255);&quot;&gt;initApi&lt;/span&gt;()判断本地还是云存，更新对应的UI,初始化萤石播放器，并调用&lt;span style=&quot;color: light-dark(rgb(0, 98, 122), rgb(102, 186, 207)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; background-color: transparent;&quot;&gt;searchRecordFileFromCloud萤石接口检查是否有云存视频来更新标签&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; background-color: rgb(255, 255, 255);&quot;&gt;videoTypeList&lt;/span&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="90" width="264.25" x="752.75" y="3095" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-17" edge="1" parent="1" source="TyK_jZXdtjql6dQ2cGoR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="TyK_jZXdtjql6dQ2cGoR-16" value="电源模式，有缓冲文案">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-20" edge="1" parent="1" source="TyK_jZXdtjql6dQ2cGoR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TyK_jZXdtjql6dQ2cGoR-19" value="电池模式，没有缓冲文案">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-15" parent="1" style="whiteSpace=wrap;html=1;" value="initApi()" vertex="1">
+          <mxGeometry height="50" width="100" x="1080" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-33" edge="1" parent="1" source="TyK_jZXdtjql6dQ2cGoR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TyK_jZXdtjql6dQ2cGoR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-35" connectable="0" parent="TyK_jZXdtjql6dQ2cGoR-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="过期" vertex="1">
+          <mxGeometry relative="1" x="0.0448" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-36" edge="1" parent="1" source="TyK_jZXdtjql6dQ2cGoR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TyK_jZXdtjql6dQ2cGoR-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-37" connectable="0" parent="TyK_jZXdtjql6dQ2cGoR-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="没过期" vertex="1">
+          <mxGeometry relative="1" x="0.2322" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-16" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(0, 98, 122);&quot;&gt;setVideoExpiredUI&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;()&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;判断云存是否过期，&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1270" y="3020" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-19" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="应该是不需要异步调取视频，能直接播放，不需要正在缓冲...文案" vertex="1">
+          <mxGeometry height="60" width="120" x="1270" y="3220" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-32" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintBottomFullScreen、&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mIvScreenshotFullScreen、&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintRight&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(135, 16, 148);&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mConstraintBottom&lt;/span&gt;全&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;隐藏&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="1442.47" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-39" edge="1" parent="1" source="TyK_jZXdtjql6dQ2cGoR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TyK_jZXdtjql6dQ2cGoR-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-40" connectable="0" parent="TyK_jZXdtjql6dQ2cGoR-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#871094;&quot;&gt;cameraPlayType=1&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0577" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-48" edge="1" parent="1" source="TyK_jZXdtjql6dQ2cGoR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="TyK_jZXdtjql6dQ2cGoR-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-49" connectable="0" parent="TyK_jZXdtjql6dQ2cGoR-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(135, 16, 148);&quot;&gt;cameraPlayType=2&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0415" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-34" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;searchFileList()&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1442.47" y="2960" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-43" edge="1" parent="1" source="TyK_jZXdtjql6dQ2cGoR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TyK_jZXdtjql6dQ2cGoR-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;getTotalDurationSeconds()获取本地视频&lt;br&gt;&lt;/span&gt;EZDeviceRecordFile的总时长&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="242.53" x="1640" y="3050" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-42" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;playBackVideo&lt;/span&gt;()播放视频&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="170" x="1910" y="3047.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="直接创建新的&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;EZCloudRecordFile合并&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;mCloudFileList&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;列表数据&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1640" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="TyK_jZXdtjql6dQ2cGoR-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="fileList的数据形式是什么？" vertex="1">
+          <mxGeometry height="40" width="150" x="1640" y="2830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
