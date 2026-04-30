@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="4Zhu_NXYVjGfUxPqoIFw">
-    <mxGraphModel dx="1704" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="1803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -951,9 +951,6 @@
         <mxCell id="TyK_jZXdtjql6dQ2cGoR-56" edge="1" parent="1" source="it9YIHgWLYIwwuIv9BAi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="TyK_jZXdtjql6dQ2cGoR-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TyK_jZXdtjql6dQ2cGoR-57" parent="1" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="进度条的更新分本地和云存，" vertex="1">
-          <mxGeometry height="60" width="120" x="754" y="3270" as="geometry" />
-        </mxCell>
         <mxCell id="TyK_jZXdtjql6dQ2cGoR-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="这个云存标签下，按了这个停止，然后点击这个暂停按钮要重新播放的话，多按几次这个页面直接崩&lt;br&gt;应该是哪里的问题呢，云存视频重新播放问题怎么这么多" vertex="1">
           <mxGeometry height="100" width="220" x="-20" y="3375" as="geometry" />
         </mxCell>
@@ -1071,13 +1068,16 @@
           <mxGeometry height="55" width="168" x="1538.97" y="3900" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="1.进度条触发顺序" vertex="1">
-          <mxGeometry height="70" width="70" x="1090" y="3340" as="geometry" />
+          <mxGeometry height="70" width="70" x="1079" y="3340" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="2.进度条初始赋值和更新UI&lt;br&gt;setprogress" vertex="1">
-          <mxGeometry height="80" width="80" x="1085" y="3660" as="geometry" />
+          <mxGeometry height="80" width="80" x="1074" y="3528.75" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-43" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;invalidate()会调用onDraw重新绘制&lt;br&gt;更新移动进度条UI&lt;br&gt;&lt;/pre&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1727.47" y="3730" as="geometry" />
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="3.seek到视频某处" vertex="1">
+          <mxGeometry height="70" width="70" x="1087" y="3790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
