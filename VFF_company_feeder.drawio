@@ -954,12 +954,6 @@
         <mxCell id="TyK_jZXdtjql6dQ2cGoR-57" parent="1" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="进度条的更新分本地和云存，" vertex="1">
           <mxGeometry height="60" width="120" x="754" y="3270" as="geometry" />
         </mxCell>
-        <mxCell id="TyK_jZXdtjql6dQ2cGoR-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="开始" vertex="1">
-          <mxGeometry height="30" width="40" x="950" y="3240" as="geometry" />
-        </mxCell>
-        <mxCell id="TyK_jZXdtjql6dQ2cGoR-59" parent="1" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="SDK回调触发" vertex="1">
-          <mxGeometry height="60" width="120" x="950" y="3270" as="geometry" />
-        </mxCell>
         <mxCell id="TyK_jZXdtjql6dQ2cGoR-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="这个云存标签下，按了这个停止，然后点击这个暂停按钮要重新播放的话，多按几次这个页面直接崩&lt;br&gt;应该是哪里的问题呢，云存视频重新播放问题怎么这么多" vertex="1">
           <mxGeometry height="100" width="220" x="-20" y="3375" as="geometry" />
         </mxCell>
@@ -1059,14 +1053,20 @@
         <mxCell id="8Piq0owwNRApb2amCXzw-33" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;CustomSeekBar类中的&lt;br&gt;&lt;/span&gt;onTouchEvent(ACTION_UP)&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="190" x="1291.47" y="3810" as="geometry" />
         </mxCell>
-        <mxCell id="8Piq0owwNRApb2amCXzw-38" edge="1" parent="1" source="8Piq0owwNRApb2amCXzw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8Piq0owwNRApb2amCXzw-36" value="">
+        <mxCell id="8Piq0owwNRApb2amCXzw-42" edge="1" parent="1" source="8Piq0owwNRApb2amCXzw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8Piq0owwNRApb2amCXzw-36" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-35" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;handleActionUp()&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="45" width="121" x="1552.47" y="3812.5" as="geometry" />
+          <mxGeometry height="45" width="121" x="1562.47" y="3830" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-36" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#00627a;&quot;&gt;onStopTrackingTouch&lt;/span&gt;(&lt;span style=&quot;color:#0033b3;&quot;&gt;float &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;progress&lt;/span&gt;)&lt;br&gt;处理拖拽到某处的视频播放&lt;br&gt;和进度条进度及计时器&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="55" width="168" x="1528.47" y="3890" as="geometry" />
+          <mxGeometry height="55" width="168" x="1538.97" y="3900" as="geometry" />
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="1.进度条触发顺序" vertex="1">
+          <mxGeometry height="70" width="70" x="1090" y="3340" as="geometry" />
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="2.进度条初始赋值setprogress" vertex="1">
+          <mxGeometry height="80" width="80" x="1085" y="3660" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
