@@ -1045,7 +1045,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-32" parent="1" style="whiteSpace=wrap;html=1;" value="手指抬起" vertex="1">
-          <mxGeometry height="50" width="61.75" x="1190.6" y="3810" as="geometry" />
+          <mxGeometry height="50" width="61.75" x="1186.4699999999998" y="3830" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-37" edge="1" parent="1" source="8Piq0owwNRApb2amCXzw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8Piq0owwNRApb2amCXzw-35" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1056,16 +1056,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-33" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;CustomSeekBar类中的&lt;br&gt;&lt;/span&gt;onTouchEvent(ACTION_UP)&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="190" x="1291.47" y="3810" as="geometry" />
+          <mxGeometry height="50" width="190" x="1287.34" y="3830" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-42" edge="1" parent="1" source="8Piq0owwNRApb2amCXzw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8Piq0owwNRApb2amCXzw-36" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-35" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;handleActionUp()&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="45" width="121" x="1562.47" y="3830" as="geometry" />
+          <mxGeometry height="45" width="121" x="1558.34" y="3850" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-36" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#00627a;&quot;&gt;onStopTrackingTouch&lt;/span&gt;(&lt;span style=&quot;color:#0033b3;&quot;&gt;float &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;progress&lt;/span&gt;)&lt;br&gt;处理拖拽到某处的视频播放&lt;br&gt;和进度条进度及计时器&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="55" width="168" x="1538.97" y="3900" as="geometry" />
+          <mxGeometry height="55" width="168" x="1534.84" y="3920" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="1.进度条触发顺序" vertex="1">
           <mxGeometry height="70" width="70" x="1079" y="3340" as="geometry" />
@@ -1073,11 +1073,11 @@
         <mxCell id="8Piq0owwNRApb2amCXzw-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="2.进度条初始赋值和更新UI&lt;br&gt;setprogress" vertex="1">
           <mxGeometry height="80" width="80" x="1074" y="3528.75" as="geometry" />
         </mxCell>
-        <mxCell id="8Piq0owwNRApb2amCXzw-43" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;invalidate()会调用onDraw重新绘制&lt;br&gt;更新移动进度条UI&lt;br&gt;&lt;/pre&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1727.47" y="3730" as="geometry" />
+        <mxCell id="8Piq0owwNRApb2amCXzw-43" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;invalidate()会调用onDraw重新绘制&lt;br&gt;更新移动进度条UI&lt;br&gt;&lt;/font&gt;&lt;code style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt; background-color: transparent; white-space: normal;&quot;&gt;drawTrack&lt;/code&gt;&lt;span style=&quot;color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt; background-color: transparent; white-space: normal;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt; — 灰色背景轨道、&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt; background-color: transparent; white-space: normal;&quot;&gt;drawProgress&lt;/code&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt; background-color: transparent; white-space: normal;&quot;&gt; — 白色进度条、&lt;br&gt;&lt;/span&gt;&lt;code style=&quot;color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt; background-color: transparent; white-space: normal;&quot;&gt;drawThumb&lt;/code&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt; background-color: transparent; white-space: normal;&quot;&gt; — 滑块圆点&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="100" width="232.53" x="1702.84" y="3730" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="3.seek到视频某处" vertex="1">
-          <mxGeometry height="70" width="70" x="1087" y="3790" as="geometry" />
+          <mxGeometry height="70" width="70" x="1087" y="3817.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
