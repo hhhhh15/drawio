@@ -975,17 +975,39 @@
         <mxCell id="TyK_jZXdtjql6dQ2cGoR-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="这个云存标签下，按了这个停止，然后点击这个暂停按钮要重新播放的话，多按几次这个页面直接崩&lt;br&gt;应该是哪里的问题呢，云存视频重新播放问题怎么这么多" vertex="1">
           <mxGeometry height="100" width="220" x="450" y="3390" as="geometry" />
         </mxCell>
-        <mxCell id="8Piq0owwNRApb2amCXzw-1" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;CustomSeekBar类中提供&lt;br/&gt;注册接口，触发方法&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1081" y="3460" as="geometry" />
+        <mxCell id="8Piq0owwNRApb2amCXzw-12" edge="1" parent="1" source="8Piq0owwNRApb2amCXzw-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="8Piq0owwNRApb2amCXzw-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8Piq0owwNRApb2amCXzw-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="注册" vertex="1">
-          <mxGeometry height="30" width="60" x="1120" y="3430" as="geometry" />
+        <mxCell id="8Piq0owwNRApb2amCXzw-13" connectable="0" parent="8Piq0owwNRApb2amCXzw-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="触摸事件触发" vertex="1">
+          <mxGeometry relative="1" x="-0.0305" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8Piq0owwNRApb2amCXzw-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="回调" vertex="1">
-          <mxGeometry height="30" width="60" x="1320" y="3430" as="geometry" />
+        <mxCell id="8Piq0owwNRApb2amCXzw-8" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(128, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;initUI中注册listener&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1090" y="3610" as="geometry" />
         </mxCell>
-        <mxCell id="8Piq0owwNRApb2amCXzw-7" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(128, 0, 0);&quot;&gt;PortraitPlayActivity类中注册，&lt;br&gt;详细写回调事件，给&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 0, 0);&quot;&gt;CustomSeekBar类中注册了的listener调用&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1375" y="3480" as="geometry" />
+        <mxCell id="8Piq0owwNRApb2amCXzw-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(128, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;PortraitPlayActivity观察者&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1150" y="3520" as="geometry" />
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-16" edge="1" parent="1" source="8Piq0owwNRApb2amCXzw-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.012;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;" target="8Piq0owwNRApb2amCXzw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-17" connectable="0" parent="8Piq0owwNRApb2amCXzw-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="回调" vertex="1">
+          <mxGeometry relative="1" x="0.0512" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-10" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 98, 122); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(128, 0, 0); white-space: pre;&quot;&gt;onTouchEvent()中执行l&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 0, 0); white-space: pre;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;is&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(128, 0, 0); white-space: pre;&quot;&gt;tener.onXXXX()三个&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; style=&quot;color: light-dark(rgb(128, 0, 0), rgb(237, 237, 237));&quot;&gt;OnProgressChangeListener接口方法&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="1360" y="3660" as="geometry" />
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-11" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(128, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CustomSeekBar被观察者&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="1360" y="3520" as="geometry" />
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-15" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;color: light-dark(rgb(128, 0, 0), rgb(237, 237, 237)); font-size: 14px;&quot; face=&quot;Consolas, Courier New, monospace&quot;&gt;回调执行三个接口方法代码&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="1095" y="3730" as="geometry" />
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-18" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(128, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;提供&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;注册入口，主动触发&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="170" x="1360" y="3570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
