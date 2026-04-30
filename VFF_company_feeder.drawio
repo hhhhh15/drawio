@@ -1030,11 +1030,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-44" edge="1" parent="1" source="8Piq0owwNRApb2amCXzw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8Piq0owwNRApb2amCXzw-43" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1621" y="3710" />
+              <mxPoint x="1773" y="3710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-26" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;setProgress(&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Math&lt;/span&gt;.&lt;span style=&quot;font-style:italic;&quot;&gt;max&lt;/span&gt;(&lt;span style=&quot;color: rgb(23, 80, 235);&quot;&gt;0&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Math&lt;/span&gt;.&lt;span style=&quot;font-style:italic;&quot;&gt;min&lt;/span&gt;(&lt;span style=&quot;color: rgb(135, 16, 148);&quot;&gt;max&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;newProgress&lt;/span&gt;)));&lt;br&gt;progress变量被赋值&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1561.47" y="3630" as="geometry" />
         </mxCell>
-        <mxCell id="8Piq0owwNRApb2amCXzw-29" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#00627a;&quot;&gt;onProgressChanged&lt;/span&gt;(&lt;span style=&quot;color:#0033b3;&quot;&gt;float &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;progress&lt;/span&gt;)更新移动进度条UI&lt;br&gt;有progress值 &lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1561.47" y="3730" as="geometry" />
+        <mxCell id="8Piq0owwNRApb2amCXzw-29" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;onProgressChanged&lt;/span&gt;(&lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;float &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;progress&lt;/span&gt;)更新数值&lt;br&gt;有progress值 &lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1483.47" y="3730" as="geometry" />
         </mxCell>
         <mxCell id="8Piq0owwNRApb2amCXzw-34" edge="1" parent="1" source="8Piq0owwNRApb2amCXzw-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8Piq0owwNRApb2amCXzw-33" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1065,8 +1073,11 @@
         <mxCell id="8Piq0owwNRApb2amCXzw-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="1.进度条触发顺序" vertex="1">
           <mxGeometry height="70" width="70" x="1090" y="3340" as="geometry" />
         </mxCell>
-        <mxCell id="8Piq0owwNRApb2amCXzw-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="2.进度条初始赋值setprogress" vertex="1">
+        <mxCell id="8Piq0owwNRApb2amCXzw-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="2.进度条初始赋值和更新UI&lt;br&gt;setprogress" vertex="1">
           <mxGeometry height="80" width="80" x="1085" y="3660" as="geometry" />
+        </mxCell>
+        <mxCell id="8Piq0owwNRApb2amCXzw-43" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;invalidate()会调用onDraw重新绘制&lt;br&gt;更新移动进度条UI&lt;br&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1727.47" y="3730" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
