@@ -82,6 +82,9 @@
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="家庭列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;br&gt;家庭关联数据数量：&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/linkNum&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="270" x="600" y="390" as="geometry" />
         </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-41" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoZQJb4CXLbXvTT0J9eF-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-36" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;HomeDetailActivity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="940" y="400" as="geometry" />
         </mxCell>
@@ -90,6 +93,9 @@
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跳转的下一个页面" vertex="1">
           <mxGeometry height="30" width="100" x="940" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="家庭设备列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/list&lt;br&gt;成员列表：&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/familyMember/list&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="1110" y="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
