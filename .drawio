@@ -40,26 +40,38 @@
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-14" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoZQJb4CXLbXvTT0J9eF-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-27" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoZQJb4CXLbXvTT0J9eF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-12" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;MineFragment&lt;br&gt;(fragment_mine.xml)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="270" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-20" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoZQJb4CXLbXvTT0J9eF-17" value="">
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-23" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoZQJb4CXLbXvTT0J9eF-22" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-13" parent="1" style="whiteSpace=wrap;html=1;" value="UserInfoActivity&lt;br&gt;(activity_user_info.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-19" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="110" width="180" x="620" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-17" parent="hoZQJb4CXLbXvTT0J9eF-19" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;获取用户信息：/app/v1/user/info&lt;br&gt;获取oss上传token:/app/v1/common/aliOSSToken&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="180" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-18" parent="hoZQJb4CXLbXvTT0J9eF-19" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无事件列表" vertex="1">
-          <mxGeometry height="30" width="80" as="geometry" />
-        </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="调用的接口" vertex="1">
           <mxGeometry height="30" width="80" x="1070" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-25" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="310" x="590" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-22" parent="hoZQJb4CXLbXvTT0J9eF-25" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;获取用户信息：/app/v1/user/info&lt;br&gt;获取oss上传token:/app/v1/common/aliOSSToken&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="10" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-24" parent="hoZQJb4CXLbXvTT0J9eF-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无事件列表" vertex="1">
+          <mxGeometry height="30" width="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-26" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-28" parent="1" style="whiteSpace=wrap;html=1;" value="ChangeMobileActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="940" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.要一个检查多个表单是否有重复key&lt;div&gt;2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;要一个检查当前表单是否重复key&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="1195" y="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
