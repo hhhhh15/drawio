@@ -25,6 +25,15 @@
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-8" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;宋体&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;&quot;&gt;通用&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;WebView&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;&quot;&gt;容器，支持进度条、文件上传、&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;DeepLink&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;&quot;&gt;拦截等&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="750" y="100" as="geometry" />
         </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-9" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;HomeV2Activity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-10" parent="1" style="whiteSpace=wrap;html=1;" value="推送、锁区" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-11" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="750" y="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
