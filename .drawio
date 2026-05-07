@@ -7,7 +7,7 @@
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-1" parent="1" style="whiteSpace=wrap;html=1;" value="整理下项目整体结构" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="activity/fragment" vertex="1">
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="activity/fragment&lt;br&gt;xml&lt;br&gt;adpter" vertex="1">
           <mxGeometry height="30" width="60" x="290" y="40" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="用处" vertex="1">
@@ -56,7 +56,7 @@
           <mxGeometry height="30" width="80" x="1070" y="50" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-25" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="100" width="310" x="590" y="290" as="geometry" />
+          <mxGeometry height="100" width="310" x="580" y="280" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-22" parent="hoZQJb4CXLbXvTT0J9eF-25" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;获取用户信息：/app/v1/user/info&lt;br&gt;获取oss上传token:/app/v1/common/aliOSSToken&lt;/span&gt;&lt;/pre&gt;" vertex="1">
           <mxGeometry height="80" width="300" x="10" y="20" as="geometry" />
@@ -64,7 +64,10 @@
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-24" parent="hoZQJb4CXLbXvTT0J9eF-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无事件列表" vertex="1">
           <mxGeometry height="30" width="90" as="geometry" />
         </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-26" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-35" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoZQJb4CXLbXvTT0J9eF-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-26" parent="1" style="whiteSpace=wrap;html=1;" value="HomeListActivity&lt;br&gt;(activity_home_list.xml、&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;HomeListAdapter&lt;/span&gt;)" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="400" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-28" parent="1" style="whiteSpace=wrap;html=1;" value="ChangeMobileActivity" vertex="1">
@@ -72,6 +75,9 @@
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.要一个检查多个表单是否有重复key&lt;div&gt;2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;要一个检查当前表单是否重复key&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="210" x="1195" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="家庭列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;br&gt;家庭关联数据数量：&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/linkNum&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="270" x="600" y="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
