@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zn8EvlN72EoAIi1fGpZf">
-    <mxGraphModel dx="1008" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="840" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,6 +165,9 @@
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个协议的文字的翻译应该是网页做的事情，和客户端没关系" vertex="1">
           <mxGeometry height="40" width="260" x="1760" y="510" as="geometry" />
         </mxCell>
+        <mxCell id="OWvWV1q_J33pQ_N3ZO9R-4" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OWvWV1q_J33pQ_N3ZO9R-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-65" parent="1" style="whiteSpace=wrap;html=1;" value="订单详情&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;OrderDetailsActivity&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1460" y="600" as="geometry" />
         </mxCell>
@@ -173,6 +176,15 @@
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-66" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="订单列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devicesCloudStorage/listTrade&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="319" x="1110" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="OWvWV1q_J33pQ_N3ZO9R-1" parent="1" style="whiteSpace=wrap;html=1;" value="申请售后&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;ProblemAddActivity&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1980" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="OWvWV1q_J33pQ_N3ZO9R-5" edge="1" parent="1" source="OWvWV1q_J33pQ_N3ZO9R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OWvWV1q_J33pQ_N3ZO9R-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OWvWV1q_J33pQ_N3ZO9R-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="订单详情：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devicesCloudStorage/infoTrade&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="300" x="1640" y="595" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
