@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zn8EvlN72EoAIi1fGpZf">
-    <mxGraphModel dx="1225" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2052" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,6 +29,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-24" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-46" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-9" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;HomeV2Activity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
@@ -80,7 +83,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-26" parent="1" style="whiteSpace=wrap;html=1;" value="家庭共享HomeListActivity&lt;br&gt;(activity_home_list.xml、&lt;br&gt;item_home_list_view.xml&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;HomeListAdapter&lt;/span&gt;)" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="409" as="geometry" />
+          <mxGeometry height="60" width="120" x="430" y="431" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-28" parent="1" style="whiteSpace=wrap;html=1;" value="ChangeMobileActivity" vertex="1">
           <mxGeometry height="60" width="120" x="940" y="310" as="geometry" />
@@ -92,7 +95,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="家庭列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;br&gt;家庭关联数据数量：&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/linkNum&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="270" x="600" y="370" as="geometry" />
+          <mxGeometry height="80" width="270" x="600" y="421" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-41" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoZQJb4CXLbXvTT0J9eF-40" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -251,7 +254,7 @@
           <mxGeometry height="60" width="120" x="270" y="1010" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-25" parent="1" style="whiteSpace=wrap;html=1;" value="创建宠物档案&lt;div&gt;AddPetActivity&lt;br&gt;(activity_add_pet_msg.xml、&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetColorAdapter、&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetFertilityAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="980" as="geometry" />
+          <mxGeometry height="60" width="120" x="430" y="990" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-26" parent="1" style="whiteSpace=wrap;html=1;" value="添加宠物&lt;br&gt;AddPetMsgActivity&lt;div&gt;()&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="750" y="980" as="geometry" />
@@ -260,7 +263,7 @@
           <mxGeometry height="60" width="120" x="1037.5" y="1070" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/pet" vertex="1">
-          <mxGeometry height="30" width="60" x="270" y="980" as="geometry" />
+          <mxGeometry height="30" width="60" x="430" y="960" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-31" parent="1" style="whiteSpace=wrap;html=1;" value="今日数据&lt;br&gt;PetMessageDetailsActivity&lt;br&gt;(activity_pet_message_details.xml、&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetToiletRecordAdapter、&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetWeightDateAdapter&lt;/span&gt;)" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="1130" as="geometry" />
@@ -291,6 +294,60 @@
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-38" parent="1" style="whiteSpace=wrap;html=1;" value="搜索宠物品种&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetVarietySearchListActivity&lt;br&gt;（activity_pet_variety_search_list.xml）&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1230" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-39" parent="1" style="whiteSpace=wrap;html=1;" value="首页&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;HomeV2Fragment&lt;br&gt;（&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;HomeDeviceAdapter&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt;&quot;&gt;）&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/pet" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/cloudStorage" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="537.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/cloudStorage" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="736.75" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/pet下面有这两个类有key，但是类没有被应用，记得扫描的时候排除&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;PetWeightMonthAdapter、PetWeightWeekAdapter&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home里面不用扫描文件，单独扫描三个fragment就行&lt;br&gt;别扫：homefragment&lt;br&gt;再多扫：v2/homev2fragment&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="10" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/mine" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-55" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="120" x="90" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-52" parent="DepZzHSQRUFMjUhRv91k-55" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;LoginActivity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-53" parent="DepZzHSQRUFMjUhRv91k-55" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/login" vertex="1">
+          <mxGeometry height="30" width="60" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-56" parent="1" style="whiteSpace=wrap;html=1;" value="地区选择&lt;br&gt;CountryListActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-57" parent="1" style="whiteSpace=wrap;html=1;" value="验证码&lt;br&gt;LoginByCodeActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-58" parent="1" style="whiteSpace=wrap;html=1;" value="密码登录&lt;br&gt;LoginByPwdActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/login中的RegisterSuccessActivity的xml是空白的，不知道是哪个页面&lt;br&gt;还有三个forgetactivity用在view/mine/个人中心里面" vertex="1">
+          <mxGeometry height="30" width="60" x="-120" y="1500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
