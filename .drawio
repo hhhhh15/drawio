@@ -49,6 +49,9 @@
         <mxCell id="DepZzHSQRUFMjUhRv91k-11" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-19" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-12" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;我的&lt;br&gt;MineFragment&lt;br&gt;(fragment_mine.xml)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="270" y="360" as="geometry" />
         </mxCell>
@@ -188,11 +191,10 @@
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-66" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="订单列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devicesCloudStorage/listTrade&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="319" x="1110" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="OWvWV1q_J33pQ_N3ZO9R-1" parent="1" style="whiteSpace=wrap;html=1;" value="申请售后&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;ProblemAddActivity&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1960" y="600" as="geometry" />
-        </mxCell>
-        <mxCell id="OWvWV1q_J33pQ_N3ZO9R-5" edge="1" parent="1" source="OWvWV1q_J33pQ_N3ZO9R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OWvWV1q_J33pQ_N3ZO9R-1" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OWvWV1q_J33pQ_N3ZO9R-5" edge="1" parent="1" source="OWvWV1q_J33pQ_N3ZO9R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1960" y="630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OWvWV1q_J33pQ_N3ZO9R-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="订单详情：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devicesCloudStorage/infoTrade&lt;/span&gt;" vertex="1">
           <mxGeometry height="55" width="310" x="1630" y="602.5" as="geometry" />
@@ -231,7 +233,10 @@
           <mxGeometry height="60" width="120" x="1000" y="690" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="系统相关信息：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/system/APP（大多用于返回url给webview用&lt;/span&gt;" vertex="1">
-          <mxGeometry height="49" width="285" x="1157.5" y="690" as="geometry" />
+          <mxGeometry height="49" width="285" x="1157.5" y="695.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-18" parent="1" style="whiteSpace=wrap;html=1;" value="投诉建议、申请售后&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;ProblemAddActivity&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="800" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
