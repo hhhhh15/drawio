@@ -28,6 +28,9 @@
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-15" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoZQJb4CXLbXvTT0J9eF-12" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-24" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-9" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;HomeV2Activity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="110" y="360" as="geometry" />
         </mxCell>
@@ -243,6 +246,9 @@
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-20" parent="1" style="whiteSpace=wrap;html=1;" value="是一个webview容器，当未开通服务时&lt;br&gt;(activity_service_web_view.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="940" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-22" parent="1" style="whiteSpace=wrap;html=1;" value="宠物&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="1010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
