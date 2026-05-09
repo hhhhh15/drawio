@@ -346,7 +346,7 @@
         <mxCell id="DepZzHSQRUFMjUhRv91k-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
           <mxGeometry height="30" width="60" x="290" y="1540" as="geometry" />
         </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/login中的RegisterSuccessActivity的xml是空白的，不知道是哪个页面&lt;br&gt;还有三个forgetactivity用在view/mine/个人中心里面" vertex="1">
+        <mxCell id="DepZzHSQRUFMjUhRv91k-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/login中的RegisterSuccessActivity的xml是空白的，不知道是哪个页面&lt;br&gt;还有三个forgetactivity用在view/mine/个人中心里面&lt;br&gt;该文件梳理完" vertex="1">
           <mxGeometry height="30" width="60" x="-120" y="1500" as="geometry" />
         </mxCell>
       </root>
