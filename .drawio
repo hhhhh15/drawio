@@ -154,6 +154,15 @@
         <mxCell id="DepZzHSQRUFMjUhRv91k-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/login中的RegisterSuccessActivity的xml是空白的，不知道是哪个页面&lt;br&gt;还有三个forgetactivity用在view/mine/个人中心里面&lt;br&gt;该文件梳理完" vertex="1">
           <mxGeometry height="30" width="60" x="-70" y="1880" as="geometry" />
         </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="120" x="150" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-39" parent="o6mp3kI1teLwhX3pSlDj-9" style="whiteSpace=wrap;html=1;" value="首页&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;HomeV2Fragment&lt;br&gt;（&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;HomeDeviceAdapter&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt;&quot;&gt;）&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-40" parent="o6mp3kI1teLwhX3pSlDj-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home" vertex="1">
+          <mxGeometry height="30" width="60" x="30" as="geometry" />
+        </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-10" parent="1" style="whiteSpace=wrap;html=1;" value="已扫描view/cloudStorage&lt;div&gt;view/pet&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;view/login&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;view/home&lt;br&gt;&lt;/span&gt;view/mine&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="180" width="200" x="-450" y="400" as="geometry" />
         </mxCell>
@@ -569,20 +578,8 @@
         <mxCell id="o6mp3kI1teLwhX3pSlDj-140" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o6mp3kI1teLwhX3pSlDj-130">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-145" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="170" width="292" x="58" y="1540" as="geometry" />
-        </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-9" connectable="0" parent="o6mp3kI1teLwhX3pSlDj-145" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="150" y="1540" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-39" parent="o6mp3kI1teLwhX3pSlDj-9" style="whiteSpace=wrap;html=1;" value="首页&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;HomeV2Fragment&lt;br&gt;（&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;HomeDeviceAdapter&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt;&quot;&gt;）&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-40" parent="o6mp3kI1teLwhX3pSlDj-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home" vertex="1">
-          <mxGeometry height="30" width="60" x="30" as="geometry" />
-        </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-144" parent="o6mp3kI1teLwhX3pSlDj-145" style="ellipse;whiteSpace=wrap;html=1;" value="家庭列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;/span&gt;&lt;br&gt;房间列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/familyRoom/list&lt;/span&gt;&lt;br&gt;选择家庭：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/change&lt;/span&gt;&lt;br&gt;家庭设备列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/list&lt;/span&gt;&lt;br&gt;首页轮播广告：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/v1/ads/banner&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="292" y="90" as="geometry" />
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-144" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="家庭列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;/span&gt;&lt;br&gt;房间列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/familyRoom/list&lt;/span&gt;&lt;br&gt;选择家庭：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/change&lt;/span&gt;&lt;br&gt;家庭设备列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/list&lt;/span&gt;&lt;br&gt;首页轮播广告：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/v1/ads/banner&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="292" x="58" y="1630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
