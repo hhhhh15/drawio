@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zn8EvlN72EoAIi1fGpZf">
-    <mxGraphModel dx="2052" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2011" dy="1826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,7 +256,7 @@
         <mxCell id="DepZzHSQRUFMjUhRv91k-25" parent="1" style="whiteSpace=wrap;html=1;" value="创建宠物档案&lt;div&gt;AddPetActivity&lt;br&gt;(activity_add_pet_msg.xml、&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetColorAdapter、&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetFertilityAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="990" as="geometry" />
         </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-26" parent="1" style="whiteSpace=wrap;html=1;" value="添加宠物&lt;br&gt;AddPetMsgActivity&lt;div&gt;()&lt;/div&gt;" vertex="1">
+        <mxCell id="DepZzHSQRUFMjUhRv91k-26" parent="1" style="whiteSpace=wrap;html=1;" value="添加宠物&lt;br&gt;AddPetMsgActivity&lt;div&gt;(activity_add_pet_msg.xml)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="750" y="980" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-27" parent="1" style="whiteSpace=wrap;html=1;" value="选择宠物品种&lt;br&gt;PetVarietyListActivity&lt;br&gt;(activity_pet_variety_list.xml、&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetPopularVarietyAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
@@ -348,6 +348,9 @@
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/login中的RegisterSuccessActivity的xml是空白的，不知道是哪个页面&lt;br&gt;还有三个forgetactivity用在view/mine/个人中心里面&lt;br&gt;该文件梳理完" vertex="1">
           <mxGeometry height="30" width="60" x="-120" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个ossApi到底是干啥的啊？？" vertex="1">
+          <mxGeometry height="30" width="180" x="710" y="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
