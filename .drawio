@@ -79,17 +79,11 @@
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-24" parent="hoZQJb4CXLbXvTT0J9eF-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无事件列表" vertex="1">
           <mxGeometry height="18" width="89.99999999999999" as="geometry" />
         </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-1" parent="hoZQJb4CXLbXvTT0J9eF-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个ossApi到底是干啥的啊？？" vertex="1">
-          <mxGeometry height="30" width="180" x="220" y="-6" as="geometry" />
-        </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-28" parent="1" style="whiteSpace=wrap;html=1;" value="修改密码&lt;br&gt;ChangePwdActivity&lt;br&gt;（activity_change_mobile.xml）" vertex="1">
-          <mxGeometry height="60" width="120" x="952.5" y="-240" as="geometry" />
+          <mxGeometry height="60" width="120" x="782.5" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.要一个检查多个表单是否有重复key&lt;div&gt;2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;要一个检查当前表单是否重复key&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="210" x="1182.5" y="-660" as="geometry" />
-        </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跳转的下一个页面" vertex="1">
-          <mxGeometry height="30" width="100" x="952.5" y="-400" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个协议的文字的翻译应该是网页做的事情，和客户端没关系" vertex="1">
           <mxGeometry height="40" width="260" x="1370" y="441" as="geometry" />
@@ -281,13 +275,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-38" parent="1" style="whiteSpace=wrap;html=1;" value="更改邮箱&lt;br&gt;ChangeMobileActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="952.5" y="-340" as="geometry" />
+          <mxGeometry height="60" width="120" x="782.5" y="-260" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-39" parent="1" style="whiteSpace=wrap;html=1;" value="注销账号&lt;br&gt;LogOffActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="952.5" y="-162.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="782.5" y="-82.5" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="消息中心" vertex="1">
-          <mxGeometry height="30" width="60" x="162.5" y="-250" as="geometry" />
+          <mxGeometry height="30" width="60" x="140" y="-420" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-49" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="90" width="120" x="432.5" y="-640" as="geometry" />
@@ -502,6 +496,9 @@
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-107" parent="o6mp3kI1teLwhX3pSlDj-109" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
           <mxGeometry height="30" width="60" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个ossApi到底是干啥的啊？？" vertex="1">
+          <mxGeometry height="30" width="180" x="170" y="-146" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
