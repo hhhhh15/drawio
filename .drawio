@@ -31,6 +31,9 @@
         <mxCell id="o6mp3kI1teLwhX3pSlDj-73" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-75" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-9" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;HomeV2Activity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-130" y="420" as="geometry" />
         </mxCell>
@@ -266,13 +269,13 @@
           <mxGeometry height="30" width="60" x="170" y="327.5" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/pet下面有这两个类有key，但是类没有被应用，记得扫描的时候排除&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;PetWeightMonthAdapter、PetWeightWeekAdapter、&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;CustomCameraActivityTest&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="-230" y="1020" as="geometry" />
+          <mxGeometry height="30" width="60" x="-110" y="1119.25" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home要单独把这几个fragment扫描到对应的sheet&lt;br&gt;再多扫：v2/homev2fragment&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-300" y="1270" as="geometry" />
+          <mxGeometry height="60" width="190" x="-200" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-55" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="80" y="1660" as="geometry" />
+          <mxGeometry height="90" width="120" x="150" y="1660" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-52" parent="DepZzHSQRUFMjUhRv91k-55" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;LoginActivity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -281,25 +284,25 @@
           <mxGeometry height="30" width="60" x="20" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-56" parent="1" style="whiteSpace=wrap;html=1;" value="地区选择&lt;br&gt;CountryListActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="260" y="1770" as="geometry" />
+          <mxGeometry height="60" width="120" x="330" y="1770" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-57" parent="1" style="whiteSpace=wrap;html=1;" value="验证码&lt;br&gt;LoginByCodeActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="260" y="1660" as="geometry" />
+          <mxGeometry height="60" width="120" x="330" y="1660" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-58" parent="1" style="whiteSpace=wrap;html=1;" value="密码登录&lt;br&gt;LoginByPwdActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="260" y="1860" as="geometry" />
+          <mxGeometry height="60" width="120" x="330" y="1860" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
-          <mxGeometry height="30" width="60" x="280" y="1740" as="geometry" />
+          <mxGeometry height="30" width="60" x="350" y="1740" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/login中的RegisterSuccessActivity的xml是空白的，不知道是哪个页面&lt;br&gt;还有三个forgetactivity用在view/mine/个人中心里面&lt;br&gt;该文件梳理完" vertex="1">
-          <mxGeometry height="30" width="60" x="-235" y="1510" as="geometry" />
+          <mxGeometry height="30" width="60" x="-80" y="1700" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个ossApi到底是干啥的啊？？" vertex="1">
           <mxGeometry height="30" width="180" x="710" y="250" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-9" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="190" y="1340" as="geometry" />
+          <mxGeometry height="90" width="120" x="150" y="1410" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-39" parent="o6mp3kI1teLwhX3pSlDj-9" style="whiteSpace=wrap;html=1;" value="首页&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;HomeV2Fragment&lt;br&gt;（&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;HomeDeviceAdapter&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt;&quot;&gt;）&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
