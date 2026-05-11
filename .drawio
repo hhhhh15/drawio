@@ -250,53 +250,20 @@
         <mxCell id="DepZzHSQRUFMjUhRv91k-20" parent="1" style="whiteSpace=wrap;html=1;" value="是一个webview容器，当未开通服务时&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;ServiceWebViewActivity&lt;/span&gt;&lt;br&gt;(activity_service_web_view.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="940" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-22" parent="1" style="whiteSpace=wrap;html=1;" value="宠物&lt;span style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetFragment&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;（fragment_pet.xml）&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="270" y="1010" as="geometry" />
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-15" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-25" parent="1" style="whiteSpace=wrap;html=1;" value="创建宠物档案&lt;div&gt;AddPetActivity&lt;br&gt;(activity_add_pet_msg.xml、&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetColorAdapter、&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetFertilityAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="990" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-26" parent="1" style="whiteSpace=wrap;html=1;" value="添加宠物&lt;br&gt;AddPetMsgActivity&lt;div&gt;(activity_add_pet_msg.xml)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="750" y="970" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-27" parent="1" style="whiteSpace=wrap;html=1;" value="选择宠物品种&lt;br&gt;PetVarietyListActivity&lt;br&gt;(activity_pet_variety_list.xml、&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetPopularVarietyAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1037.5" y="1070" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/pet" vertex="1">
-          <mxGeometry height="30" width="60" x="430" y="960" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-31" parent="1" style="whiteSpace=wrap;html=1;" value="今日数据&lt;br&gt;PetMessageDetailsActivity&lt;br&gt;(activity_pet_message_details.xml、&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetToiletRecordAdapter、&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetWeightDateAdapter&lt;/span&gt;)" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="1130" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-32" parent="1" style="whiteSpace=wrap;html=1;" value="编辑档案&lt;br&gt;EditPetMsgActivity&lt;br&gt;(activity_edit_pet_msg.xml、&lt;br&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetFertilityAdapter&lt;/span&gt;)" vertex="1">
-          <mxGeometry height="60" width="120" x="750" y="1130" as="geometry" />
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-16" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-33" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="1037.5" y="910" as="geometry" />
+          <mxGeometry height="90" width="120" x="1210" y="990" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-28" parent="DepZzHSQRUFMjUhRv91k-33" style="whiteSpace=wrap;html=1;" value="喵咪正脸&lt;br&gt;FrontalPhotoActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-29" parent="DepZzHSQRUFMjUhRv91k-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/pet/activity" vertex="1">
           <mxGeometry height="30" width="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-34" parent="1" style="whiteSpace=wrap;html=1;" value="添加猫脸&lt;br&gt;CustomCameraActivity&lt;br&gt;(activity_custom_camera.xml)" vertex="1">
-          <mxGeometry height="60" width="120" x="1220" y="871.25" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-35" parent="1" style="whiteSpace=wrap;html=1;" value="修改猫咪图片&lt;br&gt;EditCatFaceActivity&lt;br&gt;(activity_edit_cata_face.xml)" vertex="1">
-          <mxGeometry height="60" width="120" x="1220" y="961.25" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-36" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;获取&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;oss&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;上传&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;token:&lt;/span&gt;/app/v1/common/aliOSSToken&lt;br&gt;宠物详情：&lt;/span&gt;/app/v1/petInfo/info&lt;br&gt;家庭列表：/app/v1/family/list&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="305" x="695" y="1200" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="宠物品种列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petVariety/list&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="240" x="1000" y="1130" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-38" parent="1" style="whiteSpace=wrap;html=1;" value="搜索宠物品种&lt;br&gt;PetVarietySearchListActivity&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;（activity_pet_variety_search_list.xml）&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1230" y="1070" as="geometry" />
-        </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/pet" vertex="1">
-          <mxGeometry height="30" width="60" x="430" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/cloudStorage" vertex="1">
           <mxGeometry height="30" width="60" x="460" y="537.5" as="geometry" />
@@ -307,11 +274,8 @@
         <mxCell id="DepZzHSQRUFMjUhRv91k-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home" vertex="1">
           <mxGeometry height="30" width="60" x="300" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home" vertex="1">
-          <mxGeometry height="30" width="60" x="300" y="980" as="geometry" />
-        </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/pet下面有这两个类有key，但是类没有被应用，记得扫描的时候排除&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;PetWeightMonthAdapter、PetWeightWeekAdapter、&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;CustomCameraActivityTest&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="110" y="1000" as="geometry" />
+          <mxGeometry height="30" width="60" y="1020" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home要单独把这几个fragment扫描到对应的sheet&lt;br&gt;再多扫：v2/homev2fragment&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="190" x="10" y="1280" as="geometry" />
@@ -320,7 +284,7 @@
           <mxGeometry height="30" width="60" x="470" y="290" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-55" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="90" y="1460" as="geometry" />
+          <mxGeometry height="90" width="120" x="90" y="1570" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-52" parent="DepZzHSQRUFMjUhRv91k-55" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;LoginActivity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -329,16 +293,16 @@
           <mxGeometry height="30" width="60" x="20" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-56" parent="1" style="whiteSpace=wrap;html=1;" value="地区选择&lt;br&gt;CountryListActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="270" y="1570" as="geometry" />
+          <mxGeometry height="60" width="120" x="270" y="1680" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-57" parent="1" style="whiteSpace=wrap;html=1;" value="验证码&lt;br&gt;LoginByCodeActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="270" y="1460" as="geometry" />
+          <mxGeometry height="60" width="120" x="270" y="1570" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-58" parent="1" style="whiteSpace=wrap;html=1;" value="密码登录&lt;br&gt;LoginByPwdActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="270" y="1660" as="geometry" />
+          <mxGeometry height="60" width="120" x="270" y="1770" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
-          <mxGeometry height="30" width="60" x="290" y="1540" as="geometry" />
+          <mxGeometry height="30" width="60" x="290" y="1650" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/login中的RegisterSuccessActivity的xml是空白的，不知道是哪个页面&lt;br&gt;还有三个forgetactivity用在view/mine/个人中心里面&lt;br&gt;该文件梳理完" vertex="1">
           <mxGeometry height="30" width="60" x="-120" y="1500" as="geometry" />
@@ -346,23 +310,8 @@
         <mxCell id="o6mp3kI1teLwhX3pSlDj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个ossApi到底是干啥的啊？？" vertex="1">
           <mxGeometry height="30" width="180" x="710" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="获取oss上传token：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/common/aliOSSToken&lt;/span&gt;&lt;br&gt;家庭列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;/span&gt;" vertex="1">
-          <mxGeometry height="50" width="290" x="695" y="1030" as="geometry" />
-        </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="获取oss上传token：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/common/aliOSSToken&lt;/span&gt;" vertex="1">
-          <mxGeometry height="48.75" width="280" x="1380" y="861.25" as="geometry" />
-        </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="获取oss上传token：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/common/aliOSSToken&lt;/span&gt;" vertex="1">
-          <mxGeometry height="48.75" width="280" x="1380" y="966.88" as="geometry" />
-        </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="宠物详情&amp;nbsp; ：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petInfo/info&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;如厕(次数、时长：&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petToiletData/doData&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;体重数据&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: 宋体, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;（按日）&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;：&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/dateList&lt;/span&gt;&lt;/div&gt;&lt;div&gt;体重数据(按周)：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/weekList&lt;br&gt;&lt;/span&gt;体重数据(按月)：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/monthList&lt;br&gt;&lt;/span&gt;体重数据(添加)：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/add&lt;br&gt;&lt;/span&gt;体重明细列表(近7天)：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/list&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="350" x="350" y="1200" as="geometry" />
-        </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="宠物品种列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petVariety/list&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="240" x="1270" y="1129" as="geometry" />
-        </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-9" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="270" y="1330" as="geometry" />
+          <mxGeometry height="90" width="120" x="270" y="1410" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-39" parent="o6mp3kI1teLwhX3pSlDj-9" style="whiteSpace=wrap;html=1;" value="首页&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;HomeV2Fragment&lt;br&gt;（&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;HomeDeviceAdapter&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt;&quot;&gt;）&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -379,8 +328,110 @@
         <mxCell id="o6mp3kI1teLwhX3pSlDj-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/homeshare" vertex="1">
           <mxGeometry height="30" width="60" x="460" y="401" as="geometry" />
         </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="宠物列表选择家庭：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petInfo/list&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;体重数据：&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/doData&lt;br&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;如厕(次数、时长：&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petToiletData/doData&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;家庭列表：&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;选择家庭：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/change&lt;/span&gt;" vertex="1">
-          <mxGeometry height="100" width="320" x="70" y="1070" as="geometry" />
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-18" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="120" width="305" x="810" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-32" parent="o6mp3kI1teLwhX3pSlDj-18" style="whiteSpace=wrap;html=1;" value="编辑档案&lt;br&gt;EditPetMsgActivity&lt;br&gt;(activity_edit_pet_msg.xml、&lt;br&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetFertilityAdapter&lt;/span&gt;)" vertex="1">
+          <mxGeometry height="60" width="120" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-36" parent="o6mp3kI1teLwhX3pSlDj-18" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;获取&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;oss&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;上传&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); white-space: normal; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;token:&lt;/span&gt;/app/v1/common/aliOSSToken&lt;br&gt;宠物详情：&lt;/span&gt;/app/v1/petInfo/info&lt;br&gt;家庭列表：/app/v1/family/list&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="305" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-19" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="191.25" width="320" x="170" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-22" parent="o6mp3kI1teLwhX3pSlDj-19" style="whiteSpace=wrap;html=1;" value="宠物&lt;span style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetFragment&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;（fragment_pet.xml）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-45" parent="o6mp3kI1teLwhX3pSlDj-19" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home" vertex="1">
+          <mxGeometry height="30" width="60" x="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-14" parent="o6mp3kI1teLwhX3pSlDj-19" style="ellipse;whiteSpace=wrap;html=1;" value="宠物详情&amp;nbsp; ：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petInfo/info&lt;/span&gt;&lt;br&gt;宠物列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petInfo/list&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;体重数据：&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/doData&lt;br&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;如厕(次数、时长：&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petToiletData/doData&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;家庭列表：&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;选择家庭：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/change&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="320" y="91.25" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-21" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="125" x="555" y="1025.63" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-25" parent="o6mp3kI1teLwhX3pSlDj-21" style="whiteSpace=wrap;html=1;" value="创建宠物档案&lt;div&gt;AddPetActivity&lt;br&gt;(activity_add_pet_msg.xml、&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetColorAdapter、&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetFertilityAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="5" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-30" parent="o6mp3kI1teLwhX3pSlDj-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/pet" vertex="1">
+          <mxGeometry height="30" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-22" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="290" x="817.5" y="1036.25" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-26" parent="o6mp3kI1teLwhX3pSlDj-22" style="whiteSpace=wrap;html=1;" value="添加宠物&lt;br&gt;AddPetMsgActivity&lt;div&gt;(activity_add_pet_msg.xml)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-2" parent="o6mp3kI1teLwhX3pSlDj-22" style="ellipse;whiteSpace=wrap;html=1;" value="获取oss上传token：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/common/aliOSSToken&lt;/span&gt;&lt;br&gt;家庭列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="290" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-25" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="240" x="1165" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-27" parent="o6mp3kI1teLwhX3pSlDj-25" style="whiteSpace=wrap;html=1;" value="选择宠物品种&lt;br&gt;PetVarietyListActivity&lt;br&gt;(activity_pet_variety_list.xml、&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetPopularVarietyAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-37" parent="o6mp3kI1teLwhX3pSlDj-25" style="ellipse;whiteSpace=wrap;html=1;" value="宠物品种列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petVariety/list&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-27" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-28" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="99" width="240" x="1414.5" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-38" parent="o6mp3kI1teLwhX3pSlDj-28" style="whiteSpace=wrap;html=1;" value="搜索宠物品种&lt;br&gt;PetVarietySearchListActivity&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;（activity_pet_variety_search_list.xml）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-6" parent="o6mp3kI1teLwhX3pSlDj-28" style="ellipse;whiteSpace=wrap;html=1;" value="宠物品种列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petVariety/list&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="240" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-29" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-30" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="220" width="350" x="460" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-5" parent="o6mp3kI1teLwhX3pSlDj-30" style="ellipse;whiteSpace=wrap;html=1;" value="宠物详情&amp;nbsp; ：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petInfo/info&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;如厕(次数、时长：&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petToiletData/doData&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;体重数据&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: 宋体, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;（按日）&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;：&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/dateList&lt;/span&gt;&lt;/div&gt;&lt;div&gt;体重数据(按周)：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/weekList&lt;br&gt;&lt;/span&gt;体重数据(按月)：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/monthList&lt;br&gt;&lt;/span&gt;体重数据(添加)：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/add&lt;br&gt;&lt;/span&gt;体重明细列表(近7天)：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/petWeight/list&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="350" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-31" parent="o6mp3kI1teLwhX3pSlDj-30" style="whiteSpace=wrap;html=1;" value="今日数据&lt;br&gt;PetMessageDetailsActivity&lt;br&gt;(activity_pet_message_details.xml、&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetToiletRecordAdapter、&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetWeightDateAdapter&lt;/span&gt;)" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-41" parent="o6mp3kI1teLwhX3pSlDj-30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/pet" vertex="1">
+          <mxGeometry height="30" width="60" x="95" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-31" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-33" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-34" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="108.75" width="280" x="1405" y="1036.25" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-35" parent="o6mp3kI1teLwhX3pSlDj-34" style="whiteSpace=wrap;html=1;" value="修改猫咪图片&lt;br&gt;EditCatFaceActivity&lt;br&gt;(activity_edit_cata_face.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-4" parent="o6mp3kI1teLwhX3pSlDj-34" style="ellipse;whiteSpace=wrap;html=1;" value="获取oss上传token：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/common/aliOSSToken&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48.75" width="280" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-35" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="105.5" width="280" x="1405" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="DepZzHSQRUFMjUhRv91k-34" parent="o6mp3kI1teLwhX3pSlDj-35" style="whiteSpace=wrap;html=1;" value="添加猫脸&lt;br&gt;CustomCameraActivity&lt;br&gt;(activity_custom_camera.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-3" parent="o6mp3kI1teLwhX3pSlDj-35" style="ellipse;whiteSpace=wrap;html=1;" value="获取oss上传token：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/common/aliOSSToken&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48.75" width="280" y="56.75" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-36" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DepZzHSQRUFMjUhRv91k-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-37" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DepZzHSQRUFMjUhRv91k-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
