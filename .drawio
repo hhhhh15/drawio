@@ -1,29 +1,29 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zn8EvlN72EoAIi1fGpZf">
-    <mxGraphModel dx="2307" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2307" dy="3160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-1" parent="1" style="whiteSpace=wrap;html=1;" value="整理下项目整体结构" vertex="1">
-          <mxGeometry height="60" width="120" x="80" y="-990" as="geometry" />
+          <mxGeometry height="60" width="120" x="80" y="-1300" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="activity/fragment&lt;br&gt;xml&lt;br&gt;adpter" vertex="1">
-          <mxGeometry height="30" width="60" x="290" y="-1050" as="geometry" />
+          <mxGeometry height="30" width="60" x="290" y="-1360" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="用处" vertex="1">
-          <mxGeometry height="30" width="60" x="790" y="-1050" as="geometry" />
+          <mxGeometry height="30" width="60" x="790" y="-1360" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="不懂的技术点" vertex="1">
-          <mxGeometry height="30" width="100" x="500" y="-1050" as="geometry" />
+          <mxGeometry height="30" width="100" x="500" y="-1360" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-5" parent="1" style="whiteSpace=wrap;html=1;" value="FAQ页面" vertex="1">
-          <mxGeometry height="60" width="120" x="500" y="-990" as="geometry" />
+          <mxGeometry height="60" width="120" x="500" y="-1300" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-7" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;HMCommonWebViewActivity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="270" y="-990" as="geometry" />
+          <mxGeometry height="60" width="120" x="270" y="-1300" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-8" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;宋体&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;&quot;&gt;通用&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;WebView&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;&quot;&gt;容器，支持进度条、文件上传、&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;DeepLink&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;&quot;&gt;拦截等&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="750" y="-990" as="geometry" />
+          <mxGeometry height="60" width="120" x="750" y="-1300" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-72" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoZQJb4CXLbXvTT0J9eF-12" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -38,10 +38,10 @@
           <mxGeometry height="60" width="120" x="-130" y="420" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-10" parent="1" style="whiteSpace=wrap;html=1;" value="推送、锁区" vertex="1">
-          <mxGeometry height="60" width="120" x="500" y="-890" as="geometry" />
+          <mxGeometry height="60" width="120" x="500" y="-1200" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-11" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="750" y="-880" as="geometry" />
+          <mxGeometry height="60" width="120" x="750" y="-1190" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-14" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoZQJb4CXLbXvTT0J9eF-13">
           <mxGeometry relative="1" as="geometry" />
@@ -68,19 +68,19 @@
           <mxGeometry height="60" width="120" x="147.5" y="357.5" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="调用的接口" vertex="1">
-          <mxGeometry height="30" width="80" x="1070" y="-1040" as="geometry" />
+          <mxGeometry height="30" width="80" x="1070" y="-1350" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-25" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="60" width="400" x="342.5" y="-140" as="geometry" />
+          <mxGeometry height="60" width="400" x="342.5" y="-450" as="geometry" />
         </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-22" parent="hoZQJb4CXLbXvTT0J9eF-25" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;获取用户信息：/app/v1/user/info&lt;br&gt;获取oss上传token:/app/v1/common/aliOSSToken&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-120" connectable="0" parent="hoZQJb4CXLbXvTT0J9eF-25" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="275" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-22" parent="o6mp3kI1teLwhX3pSlDj-120" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;获取用户信息：/app/v1/user/info&lt;br&gt;获取oss上传token:/app/v1/common/aliOSSToken&lt;/span&gt;&lt;/pre&gt;" vertex="1">
           <mxGeometry height="48" width="240" x="35" y="12" as="geometry" />
         </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-24" parent="hoZQJb4CXLbXvTT0J9eF-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无事件列表" vertex="1">
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-24" parent="o6mp3kI1teLwhX3pSlDj-120" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无事件列表" vertex="1">
           <mxGeometry height="18" width="89.99999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-28" parent="1" style="whiteSpace=wrap;html=1;" value="修改密码&lt;br&gt;ChangePwdActivity&lt;br&gt;（activity_change_mobile.xml）" vertex="1">
-          <mxGeometry height="60" width="120" x="782.5" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.要一个检查多个表单是否有重复key&lt;div&gt;2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;要一个检查当前表单是否重复key&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="210" x="1182.5" y="-660" as="geometry" />
@@ -274,17 +274,11 @@
         <mxCell id="o6mp3kI1teLwhX3pSlDj-37" edge="1" parent="1" source="DepZzHSQRUFMjUhRv91k-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DepZzHSQRUFMjUhRv91k-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-38" parent="1" style="whiteSpace=wrap;html=1;" value="更改邮箱&lt;br&gt;ChangeMobileActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="782.5" y="-260" as="geometry" />
-        </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-39" parent="1" style="whiteSpace=wrap;html=1;" value="注销账号&lt;br&gt;LogOffActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="782.5" y="-82.5" as="geometry" />
-        </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="消息中心" vertex="1">
-          <mxGeometry height="30" width="60" x="140" y="-420" as="geometry" />
+          <mxGeometry height="30" width="60" x="140" y="-730" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-49" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="432.5" y="-640" as="geometry" />
+          <mxGeometry height="90" width="120" x="432.5" y="-950" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-45" parent="o6mp3kI1teLwhX3pSlDj-49" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更多设置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;MoreSetActivity&lt;br&gt;(activity_more_set.xml)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -292,20 +286,17 @@
         <mxCell id="o6mp3kI1teLwhX3pSlDj-46" parent="o6mp3kI1teLwhX3pSlDj-49" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/mine" vertex="1">
           <mxGeometry height="30" width="60" x="5" as="geometry" />
         </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-50" parent="1" style="whiteSpace=wrap;html=1;" value="语言设置&lt;br&gt;LanguageSetActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="662.5" y="-650" as="geometry" />
-        </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="系统相关信息：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/system/APP（大多用于返回url给webview用&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="225" x="382.5" y="-720" as="geometry" />
+          <mxGeometry height="40" width="225" x="382.5" y="-1030" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-40" parent="1" style="whiteSpace=wrap;html=1;container=0;" value="关于霍曼&lt;br&gt;AboutUsActivity&lt;br&gt;（activity_about_us.xml）" vertex="1">
-          <mxGeometry height="60" width="120" x="432.5" y="-780" as="geometry" />
+          <mxGeometry height="60" width="120" x="432.5" y="-1090" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="view/mine" vertex="1">
-          <mxGeometry height="30" width="60" x="432.5" y="-810" as="geometry" />
+          <mxGeometry height="30" width="60" x="432.5" y="-1120" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-57" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="100" width="260" x="600" y="-565" as="geometry" />
+          <mxGeometry height="100" width="260" x="600" y="-875" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-52" parent="o6mp3kI1teLwhX3pSlDj-57" style="whiteSpace=wrap;html=1;" value="单位设置&lt;br&gt;UnitActivity&lt;br&gt;(activity_unit.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="62.5" as="geometry" />
@@ -314,7 +305,7 @@
           <mxGeometry height="40" width="260" y="60" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-62" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="100" width="272" x="600" y="-455" as="geometry" />
+          <mxGeometry height="100" width="272" x="600" y="-765" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-58" parent="o6mp3kI1teLwhX3pSlDj-62" style="whiteSpace=wrap;html=1;" value="消息设置&lt;br&gt;MessageSetActivity&lt;br&gt;（activity_message_set.xml）" vertex="1">
           <mxGeometry height="60" width="120" x="62.5" as="geometry" />
@@ -323,7 +314,7 @@
           <mxGeometry height="40" width="272" y="60" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-63" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="432.5" y="-220" as="geometry" />
+          <mxGeometry height="90" width="120" x="432.5" y="-430" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-13" parent="o6mp3kI1teLwhX3pSlDj-63" style="whiteSpace=wrap;html=1;" value="个人中心UserInfoActivity&lt;br&gt;(activity_user_info.xml)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -332,12 +323,12 @@
           <mxGeometry height="30" width="60" x="10" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-67" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="150" width="332.5" x="342.5" y="-380" as="geometry" />
+          <mxGeometry height="150" width="332.5" x="342.5" y="-690" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-65" connectable="0" parent="o6mp3kI1teLwhX3pSlDj-67" style="group" value="" vertex="1">
           <mxGeometry height="90" width="120" x="90" as="geometry" />
         </mxCell>
-        <mxCell id="DepZzHSQRUFMjUhRv91k-18" parent="o6mp3kI1teLwhX3pSlDj-65" style="whiteSpace=wrap;html=1;" value="投诉建议、申请售后&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;ProblemAddActivity&lt;/span&gt;" vertex="1">
+        <mxCell id="DepZzHSQRUFMjUhRv91k-18" parent="o6mp3kI1teLwhX3pSlDj-65" style="whiteSpace=wrap;html=1;" value="投诉建议、申请售后ProblemActivity&lt;br&gt;(activity_problem_add.xml)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-64" parent="o6mp3kI1teLwhX3pSlDj-65" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/mine" vertex="1">
@@ -345,9 +336,6 @@
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-66" parent="o6mp3kI1teLwhX3pSlDj-67" style="ellipse;whiteSpace=wrap;html=1;" value="产品建议：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/issueGuide/feedback&lt;/span&gt;&lt;br&gt;获取oss上传token:&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/common/aliOSSToken&lt;/span&gt;&lt;br&gt;设备产品列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devicesProduct/list&lt;/span&gt;&lt;br&gt;问题提交：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/issueGuide/collection&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="332.5" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-68" edge="1" parent="1" source="o6mp3kI1teLwhX3pSlDj-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="o6mp3kI1teLwhX3pSlDj-50">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-69" edge="1" parent="1" source="o6mp3kI1teLwhX3pSlDj-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="o6mp3kI1teLwhX3pSlDj-52">
           <mxGeometry relative="1" as="geometry" />
@@ -498,7 +486,55 @@
           <mxGeometry height="30" width="60" x="20" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个ossApi到底是干啥的啊？？" vertex="1">
-          <mxGeometry height="30" width="180" x="170" y="-146" as="geometry" />
+          <mxGeometry height="30" width="180" x="170" y="-356" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-111" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="180" width="337" x="723" y="-570" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-38" parent="o6mp3kI1teLwhX3pSlDj-111" style="whiteSpace=wrap;html=1;" value="更改邮箱&lt;br&gt;ChangeMobileActivity&lt;br&gt;(activity_change_mobile.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="104.5" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-110" parent="o6mp3kI1teLwhX3pSlDj-111" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;br&gt;验证旧密码是否正确：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/user/password&lt;/span&gt;&lt;br&gt;验证手机号是否可以绑定：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/userBind/verifyPhone&lt;/span&gt;&lt;br&gt;验证邮箱是否可以绑定：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/userBind/verifyEmail&lt;/span&gt;&lt;br&gt;短信验证码发送：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/verificationCode/sms&lt;/span&gt;&lt;br&gt;邮箱验证码发送：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/verificationCode/email&lt;/span&gt;&lt;br&gt;手机号绑定：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/userBind/phoneBind&lt;/span&gt;&lt;br&gt;邮箱绑定：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/userBind/emailBind&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="337" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-114" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="260" x="760" y="-370" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-28" parent="o6mp3kI1teLwhX3pSlDj-114" style="whiteSpace=wrap;html=1;" value="修改密码&lt;br&gt;ChangePwdActivity&lt;br&gt;（activity_change_mobile.xml）" vertex="1">
+          <mxGeometry height="60" width="120" x="67" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-113" parent="o6mp3kI1teLwhX3pSlDj-114" style="ellipse;whiteSpace=wrap;html=1;" value="验证旧密码是否正确：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/user/password&lt;/span&gt;&lt;br&gt;修改密码：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/user/updatePassword&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-116" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="250" x="600" y="-990" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-50" parent="o6mp3kI1teLwhX3pSlDj-116" style="whiteSpace=wrap;html=1;" value="语言设置&lt;br&gt;LanguageSetActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="65" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-115" parent="o6mp3kI1teLwhX3pSlDj-116" style="ellipse;whiteSpace=wrap;html=1;" value="语言类型列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/common/langList&lt;/span&gt;&lt;br&gt;修改语言：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/user/updateLangType&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="250" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-119" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="261" x="761" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-39" parent="o6mp3kI1teLwhX3pSlDj-119" style="whiteSpace=wrap;html=1;" value="注销账号&lt;br&gt;LogOffActivity&lt;br&gt;（activity_log_off.xml）" vertex="1">
+          <mxGeometry height="60" width="120" x="64.5" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-118" parent="o6mp3kI1teLwhX3pSlDj-119" style="ellipse;whiteSpace=wrap;html=1;" value="验证旧密码是否正确：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/user/password&lt;/span&gt;&lt;br&gt;注销账号：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/user/cancel&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="261" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-121" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o6mp3kI1teLwhX3pSlDj-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-122" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoZQJb4CXLbXvTT0J9eF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-123" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o6mp3kI1teLwhX3pSlDj-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-124" edge="1" parent="1" source="o6mp3kI1teLwhX3pSlDj-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o6mp3kI1teLwhX3pSlDj-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
