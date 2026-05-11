@@ -257,7 +257,7 @@
           <mxGeometry height="60" width="120" x="430" y="990" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-26" parent="1" style="whiteSpace=wrap;html=1;" value="添加宠物&lt;br&gt;AddPetMsgActivity&lt;div&gt;(activity_add_pet_msg.xml)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="750" y="980" as="geometry" />
+          <mxGeometry height="60" width="120" x="750" y="970" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-27" parent="1" style="whiteSpace=wrap;html=1;" value="选择宠物品种&lt;br&gt;PetVarietyListActivity&lt;br&gt;(activity_pet_variety_list.xml、&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;PetPopularVarietyAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1037.5" y="1070" as="geometry" />
@@ -351,6 +351,9 @@
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个ossApi到底是干啥的啊？？" vertex="1">
           <mxGeometry height="30" width="180" x="710" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="获取oss上传token：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/common/aliOSSToken&lt;/span&gt;&lt;br&gt;家庭列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/family/list&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="290" x="695" y="1030" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
