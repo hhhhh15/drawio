@@ -166,8 +166,8 @@
         <mxCell id="DepZzHSQRUFMjUhRv91k-40" parent="o6mp3kI1teLwhX3pSlDj-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/home" vertex="1">
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-10" parent="1" style="whiteSpace=wrap;html=1;" value="已扫描view/cloudStorage&lt;div&gt;&lt;br&gt;view/homeshare&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;view/home&lt;/div&gt;&lt;div&gt;view/homeshare&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;view/login&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;view/message&lt;/span&gt;&lt;/div&gt;&lt;div&gt;view/mine&lt;/div&gt;&lt;div&gt;view/pet&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;view/update&lt;/div&gt;&lt;div&gt;view/usageGuide&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="200" x="-450" y="400" as="geometry" />
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-10" parent="1" style="whiteSpace=wrap;html=1;" value="已扫描view/cloudStorage&lt;div&gt;&lt;br&gt;view/homeshare&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;view/home&lt;/div&gt;&lt;div&gt;view/homeshare&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;view/login&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;view/message&lt;/span&gt;&lt;/div&gt;&lt;div&gt;view/mine&lt;/div&gt;&lt;div&gt;view/pet&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;view/update&lt;/div&gt;&lt;div&gt;view/usageGuide&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="220" x="-450" y="400" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这里面的文件夹全扫描了，一个不剩下&lt;br&gt;需要分模块放置的时候再说" vertex="1">
           <mxGeometry height="60" width="240" x="-470" y="337.5" as="geometry" />
@@ -688,6 +688,12 @@
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-38" parent="1" style="whiteSpace=wrap;html=1;" value="创建房间&lt;br&gt;RoomAddActivity&lt;br&gt;(activity_room_add.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="1210" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-41" parent="1" style="whiteSpace=wrap;html=1;" value="view/common&lt;br&gt;view/device&lt;br&gt;view/devicedetail&lt;br&gt;view/deviceUseGuide" vertex="1">
+          <mxGeometry height="60" width="120" x="-420" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这几个好多啊" vertex="1">
+          <mxGeometry height="30" width="60" x="-390" y="670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
