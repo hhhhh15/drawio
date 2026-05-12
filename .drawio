@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zn8EvlN72EoAIi1fGpZf">
-    <mxGraphModel dx="1987" dy="3000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2052" dy="3018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,6 +64,9 @@
         <mxCell id="o6mp3kI1teLwhX3pSlDj-56" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o6mp3kI1teLwhX3pSlDj-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-11" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-12" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;我的&lt;br&gt;MineFragment&lt;br&gt;(fragment_mine.xml)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="147.5" y="357.5" as="geometry" />
         </mxCell>
@@ -71,7 +74,7 @@
           <mxGeometry height="30" width="80" x="1090" y="-1820" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-25" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="60" width="400" x="342.5" y="-450" as="geometry" />
+          <mxGeometry height="60" width="400" x="342.5" y="-1125" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-120" connectable="0" parent="hoZQJb4CXLbXvTT0J9eF-25" style="group" value="" vertex="1">
           <mxGeometry height="60" width="275" y="100" as="geometry" />
@@ -275,7 +278,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-49" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="432.5" y="-950" as="geometry" />
+          <mxGeometry height="90" width="120" x="432.5" y="-1625" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-45" parent="o6mp3kI1teLwhX3pSlDj-49" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更多设置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;MoreSetActivity&lt;br&gt;(activity_more_set.xml)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -284,16 +287,16 @@
           <mxGeometry height="30" width="60" x="5" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="系统相关信息：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/system/APP（大多用于返回url给webview用&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="225" x="382.5" y="-1030" as="geometry" />
+          <mxGeometry height="40" width="225" x="382.5" y="-1705" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-40" parent="1" style="whiteSpace=wrap;html=1;container=0;" value="关于霍曼&lt;br&gt;AboutUsActivity&lt;br&gt;（activity_about_us.xml）" vertex="1">
-          <mxGeometry height="60" width="120" x="432.5" y="-1090" as="geometry" />
+          <mxGeometry height="60" width="120" x="432.5" y="-1765" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="view/mine" vertex="1">
-          <mxGeometry height="30" width="60" x="432.5" y="-1120" as="geometry" />
+          <mxGeometry height="30" width="60" x="432.5" y="-1795" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-57" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="100" width="260" x="600" y="-875" as="geometry" />
+          <mxGeometry height="100" width="260" x="600" y="-1550" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-52" parent="o6mp3kI1teLwhX3pSlDj-57" style="whiteSpace=wrap;html=1;" value="单位设置&lt;br&gt;UnitActivity&lt;br&gt;(activity_unit.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="62.5" as="geometry" />
@@ -302,7 +305,7 @@
           <mxGeometry height="40" width="260" y="60" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-62" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="100" width="272" x="600" y="-765" as="geometry" />
+          <mxGeometry height="100" width="272" x="600" y="-1440" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-58" parent="o6mp3kI1teLwhX3pSlDj-62" style="whiteSpace=wrap;html=1;" value="消息设置&lt;br&gt;MessageSetActivity&lt;br&gt;（activity_message_set.xml）" vertex="1">
           <mxGeometry height="60" width="120" x="62.5" as="geometry" />
@@ -311,7 +314,7 @@
           <mxGeometry height="40" width="272" y="60" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-63" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="432.5" y="-430" as="geometry" />
+          <mxGeometry height="90" width="120" x="432.5" y="-1105" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-13" parent="o6mp3kI1teLwhX3pSlDj-63" style="whiteSpace=wrap;html=1;" value="个人中心UserInfoActivity&lt;br&gt;(activity_user_info.xml)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -320,7 +323,7 @@
           <mxGeometry height="30" width="60" x="10" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-67" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="150" width="332.5" x="342.5" y="-690" as="geometry" />
+          <mxGeometry height="150" width="332.5" x="342.5" y="-1365" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-65" connectable="0" parent="o6mp3kI1teLwhX3pSlDj-67" style="group" value="" vertex="1">
           <mxGeometry height="90" width="120" x="90" as="geometry" />
@@ -444,7 +447,7 @@
           <mxGeometry height="30" width="60" x="107.5" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-100" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="112.5" width="250" x="757.5" y="192.5" as="geometry" />
+          <mxGeometry height="112.5" width="250" x="740" y="90" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-40" parent="o6mp3kI1teLwhX3pSlDj-100" style="ellipse;whiteSpace=wrap;html=1;" value="设备列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/list&lt;br&gt;成员列表：&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/familyMember/list&lt;/span&gt;" vertex="1">
           <mxGeometry height="52.5" width="250" y="60" as="geometry" />
@@ -455,20 +458,14 @@
         <mxCell id="o6mp3kI1teLwhX3pSlDj-102" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o6mp3kI1teLwhX3pSlDj-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-103" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="100" width="240" x="1160" y="210" as="geometry" />
-        </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-45" parent="o6mp3kI1teLwhX3pSlDj-103" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;房间列表&lt;br&gt;RoomListActivity&lt;br&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;activity_room_list.xml&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#080808&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="47.5" as="geometry" />
-        </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-47" parent="o6mp3kI1teLwhX3pSlDj-103" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;设备列表：/app/v1/devices/list&lt;br&gt;房间列表：/app/v1/familyRoom/list&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="240" y="60" as="geometry" />
-        </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-104" edge="1" parent="1" source="o6mp3kI1teLwhX3pSlDj-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoZQJb4CXLbXvTT0J9eF-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o6mp3kI1teLwhX3pSlDj-105" parent="1" style="whiteSpace=wrap;html=1;" value="j家庭成员&lt;br&gt;MemberListActivity&lt;br&gt;(&lt;span style=&quot;font-size: 13.0667px; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;activity_member_list.xml&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1210" y="110" as="geometry" />
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-21" edge="1" parent="1" source="o6mp3kI1teLwhX3pSlDj-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6mp3kI1teLwhX3pSlDj-105" parent="1" style="whiteSpace=wrap;html=1;" value="家庭成员&lt;br&gt;MemberListActivity&lt;br&gt;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;activity_member_list.xml、&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;MemberIvListAdapter、&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 98, 122); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;MemberListAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1210" y="-15" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-106" edge="1" parent="1" source="o6mp3kI1teLwhX3pSlDj-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o6mp3kI1teLwhX3pSlDj-105">
           <mxGeometry relative="1" as="geometry" />
@@ -483,10 +480,10 @@
           <mxGeometry height="30" width="60" x="20" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这个ossApi到底是干啥的啊？？" vertex="1">
-          <mxGeometry height="30" width="180" x="170" y="-356" as="geometry" />
+          <mxGeometry height="30" width="180" x="170" y="-1031" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-111" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="180" width="337" x="723" y="-570" as="geometry" />
+          <mxGeometry height="180" width="337" x="723" y="-1245" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-38" parent="o6mp3kI1teLwhX3pSlDj-111" style="whiteSpace=wrap;html=1;" value="更改邮箱&lt;br&gt;ChangeMobileActivity&lt;br&gt;(activity_change_mobile.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="104.5" as="geometry" />
@@ -495,7 +492,7 @@
           <mxGeometry height="120" width="337" y="60" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-114" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="110" width="260" x="760" y="-370" as="geometry" />
+          <mxGeometry height="110" width="260" x="760" y="-1045" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-28" parent="o6mp3kI1teLwhX3pSlDj-114" style="whiteSpace=wrap;html=1;" value="修改密码&lt;br&gt;ChangePwdActivity&lt;br&gt;（activity_change_mobile.xml）" vertex="1">
           <mxGeometry height="60" width="120" x="67" as="geometry" />
@@ -504,7 +501,7 @@
           <mxGeometry height="50" width="260" y="60" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-116" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="100" width="250" x="600" y="-990" as="geometry" />
+          <mxGeometry height="100" width="250" x="600" y="-1665" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-50" parent="o6mp3kI1teLwhX3pSlDj-116" style="whiteSpace=wrap;html=1;" value="语言设置&lt;br&gt;LanguageSetActivity" vertex="1">
           <mxGeometry height="60" width="120" x="65" as="geometry" />
@@ -513,7 +510,7 @@
           <mxGeometry height="40" width="250" y="60" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-119" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="110" width="261" x="761" y="-240" as="geometry" />
+          <mxGeometry height="110" width="261" x="761" y="-915" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-39" parent="o6mp3kI1teLwhX3pSlDj-119" style="whiteSpace=wrap;html=1;" value="注销账号&lt;br&gt;LogOffActivity&lt;br&gt;（activity_log_off.xml）" vertex="1">
           <mxGeometry height="60" width="120" x="64.5" as="geometry" />
@@ -582,7 +579,7 @@
           <mxGeometry height="80" width="292" x="58" y="1630" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-150" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="200" width="415" x="275" y="-150" as="geometry" />
+          <mxGeometry height="200" width="415" x="275" y="-825" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-146" parent="o6mp3kI1teLwhX3pSlDj-150" style="whiteSpace=wrap;html=1;" value="检查更新&lt;br&gt;VersionListActivity&lt;br&gt;(activity_version_list.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="150" y="30" as="geometry" />
@@ -592,6 +589,105 @@
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-149" parent="o6mp3kI1teLwhX3pSlDj-150" style="ellipse;whiteSpace=wrap;html=1;" value="获取设备模块升级信息：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/upgradeModulesInfo&lt;/span&gt;&lt;br&gt;触发设备模块升级：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/upgradeModules&lt;/span&gt;&lt;br&gt;获取设备模块升级状态：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/upgradeModulesStatus&lt;/span&gt;&lt;br&gt;用户自己的设备列表：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/self&lt;/span&gt;&lt;br&gt;app版本信息：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/version/info&lt;/span&gt;&lt;br&gt;获取设备模块升级信息：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/upgradeModulesInfo&lt;/span&gt;" vertex="1">
           <mxGeometry height="110" width="415" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-18" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-4" parent="1" style="whiteSpace=wrap;html=1;" value="APP操作问题&lt;br&gt;AppProblemListActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="-345" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-16" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-7" parent="1" style="whiteSpace=wrap;html=1;" value="指导设备列表&lt;div&gt;InstructionListActivity&lt;br&gt;(activity_instruction_list.xml)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="-485" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-8" parent="1" style="whiteSpace=wrap;html=1;" value="设备使用指导列表&lt;br&gt;DeviceUsageGuideListActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="870" y="-485" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-9" parent="1" style="whiteSpace=wrap;html=1;" value="问题搜索&lt;br&gt;SearchQuestionActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="-595" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-12" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="120" x="432.5" y="-515" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-3" parent="XqvdJ5ckLI_tYGUzw4AU-12" style="whiteSpace=wrap;html=1;" value="使用指南&lt;br&gt;InstructionActivity&lt;br&gt;(activity_instruction.xml、&lt;br&gt;)" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-5" parent="XqvdJ5ckLI_tYGUzw4AU-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/usageGuide" vertex="1">
+          <mxGeometry height="30" width="60" x="25" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-13" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-14" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-15" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-19" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="120" x="870" y="-375" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-6" parent="XqvdJ5ckLI_tYGUzw4AU-19" style="whiteSpace=wrap;html=1;" value="web页面，要url的&lt;br&gt;DWebViewActivity" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-10" parent="XqvdJ5ckLI_tYGUzw4AU-19" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
+          <mxGeometry height="30" width="60" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-20" parent="1" style="whiteSpace=wrap;html=1;" value="搜索成员&lt;br&gt;SearchMemberActivity&lt;br&gt;(activity_search_member.xml、&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;SearchMemberListAdapter&lt;/span&gt;)" vertex="1">
+          <mxGeometry height="60" width="120" x="1470" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-22" parent="1" style="whiteSpace=wrap;html=1;" value="关联设备管理&lt;br&gt;DeviceLinkListActivity&lt;br&gt;(activity_device_link_list.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="1210" y="-115" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-39" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-23" parent="1" style="whiteSpace=wrap;html=1;" value="添加家庭&lt;br&gt;HomeAddActivity&lt;br&gt;(activity_home_add.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="802.5" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-25" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="240" x="1160" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-45" parent="XqvdJ5ckLI_tYGUzw4AU-25" style="whiteSpace=wrap;html=1;container=0;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;房间列表&lt;br&gt;RoomListActivity&lt;br&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;activity_room_list.xml&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#080808&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hoZQJb4CXLbXvTT0J9eF-47" parent="XqvdJ5ckLI_tYGUzw4AU-25" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;设备列表：/app/v1/devices/list&lt;br&gt;房间列表：/app/v1/familyRoom/list&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-26" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-37" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-29" parent="1" style="whiteSpace=wrap;html=1;" value="邀请成员&lt;br&gt;InviteMemberActivity&lt;br&gt;(activity_invite_member.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="1690" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-30" parent="1" style="whiteSpace=wrap;html=1;" value="创建成功&lt;br&gt;AddSuccessActivity&lt;br&gt;(activity_add_success.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="1910" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-36" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-31" parent="1" style="whiteSpace=wrap;html=1;" value="关联设备&lt;br&gt;DeviceLinkToRoomActivity&lt;br&gt;(activity_device_link_to_room.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="1470" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-32" edge="1" parent="1" source="o6mp3kI1teLwhX3pSlDj-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-33" parent="1" style="whiteSpace=wrap;html=1;" value="更换关联其他房间&lt;br&gt;DeviceListByRoomActivity&lt;br&gt;(activity_device_list_by_room.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="1470" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-35" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-40" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-38" parent="1" style="whiteSpace=wrap;html=1;" value="创建房间&lt;br&gt;RoomAddActivity&lt;br&gt;(activity_room_add.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="1210" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
