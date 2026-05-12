@@ -134,7 +134,7 @@
           <mxGeometry height="60" width="190" x="-200" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-55" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="160" y="1840" as="geometry" />
+          <mxGeometry height="90" width="120" x="160" y="2171" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-52" parent="DepZzHSQRUFMjUhRv91k-55" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;LoginActivity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -143,19 +143,19 @@
           <mxGeometry height="30" width="60" x="20" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-56" parent="1" style="whiteSpace=wrap;html=1;" value="地区选择&lt;br&gt;CountryListActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="340" y="1950" as="geometry" />
+          <mxGeometry height="60" width="120" x="340" y="2281" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-57" parent="1" style="whiteSpace=wrap;html=1;" value="验证码&lt;br&gt;LoginByCodeActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="340" y="1840" as="geometry" />
+          <mxGeometry height="60" width="120" x="340" y="2171" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-58" parent="1" style="whiteSpace=wrap;html=1;" value="密码登录&lt;br&gt;LoginByPwdActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="340" y="2040" as="geometry" />
+          <mxGeometry height="60" width="120" x="340" y="2371" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
-          <mxGeometry height="30" width="60" x="360" y="1920" as="geometry" />
+          <mxGeometry height="30" width="60" x="360" y="2251" as="geometry" />
         </mxCell>
         <mxCell id="DepZzHSQRUFMjUhRv91k-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/login中的RegisterSuccessActivity的xml是空白的，不知道是哪个页面&lt;br&gt;还有三个forgetactivity用在view/mine/个人中心里面&lt;br&gt;该文件梳理完" vertex="1">
-          <mxGeometry height="30" width="60" x="-70" y="1880" as="geometry" />
+          <mxGeometry height="30" width="60" x="-70" y="2211" as="geometry" />
         </mxCell>
         <mxCell id="o6mp3kI1teLwhX3pSlDj-9" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="90" width="120" x="150" y="1540" as="geometry" />
@@ -689,11 +689,23 @@
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-38" parent="1" style="whiteSpace=wrap;html=1;" value="创建房间&lt;br&gt;RoomAddActivity&lt;br&gt;(activity_room_add.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="1210" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-41" parent="1" style="whiteSpace=wrap;html=1;" value="view/common&lt;br&gt;view/device&lt;br&gt;view/devicedetail&lt;br&gt;view/deviceUseGuide" vertex="1">
-          <mxGeometry height="60" width="120" x="-420" y="700" as="geometry" />
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-41" parent="1" style="whiteSpace=wrap;html=1;" value="view/common&lt;br&gt;view/device&lt;br&gt;view/devicedetail 【好像是设备设置页面】&lt;br&gt;view/deviceUseGuide" vertex="1">
+          <mxGeometry height="150" width="330" x="-500" y="700" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这几个好多啊" vertex="1">
-          <mxGeometry height="30" width="60" x="-390" y="670" as="geometry" />
+          <mxGeometry height="30" width="230" x="-470" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="别的文件下也有" vertex="1">
+          <mxGeometry height="30" width="220" x="-455" y="929.25" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-44" parent="1" style="whiteSpace=wrap;html=1;" value="v2/distribution_network/activity" vertex="1">
+          <mxGeometry height="120.75" width="230" x="-475" y="959.25" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/HomeV2Activity" vertex="1">
+          <mxGeometry height="30" width="60" x="-110" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-46" parent="1" style="whiteSpace=wrap;html=1;" value="连接设备&lt;br&gt;Select" vertex="1">
+          <mxGeometry height="60" width="120" x="147.5" y="1820" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
