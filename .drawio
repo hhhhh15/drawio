@@ -698,14 +698,74 @@
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="别的文件下也有" vertex="1">
           <mxGeometry height="30" width="220" x="-455" y="929.25" as="geometry" />
         </mxCell>
-        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-44" parent="1" style="whiteSpace=wrap;html=1;" value="v2/distribution_network/activity" vertex="1">
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-44" parent="1" style="whiteSpace=wrap;html=1;" value="v2/distribution_network" vertex="1">
           <mxGeometry height="120.75" width="230" x="-475" y="959.25" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/HomeV2Activity" vertex="1">
           <mxGeometry height="30" width="60" x="-110" y="390" as="geometry" />
         </mxCell>
-        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-46" parent="1" style="whiteSpace=wrap;html=1;" value="连接设备&lt;br&gt;Select" vertex="1">
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-56" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-60" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-46" parent="1" style="whiteSpace=wrap;html=1;" value="连接设备&lt;br&gt;SelectDeviceV2Activity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" x="147.5" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/distribution_network" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-61" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-48" parent="1" style="whiteSpace=wrap;html=1;" value="手动连接&lt;br&gt;ManualConnectionActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-49" parent="1" style="whiteSpace=wrap;html=1;" value="连接指导&lt;br&gt;ConnectionGuideActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-50" parent="1" style="whiteSpace=wrap;html=1;" value="设备配网&lt;br&gt;DeviceNetResultV2Acitivity" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-59" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-51" parent="1" style="whiteSpace=wrap;html=1;" value="配网连接中&lt;div&gt;DeviceNetConfigV2Activity&lt;br&gt;()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="641" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-57" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-58" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-66" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-53" parent="1" style="whiteSpace=wrap;html=1;" value="选择网络&lt;br&gt;SelectWiFIActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-62" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="120" x="641" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-54" parent="XqvdJ5ckLI_tYGUzw4AU-62" style="whiteSpace=wrap;html=1;" value="如何设置2.4GWi-Fi&lt;br&gt;HMCommonWebViewActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-55" parent="XqvdJ5ckLI_tYGUzw4AU-62" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/common/activity" vertex="1">
+          <mxGeometry height="30" width="60" x="9" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-65" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-64" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-63" parent="1" style="whiteSpace=wrap;html=1;" value="AP连接页面？？&lt;br&gt;DeviceHostLinkV2Activity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="2140" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-64" parent="1" style="whiteSpace=wrap;html=1;" value="AP配网进度&lt;br&gt;DeviceNetApConfigV2Activity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="2140" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="实际的这两个页面没有找到啊" vertex="1">
+          <mxGeometry height="40" width="160" x="1035" y="2150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
