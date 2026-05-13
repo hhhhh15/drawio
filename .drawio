@@ -1047,10 +1047,7 @@
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-82" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8I5Cx2IJCb_u6WwGWrg1-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8I5Cx2IJCb_u6WwGWrg1-83" parent="1" style="whiteSpace=wrap;html=1;" value="已扫描&lt;div&gt;v2/distribution_network&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="220" x="-710" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="8I5Cx2IJCb_u6WwGWrg1-84" parent="1" style="whiteSpace=wrap;html=1;" value="view/devicedetail/download" vertex="1">
+        <mxCell id="8I5Cx2IJCb_u6WwGWrg1-84" parent="1" style="whiteSpace=wrap;html=1;" value="v2/distribution_network&lt;div&gt;&lt;br&gt;view/devicedetail/download&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="127.5" width="220" x="-400" y="662.5" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="已扫描的子文件夹" vertex="1">
