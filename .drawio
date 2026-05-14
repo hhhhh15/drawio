@@ -1247,6 +1247,9 @@
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-35" parent="gN5Do3OfgaJWh-cyWPfq-70" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
           <mxGeometry height="30" width="60" x="20" as="geometry" />
         </mxCell>
+        <mxCell id="gN5Do3OfgaJWh-cyWPfq-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5.14view/devicedetail/sideboard文件夹下面有一个类&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;DeviceSideboardCameraNightModelActivity&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;没有被调用&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="330" x="1140" y="2060" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
