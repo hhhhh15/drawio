@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zn8EvlN72EoAIi1fGpZf">
-    <mxGraphModel dx="3075" dy="3127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2879" dy="3018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -794,22 +794,23 @@
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-88" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-79" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-78" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置2&lt;br&gt;DeviceFirstSetTwoActivity&lt;br&gt;()" vertex="1">
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-3" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fbldx4gPK4sKpbJMw1sH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-78" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置2&lt;br&gt;DeviceFirstSetStepTwoActivity&lt;br&gt;(activity_device_first_set_step_two.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="1670" y="1930" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-89" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-79" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置喂食器3&lt;br&gt;DeviceFirstSetStepThreeFeederActivity&lt;br&gt;()" vertex="1">
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-79" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置喂食器3&lt;br&gt;DeviceFirstSetStepThreeFeederActivity&lt;br&gt;(activity_device_first_set_step_three_feeder.xml)" vertex="1">
           <mxGeometry height="60" width="120" x="1950" y="1930" as="geometry" />
         </mxCell>
-        <mxCell id="8I5Cx2IJCb_u6WwGWrg1-11" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2410" y="1960.000000000001" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-15" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-81" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置喂食器4&lt;br&gt;DeviceFirstSetStepFeederFourActivity【喂食计划列表】&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="2200" y="1930" as="geometry" />
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-81" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置喂食器4&lt;br&gt;DeviceFirstSetStepFourFeederActivity【喂食计划列表】&lt;br&gt;(activity_device_fisrt_set_step_four_feeder.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="2220" y="1930" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-83" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="从这里开始区分设备，不弄在首页里面了" vertex="1">
           <mxGeometry height="70" width="160" x="1427" y="1460" as="geometry" />
@@ -818,7 +819,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-84" parent="1" style="whiteSpace=wrap;html=1;" value="餐架摄像头2&lt;br&gt;DeviceSideboardCameraFirstSetStepTwoActivity&lt;div&gt;（activity_device_sideboard_camera_first_set_step_two.xml）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1670" y="2070" as="geometry" />
+          <mxGeometry height="60" width="120" x="1676.75" y="2110" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
           <mxGeometry height="30" width="60" x="1680" y="1900" as="geometry" />
@@ -827,30 +828,30 @@
           <mxGeometry height="30" width="60" x="1950" y="1900" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
-          <mxGeometry height="30" width="60" x="2200" y="1900" as="geometry" />
+          <mxGeometry height="30" width="60" x="2220" y="1900" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/sideboard" vertex="1">
-          <mxGeometry height="30" width="60" x="1710" y="2040" as="geometry" />
+          <mxGeometry height="30" width="60" x="1716.75" y="2080" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-94" parent="1" style="whiteSpace=wrap;html=1;" value="单碗餐架安装使用指南1&lt;br&gt;DeviceFeederRackGuide1Activity&lt;br&gt;(activity_device_feeder_rack_guide.xml)" vertex="1">
-          <mxGeometry height="60" width="130" x="1900" y="2200" as="geometry" />
+          <mxGeometry height="60" width="130" x="1906.75" y="2240" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/deviceUseGuide/feedRack" vertex="1">
-          <mxGeometry height="30" width="60" x="1920" y="2170" as="geometry" />
+          <mxGeometry height="30" width="60" x="1926.75" y="2210" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-96" parent="1" style="whiteSpace=wrap;html=1;" value="双碗餐架安装2&lt;br&gt;DeviceFeederRackGuide2Activity&lt;br&gt;(activity_device_feeder_rack_guide_2.xml)" vertex="1">
-          <mxGeometry height="60" width="120" x="2150" y="2200" as="geometry" />
+          <mxGeometry height="60" width="120" x="2156.75" y="2240" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-98" parent="1" style="whiteSpace=wrap;html=1;" value="双碗左侧摄像头角度&lt;br&gt;DeviceFeederRackGuide4Activity&lt;br&gt;（activity_device_feeder_rack_guide_4.xml）" vertex="1">
-          <mxGeometry height="60" width="120" x="2610" y="2200" as="geometry" />
+          <mxGeometry height="60" width="120" x="2616.75" y="2240" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-100" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2950" y="2230" as="sourcePoint" />
+            <mxPoint x="2956.75" y="2270" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-99" parent="1" style="whiteSpace=wrap;html=1;" value="双碗右侧摄像头角度&lt;br&gt;DeviceFeederRackGuide5Activity&lt;br&gt;(activity_device_feeder_rack_guide_5)" vertex="1">
-          <mxGeometry height="60" width="120" x="2830" y="2200" as="geometry" />
+          <mxGeometry height="60" width="120" x="2836.75" y="2240" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-40" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-101" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -862,7 +863,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-100" parent="1" style="whiteSpace=wrap;html=1;" value="智能摄像头&lt;br&gt;DeviceSideboardCameraActivity&lt;br&gt;(activity_device_sideboard_camera.xml)" vertex="1">
-          <mxGeometry height="60" width="120" x="3050" y="2200" as="geometry" />
+          <mxGeometry height="60" width="120" x="3056.75" y="2240" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-26" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-102">
           <mxGeometry relative="1" as="geometry" />
@@ -874,7 +875,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-6" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="1950" y="2010" as="geometry" />
+          <mxGeometry height="90" width="120" x="1910" y="2120" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-2" parent="8I5Cx2IJCb_u6WwGWrg1-6" style="whiteSpace=wrap;html=1;" value="餐架摄像头3&lt;div&gt;DeviceSideboardCameraFirstSetStepThreeActivity&lt;br&gt;(activity_device_sideboard_camera_first_set_step_three.xml)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -883,9 +884,9 @@
           <mxGeometry height="30" width="60" x="40" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-8" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="2410" y="1900" as="geometry" />
+          <mxGeometry height="90" width="120" x="2490" y="1880" as="geometry" />
         </mxCell>
-        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-82" parent="8I5Cx2IJCb_u6WwGWrg1-8" style="whiteSpace=wrap;html=1;" value="初次使用设置5&lt;br&gt;DeviceFirstSetStepTimeZoneActivity【设备时区】&lt;br&gt;（）" vertex="1">
+        <mxCell id="XqvdJ5ckLI_tYGUzw4AU-82" parent="8I5Cx2IJCb_u6WwGWrg1-8" style="whiteSpace=wrap;html=1;" value="初次使用设置5&lt;br&gt;DeviceFirstSetStepTimeZoneActivity【设备时区】&lt;br&gt;（activity_device_first_set_step_time_zone.xml）" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-7" parent="8I5Cx2IJCb_u6WwGWrg1-8" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
@@ -900,13 +901,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/deviceUseGuide/feedRack" vertex="1">
-          <mxGeometry height="30" width="60" x="2200" y="2170" as="geometry" />
+          <mxGeometry height="30" width="60" x="2206.75" y="2210" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/deviceUseGuide/feedRack" vertex="1">
-          <mxGeometry height="30" width="60" x="2649" y="2170" as="geometry" />
+          <mxGeometry height="30" width="60" x="2655.75" y="2210" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/deviceUseGuide/feedRack" vertex="1">
-          <mxGeometry height="30" width="60" x="2870" y="2170" as="geometry" />
+          <mxGeometry height="30" width="60" x="2876.75" y="2210" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-2" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;endArrow=none;endFill=0;" target="8I5Cx2IJCb_u6WwGWrg1-52">
           <mxGeometry relative="1" as="geometry" />
@@ -923,10 +924,10 @@
           <mxGeometry height="130" width="120" x="2880" y="980" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/sideboard" vertex="1">
-          <mxGeometry height="30" width="60" x="3100" y="2170" as="geometry" />
+          <mxGeometry height="30" width="60" x="3106.75" y="2210" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-27" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3420" y="2040" as="geometry" />
+          <mxGeometry height="90" width="120" x="3426.75" y="2080" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-102" parent="8I5Cx2IJCb_u6WwGWrg1-27" style="whiteSpace=wrap;html=1;" value="WiFI设置&lt;br&gt;DeviceWiFIaCTIVITY&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" x="30" y="30" as="geometry" />
@@ -935,7 +936,7 @@
           <mxGeometry height="30" width="60" x="40" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-30" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3450" y="2150" as="geometry" />
+          <mxGeometry height="90" width="120" x="3456.75" y="2190" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-28" parent="8I5Cx2IJCb_u6WwGWrg1-30" style="whiteSpace=wrap;html=1;" value="摄像头运行计划&lt;div&gt;DeviceVFFeederVideroPlanListActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -944,10 +945,10 @@
           <mxGeometry height="30" width="60" x="20" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-31" parent="1" style="whiteSpace=wrap;html=1;" value="新增运行计划&lt;br&gt;DeviceVFFeederVideroPlanActivity&lt;br&gt;（）" vertex="1">
-          <mxGeometry height="60" width="120" x="3670" y="2180" as="geometry" />
+          <mxGeometry height="60" width="120" x="3676.75" y="2220" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
-          <mxGeometry height="30" width="60" x="3700" y="2150" as="geometry" />
+          <mxGeometry height="30" width="60" x="3706.75" y="2190" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-33" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8I5Cx2IJCb_u6WwGWrg1-31">
           <mxGeometry relative="1" as="geometry" />
@@ -962,19 +963,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-45" parent="1" style="triangle;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;餐架摄像头&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="60" x="1510" y="2075" as="geometry" />
+          <mxGeometry height="50" width="60" x="1516.75" y="2115" as="geometry" />
         </mxCell>
-        <mxCell id="gN5Do3OfgaJWh-cyWPfq-18" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8I5Cx2IJCb_u6WwGWrg1-52">
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-11" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8I5Cx2IJCb_u6WwGWrg1-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-48" parent="1" style="whiteSpace=wrap;html=1;" value="时区选择&lt;br&gt;TimeZoneActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="2600" y="1930" as="geometry" />
+          <mxGeometry height="60" width="120" x="2680" y="1910" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-49" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8I5Cx2IJCb_u6WwGWrg1-48" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
-          <mxGeometry height="30" width="60" x="2630" y="1900" as="geometry" />
+          <mxGeometry height="30" width="60" x="2710" y="1880" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-74" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8I5Cx2IJCb_u6WwGWrg1-55">
           <mxGeometry relative="1" as="geometry" />
@@ -986,7 +987,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-52" parent="1" style="whiteSpace=wrap;html=1;" value="Real智能喂食器&lt;br&gt;DeviceFeederAndCameraActivity&lt;br&gt;DeviceFeederCameraFrament&lt;br&gt;DeviceFeederFragment&lt;br&gt;(&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;DevicesPF20SC01Adapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="2880" y="1930" as="geometry" />
+          <mxGeometry height="60" width="120" x="2890" y="1785" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-76" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8I5Cx2IJCb_u6WwGWrg1-70">
           <mxGeometry relative="1" as="geometry" />
@@ -995,13 +996,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-57" parent="1" style="whiteSpace=wrap;html=1;" value="粮桶余量&lt;br&gt;DeviceFeederSurplusActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="3280" y="1360" as="geometry" />
+          <mxGeometry height="60" width="120" x="3290" y="1215" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetaild" vertex="1">
-          <mxGeometry height="30" width="60" x="3310" y="1330" as="geometry" />
+          <mxGeometry height="30" width="60" x="3320" y="1185" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-65" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3280" y="1430" as="geometry" />
+          <mxGeometry height="90" width="120" x="3290" y="1285" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-60" parent="8I5Cx2IJCb_u6WwGWrg1-65" style="whiteSpace=wrap;html=1;" value="干燥剂寿命&lt;br&gt;DeviceFeederDesiccantActivity&lt;br&gt;&lt;div&gt;（）&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1010,7 +1011,7 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-66" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3280" y="1535" as="geometry" />
+          <mxGeometry height="90" width="120" x="3290" y="1390" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-63" parent="8I5Cx2IJCb_u6WwGWrg1-66" style="whiteSpace=wrap;html=1;" value="设备维护提醒&lt;br&gt;DeviceMaintenanceActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1019,7 +1020,7 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-69" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3280" y="1640" as="geometry" />
+          <mxGeometry height="90" width="120" x="3290" y="1495" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-67" parent="8I5Cx2IJCb_u6WwGWrg1-69" style="whiteSpace=wrap;html=1;" value="喂食计划&lt;br&gt;DeviceFeederAndCameraSetActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1028,13 +1029,13 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-71" parent="1" style="whiteSpace=wrap;html=1;" value="固件升级&lt;br&gt;DeviceFeederCameraVersionListActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="3280" y="1875" as="geometry" />
+          <mxGeometry height="60" width="120" x="3290" y="1730" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/feeder" vertex="1">
-          <mxGeometry height="30" width="60" x="3310" y="1845" as="geometry" />
+          <mxGeometry height="30" width="60" x="3320" y="1700" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-77" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="85" width="120" x="3280" y="1745" as="geometry" />
+          <mxGeometry height="85" width="120" x="3290" y="1600" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-70" parent="8I5Cx2IJCb_u6WwGWrg1-77" style="whiteSpace=wrap;html=1;" value="夜间免打扰&lt;br&gt;DeviceFeederAndCameraNightModelActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="25" as="geometry" />
@@ -1043,7 +1044,7 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-80" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3060" y="1680" as="geometry" />
+          <mxGeometry height="90" width="120" x="3070" y="1535" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-55" parent="8I5Cx2IJCb_u6WwGWrg1-80" style="whiteSpace=wrap;html=1;" value="设置&lt;br&gt;DeviceFeederAndCameraSetActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1052,7 +1053,7 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-81" parent="1" style="whiteSpace=wrap;html=1;" value="网络设置（PF没有这个页面的）&lt;br&gt;DeviceFeederAndCameraWiFiActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="3280" y="1960" as="geometry" />
+          <mxGeometry height="60" width="120" x="3290" y="1815" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-82" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8I5Cx2IJCb_u6WwGWrg1-81">
           <mxGeometry relative="1" as="geometry" />
@@ -1106,7 +1107,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-15" parent="1" style="whiteSpace=wrap;html=1;" value="新增定时时间&lt;br&gt;HRAirPurifierPutTimePlanActivity&lt;br&gt;(activity_hr_air_purifier_put_time_plan.xml)" vertex="1">
-          <mxGeometry height="60" width="120" x="2410" y="1820" as="geometry" />
+          <mxGeometry height="60" width="120" x="2490" y="1820" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-24" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gN5Do3OfgaJWh-cyWPfq-13">
           <mxGeometry relative="1" as="geometry" />
@@ -1118,31 +1119,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/feeder&lt;br&gt;v2/device/adaper/DevicePF20SC01Adapter" vertex="1">
-          <mxGeometry height="30" width="60" x="2910" y="1880" as="geometry" />
+          <mxGeometry height="30" width="60" x="2920" y="1735" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-83" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="8I5Cx2IJCb_u6WwGWrg1-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="喂食器多了一个别的文件下的适配器" vertex="1">
-          <mxGeometry height="30" width="60" x="2799" y="1825" as="geometry" />
+          <mxGeometry height="30" width="60" x="2809" y="1680" as="geometry" />
         </mxCell>
-        <mxCell id="gN5Do3OfgaJWh-cyWPfq-44" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gN5Do3OfgaJWh-cyWPfq-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gN5Do3OfgaJWh-cyWPfq-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gN5Do3OfgaJWh-cyWPfq-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1481.25" y="2460" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-31" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置&lt;br&gt;HrInitOneCatLitterBoxActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="1354.5" y="2390" as="geometry" />
+          <mxGeometry height="60" width="120" x="1361.25" y="2430" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/Initialization/activity" vertex="1">
-          <mxGeometry height="30" width="60" x="1379" y="2360" as="geometry" />
+          <mxGeometry height="30" width="60" x="1385.75" y="2400" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/air_purifier/activity" vertex="1">
           <mxGeometry height="30" width="60" x="1980" y="1790" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/air_purifier/activity" vertex="1">
-          <mxGeometry height="30" width="60" x="2430" y="1790" as="geometry" />
+          <mxGeometry height="30" width="60" x="2510" y="1790" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-35" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="2200" y="1570" as="geometry" />
+          <mxGeometry height="90" width="120" x="2220" y="1570" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-16" parent="gN5Do3OfgaJWh-cyWPfq-35" style="whiteSpace=wrap;html=1;" value="固件升级&lt;br&gt;DeviceUpgradeActivity&lt;br&gt;(activity_devices_upgrade.xml)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1151,7 +1154,7 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-37" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="2200" y="1790" as="geometry" />
+          <mxGeometry height="90" width="120" x="2220" y="1790" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-14" parent="gN5Do3OfgaJWh-cyWPfq-37" style="whiteSpace=wrap;html=1;" value="定时模式&lt;br&gt;HRAirPurifierTimePlanActivity&lt;br&gt;(activity_hr_air_purifier_time_plan.xml)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1160,22 +1163,22 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="猫砂盆的初次使用页面" vertex="1">
-          <mxGeometry height="30" width="60" x="1380" y="2320" as="geometry" />
+          <mxGeometry height="30" width="60" x="1386.75" y="2360" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-45" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gN5Do3OfgaJWh-cyWPfq-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-39" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置2&lt;br&gt;HrInitTwoCatLitterBoxActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="1670" y="2390" as="geometry" />
+          <mxGeometry height="60" width="120" x="1676.75" y="2430" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-47" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gN5Do3OfgaJWh-cyWPfq-42" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-41" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置3&lt;br&gt;HrInitThreeCatLitterBoxActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="1940" y="2390" as="geometry" />
+          <mxGeometry height="60" width="120" x="1946.75" y="2430" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-48" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="2200" y="2360" as="geometry" />
+          <mxGeometry height="90" width="120" x="2206.75" y="2400" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-42" parent="gN5Do3OfgaJWh-cyWPfq-48" style="whiteSpace=wrap;html=1;" value="使用注意事项&lt;br&gt;HrUserGuideCatLittBoxActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1184,13 +1187,13 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-49" parent="1" style="whiteSpace=wrap;html=1;" value="智能猫砂盆CLB75V&lt;br&gt;HRCatLitterBoxActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="2880" y="2440" as="geometry" />
+          <mxGeometry height="60" width="120" x="2886.75" y="2480" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-50" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gN5Do3OfgaJWh-cyWPfq-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/cat_litter_box/activity" vertex="1">
-          <mxGeometry height="30" width="60" x="2920" y="2410" as="geometry" />
+          <mxGeometry height="30" width="60" x="2926.75" y="2450" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="搜也加一个" vertex="1">
           <mxGeometry height="30" width="60" x="190" y="1480" as="geometry" />
@@ -1208,10 +1211,10 @@
           <mxGeometry height="30" width="60" x="15" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-57" parent="1" style="whiteSpace=wrap;html=1;" value="滤芯状态&lt;br&gt;HRAirPurifierFilterElementStatusActivity&lt;br&gt;（activity_hr_air_purifier_filter_element_status.xml）" vertex="1">
-          <mxGeometry height="60" width="120" x="2200" y="1720" as="geometry" />
+          <mxGeometry height="60" width="120" x="2220" y="1720" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-59" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3260" y="2090" as="geometry" />
+          <mxGeometry height="90" width="120" x="3266.75" y="2130" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-101" parent="gN5Do3OfgaJWh-cyWPfq-59" style="whiteSpace=wrap;html=1;" value="智能摄像头设置&lt;div&gt;DeviceSideboardCameraSetActivity&lt;br&gt;(activity_device_sideboard_camera_set.xml)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1220,7 +1223,7 @@
           <mxGeometry height="30" width="60" x="50" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-64" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3060" y="1520" as="geometry" />
+          <mxGeometry height="90" width="120" x="3070" y="1375" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-60" parent="gN5Do3OfgaJWh-cyWPfq-64" style="whiteSpace=wrap;html=1;" value="全屏视频页面&lt;br&gt;DeviceSideboardCameraFullScreenRealTimeActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1229,7 +1232,7 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-66" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3260" y="2260" as="geometry" />
+          <mxGeometry height="90" width="120" x="3266.75" y="2300" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-67" parent="gN5Do3OfgaJWh-cyWPfq-66" style="whiteSpace=wrap;html=1;" value="全屏视频页面&lt;br&gt;DeviceSideboardCameraFullScreenRealTimeActivity&lt;br&gt;(activity_device_sideboard_camera_full_screen_real_time.xml)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1238,7 +1241,7 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-70" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3450" y="2350" as="geometry" />
+          <mxGeometry height="90" width="120" x="3456.75" y="2390" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-34" parent="gN5Do3OfgaJWh-cyWPfq-70" style="whiteSpace=wrap;html=1;" value="电子说明书&lt;br&gt;PdfActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1250,7 +1253,7 @@
           <mxGeometry height="50" width="366" x="-246" y="1930" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-79" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3450" y="2240" as="geometry" />
+          <mxGeometry height="90" width="120" x="3456.75" y="2280" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-76" parent="gN5Do3OfgaJWh-cyWPfq-79" style="whiteSpace=wrap;html=1;" value="初次使用设置&lt;br&gt;DeviceSideboardCameraPlaceSetActivity&lt;br&gt;(activity_device_sideboard_camera_place_set.xml)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1265,13 +1268,46 @@
           <mxGeometry height="60" width="120" x="-780" y="375" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-82" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="2380" y="2170" as="geometry" />
+          <mxGeometry height="90" width="120" x="2386.75" y="2210" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-97" parent="gN5Do3OfgaJWh-cyWPfq-82" style="whiteSpace=wrap;html=1;" value="单碗餐架摄像头角度&lt;br&gt;DeviceFeederRackGuide3Activity&lt;br&gt;(DeviceFeederRackGuide3Activity.java)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-15" parent="gN5Do3OfgaJWh-cyWPfq-82" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/deviceUseGuide/feedRack" vertex="1">
           <mxGeometry height="30" width="60" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-6" edge="1" parent="1" source="Fbldx4gPK4sKpbJMw1sH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fbldx4gPK4sKpbJMw1sH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-1" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置VF喂食&lt;br&gt;DeviceFirstSetStepThreeVFFeederActivity&lt;br&gt;(activity_device_first_set_step_three_feeder.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="1950" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
+          <mxGeometry height="30" width="60" x="1950" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-10" edge="1" parent="1" source="Fbldx4gPK4sKpbJMw1sH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fbldx4gPK4sKpbJMw1sH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-4" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置喂食器4&lt;br&gt;DeviceFirstSetStepFourVFFeederActivity&lt;br&gt;(activity_device_fisrt_set_step_four_feeder.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="2220" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
+          <mxGeometry height="30" width="60" x="2220" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-14" edge="1" parent="1" source="Fbldx4gPK4sKpbJMw1sH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fbldx4gPK4sKpbJMw1sH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-7" parent="1" style="whiteSpace=wrap;html=1;" value="摄像头计划&lt;br&gt;DeviceFirstStepFiveFeederActivity&lt;br&gt;(activity_device_fisrt_set_step_five_feeder.xml)" vertex="1">
+          <mxGeometry height="60" width="120" x="2490" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
+          <mxGeometry height="30" width="60" x="2490" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-12" parent="1" style="whiteSpace=wrap;html=1;" value="添加宠物信息&lt;br&gt;DeviceVideoFeederGuideActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="2680" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/deviceUserGuider/videoFeeder" vertex="1">
+          <mxGeometry height="30" width="60" x="2720" y="1970" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
