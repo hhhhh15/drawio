@@ -1342,9 +1342,6 @@
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-103" parent="Fbldx4gPK4sKpbJMw1sH-35" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fbldx4gPK4sKpbJMw1sH-44" parent="1" style="whiteSpace=wrap;html=1;" value="订阅" vertex="1">
-          <mxGeometry height="40" width="110" x="3668.75" y="1270" as="geometry" />
-        </mxCell>
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-45" parent="1" style="whiteSpace=wrap;html=1;" value="精彩视频播放&lt;br&gt;PortraitPlayActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" x="3456.75" y="2100" as="geometry" />
         </mxCell>
@@ -1455,6 +1452,12 @@
         </mxCell>
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-92" edge="1" parent="1" source="Fbldx4gPK4sKpbJMw1sH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.624;entryDx=0;entryDy=0;entryPerimeter=0;" target="Fbldx4gPK4sKpbJMw1sH-78">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-95" edge="1" parent="1" source="Fbldx4gPK4sKpbJMw1sH-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fbldx4gPK4sKpbJMw1sH-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail&lt;div&gt;以下都在这个文件下&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="118" x="3664.25" y="1275" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
