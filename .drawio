@@ -970,8 +970,8 @@
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-34" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;endArrow=none;endFill=0;entryX=0.297;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="Fbldx4gPK4sKpbJMw1sH-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8I5Cx2IJCb_u6WwGWrg1-52" parent="1" style="whiteSpace=wrap;html=1;" value="Real智能喂食器&lt;br&gt;DeviceFeederAndCameraActivity&lt;br&gt;DeviceFeederCameraFrament&lt;br&gt;DeviceFeederFragment&lt;br&gt;(&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;DevicesPF20SC01Adapter、&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px;&quot;&gt;fragment_device.xml、&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px;&quot;&gt;fragment_feeder_camera.xml&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="115" width="169" x="3170" y="985" as="geometry" />
+        <mxCell id="8I5Cx2IJCb_u6WwGWrg1-52" parent="1" style="whiteSpace=wrap;html=1;" value="Real智能喂食器&lt;br&gt;DeviceFeederAndCameraActivity&lt;br&gt;DeviceFeederCameraFrament&lt;br&gt;DeviceFeederFragment&lt;br&gt;(&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;DevicesPF20SC01Adapter、&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;CameraSelectAdapter、&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px;&quot;&gt;fragment_device.xml、&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px;&quot;&gt;fragment_feeder_camera.xml&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="170" x="3170" y="985" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-76" edge="1" parent="1" source="8I5Cx2IJCb_u6WwGWrg1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8I5Cx2IJCb_u6WwGWrg1-70">
           <mxGeometry relative="1" as="geometry" />
@@ -1102,13 +1102,13 @@
             <mxPoint x="3260" y="1710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8I5Cx2IJCb_u6WwGWrg1-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/feeder&lt;br&gt;v2/device/adaper/DevicePF20SC01Adapter" vertex="1">
-          <mxGeometry height="30" width="60" x="3151" y="940" as="geometry" />
+        <mxCell id="8I5Cx2IJCb_u6WwGWrg1-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/feeder&lt;br&gt;v2/device/adaper/DevicePF20SC01Adapter&lt;br&gt;view/devicedetail" vertex="1">
+          <mxGeometry height="30" width="60" x="3210" y="946.25" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-83" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="8I5Cx2IJCb_u6WwGWrg1-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gN5Do3OfgaJWh-cyWPfq-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="喂食器多了一个别的文件下的适配器" vertex="1">
+        <mxCell id="gN5Do3OfgaJWh-cyWPfq-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="喂食器多了两个别的文件下的适配器" vertex="1">
           <mxGeometry height="30" width="60" x="3040" y="885" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-44" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.974;exitY=0.393;exitDx=0;exitDy=0;exitPerimeter=0;" target="gN5Do3OfgaJWh-cyWPfq-39">
@@ -1183,13 +1183,13 @@
           <mxGeometry height="60" width="120" x="2218" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-59" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3457" y="2300" as="geometry" />
+          <mxGeometry height="90" width="120" x="3446.5" y="2300" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-101" parent="gN5Do3OfgaJWh-cyWPfq-59" style="whiteSpace=wrap;html=1;" value="智能摄像头设置&lt;div&gt;DeviceSideboardCameraSetActivity&lt;br&gt;(activity_device_sideboard_camera_set.xml)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" y="30" as="geometry" />
+          <mxGeometry height="60" width="120" x="13.5" y="30" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-24" parent="gN5Do3OfgaJWh-cyWPfq-59" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/sideboard" vertex="1">
-          <mxGeometry height="30" width="60" x="50" as="geometry" />
+          <mxGeometry height="30" width="60" x="43.5" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-64" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="90" width="120" x="3446.5" y="880" as="geometry" />
@@ -1384,7 +1384,7 @@
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-70" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="90" width="120" x="3215.75" y="1820" as="geometry" />
         </mxCell>
-        <mxCell id="Fbldx4gPK4sKpbJMw1sH-30" parent="Fbldx4gPK4sKpbJMw1sH-70" style="whiteSpace=wrap;html=1;" value="VF喂食器主设置页&lt;br&gt;DeviceVFFeederActivity&lt;br&gt;(&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;CameraFragment、&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
+        <mxCell id="Fbldx4gPK4sKpbJMw1sH-30" parent="Fbldx4gPK4sKpbJMw1sH-70" style="whiteSpace=wrap;html=1;" value="VF喂食器主设置页&lt;br&gt;DeviceVFFeederActivity&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;CameraFragment&lt;br&gt;（）&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
         </mxCell>
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-33" parent="Fbldx4gPK4sKpbJMw1sH-70" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
