@@ -854,9 +854,6 @@
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-40" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="XqvdJ5ckLI_tYGUzw4AU-101" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gN5Do3OfgaJWh-cyWPfq-53" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4 1 4;endArrow=none;endFill=0;exitX=0.443;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" target="gN5Do3OfgaJWh-cyWPfq-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-69" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="gN5Do3OfgaJWh-cyWPfq-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1113,7 +1110,7 @@
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-44" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.974;exitY=0.393;exitDx=0;exitDy=0;exitPerimeter=0;" target="gN5Do3OfgaJWh-cyWPfq-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1481.25" y="2960" as="sourcePoint" />
+            <mxPoint x="1490" y="3410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/air_purifier/activity" vertex="1">
@@ -1141,22 +1138,22 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="猫砂盆的初次使用页面" vertex="1">
-          <mxGeometry height="30" width="60" x="1374.5" y="2850" as="geometry" />
+          <mxGeometry height="30" width="60" x="1383.25" y="3300" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-45" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gN5Do3OfgaJWh-cyWPfq-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-39" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置2&lt;br&gt;HrInitTwoCatLitterBoxActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="1676.75" y="2930" as="geometry" />
+          <mxGeometry height="60" width="120" x="1685.5" y="3380" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-47" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gN5Do3OfgaJWh-cyWPfq-42" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-41" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置3&lt;br&gt;HrInitThreeCatLitterBoxActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="1946.75" y="2930" as="geometry" />
+          <mxGeometry height="60" width="120" x="1955.5" y="3380" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-48" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="2206.75" y="2900" as="geometry" />
+          <mxGeometry height="90" width="120" x="2215.5" y="3350" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-42" parent="gN5Do3OfgaJWh-cyWPfq-48" style="whiteSpace=wrap;html=1;" value="使用注意事项&lt;br&gt;HrUserGuideCatLittBoxActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1439,7 +1436,7 @@
           <mxGeometry height="30" width="118" x="3664.25" y="1275" as="geometry" />
         </mxCell>
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-96" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="85" width="120" x="3200" y="3060" as="geometry" />
+          <mxGeometry height="85" width="120" x="3208.75" y="3510" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-49" parent="Fbldx4gPK4sKpbJMw1sH-96" style="whiteSpace=wrap;html=1;" value="智能猫砂盆CLB75V&lt;br&gt;HRCatLitterBoxActivity" vertex="1">
           <mxGeometry height="60" width="120" y="25" as="geometry" />
@@ -1448,7 +1445,7 @@
           <mxGeometry height="30" width="60" x="43.25" as="geometry" />
         </mxCell>
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-98" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="1361.25" y="2905" as="geometry" />
+          <mxGeometry height="90" width="120" x="1370" y="3355" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-31" parent="Fbldx4gPK4sKpbJMw1sH-98" style="whiteSpace=wrap;html=1;" value="初次使用设置&lt;br&gt;HrInitOneCatLitterBoxActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1512,13 +1509,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-5" parent="1" style="triangle;whiteSpace=wrap;html=1;" value="猫沙盆CS106" vertex="1">
-          <mxGeometry height="50" width="45" x="1550" y="2575" as="geometry" />
+          <mxGeometry height="50" width="45" x="1545" y="2785" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-6" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置3(幼猫保护)&lt;div&gt;DeviceFirstSetStepThreeCatLitterBoxActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1920" y="2575" as="geometry" />
+          <mxGeometry height="60" width="120" x="1915" y="2785" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-9" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="1685" y="2540" as="geometry" />
+          <mxGeometry height="90" width="120" x="1680" y="2750" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-7" parent="b_LjW509A4XcyrHK4gIc-9" style="whiteSpace=wrap;html=1;" value="初次使用设置2&lt;br&gt;DeviceFirstSetStepTwoActivity&lt;br&gt;(activity_device_first_set_step_two.xml)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1527,34 +1524,85 @@
           <mxGeometry height="30" width="60" x="10" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
-          <mxGeometry height="30" width="60" x="1930" y="2540" as="geometry" />
+          <mxGeometry height="30" width="60" x="1925" y="2750" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-13" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置4(猫砂选择)&lt;br&gt;DeviceFirstSetStepSixCatLitterBoxActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="2158" y="2560" as="geometry" />
+          <mxGeometry height="60" width="120" x="2153" y="2770" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-14" parent="1" style="whiteSpace=wrap;html=1;" value="初次设置5（补砂模型）&lt;br&gt;DeviceFirstSetStepSevenCatLitterBoxActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="2400" y="2575" as="geometry" />
+          <mxGeometry height="60" width="120" x="2395" y="2785" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
-          <mxGeometry height="30" width="60" x="2180" y="2530" as="geometry" />
+          <mxGeometry height="30" width="60" x="2175" y="2740" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
-          <mxGeometry height="30" width="60" x="2416.75" y="2545" as="geometry" />
+          <mxGeometry height="30" width="60" x="2411.75" y="2755" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-17" parent="1" style="whiteSpace=wrap;html=1;" value="初次设置6(时区)&lt;br&gt;DeviceFirstSetStepTimeZoneActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="2630" y="2575" as="geometry" />
+          <mxGeometry height="60" width="120" x="2625" y="2785" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
-          <mxGeometry height="30" width="60" x="2640" y="2545" as="geometry" />
+          <mxGeometry height="30" width="60" x="2635" y="2755" as="geometry" />
         </mxCell>
-        <mxCell id="b_LjW509A4XcyrHK4gIc-19" parent="1" style="whiteSpace=wrap;html=1;" value="使用注意事项1&lt;div&gt;CatLitterBoxGuideActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="2840" y="2580" as="geometry" />
+        <mxCell id="b_LjW509A4XcyrHK4gIc-19" parent="1" style="whiteSpace=wrap;html=1;" value="使用注意事项1、2、3、4&lt;div&gt;CatLitterBoxGuideActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2835" y="2790" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/deviceUseGuide" vertex="1">
-          <mxGeometry height="30" width="60" x="2860" y="2550" as="geometry" />
+          <mxGeometry height="30" width="60" x="2855" y="2760" as="geometry" />
         </mxCell>
-        <mxCell id="b_LjW509A4XcyrHK4gIc-21" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="3026.75" y="2580" as="geometry" />
+        <mxCell id="b_LjW509A4XcyrHK4gIc-23" parent="1" style="whiteSpace=wrap;html=1;" value="猫砂盆CS106&lt;br&gt;DeviceCatLitterBoxCameraActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="3208.75" y="2980" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-24" parent="1" style="whiteSpace=wrap;html=1;" value="设置&lt;br&gt;DeviceCatLitterBoxSetActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="3420" y="2980" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-25" parent="1" style="whiteSpace=wrap;html=1;container=0;" value="设备维护提醒&lt;br&gt;DeviceMaintenanceActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="3660" y="2780" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-26" parent="1" style="whiteSpace=wrap;html=1;" value="定时清理计划&lt;br&gt;DeviceCatLitterBoxShovelPlanListActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="3662" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/catlitterbox" vertex="1">
+          <mxGeometry height="30" width="60" x="3238.75" y="2950" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/catlitterbox" vertex="1">
+          <mxGeometry height="30" width="60" x="3450" y="2950" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
+          <mxGeometry height="30" width="60" x="3690" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-32" parent="1" style="whiteSpace=wrap;html=1;" value="猫砂种类&lt;br&gt;DeviceCatitterBoxLitterTypeSetActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="3660" y="2980" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
+          <mxGeometry height="30" width="60" x="3690" y="2850" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
+          <mxGeometry height="30" width="60" x="3694.25" y="2950" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-36" parent="1" style="whiteSpace=wrap;html=1;" value="夜间模式&lt;br&gt;DeviceNightModelActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="3660" y="3080" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
+          <mxGeometry height="30" width="60" x="3690" y="3050" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-40" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="120" x="3662" y="3150" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-37" parent="b_LjW509A4XcyrHK4gIc-40" style="whiteSpace=wrap;html=1;" value="WIFI网络&lt;br&gt;DeviceCatLitterBoxWiFiActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-39" parent="b_LjW509A4XcyrHK4gIc-40" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/catlitterbox" vertex="1">
+          <mxGeometry height="30" width="60" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-41" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="120" x="3880" y="2850" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-31" parent="b_LjW509A4XcyrHK4gIc-41" style="whiteSpace=wrap;html=1;" value="添加定时清理计划&lt;div&gt;DeviceCatLitterBoxShovelPlanActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-34" parent="b_LjW509A4XcyrHK4gIc-41" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
+          <mxGeometry height="30" width="60" x="25.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
