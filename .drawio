@@ -1544,14 +1544,14 @@
         <mxCell id="b_LjW509A4XcyrHK4gIc-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
           <mxGeometry height="30" width="60" x="2635" y="2755" as="geometry" />
         </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-42" edge="1" parent="1" source="b_LjW509A4XcyrHK4gIc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="b_LjW509A4XcyrHK4gIc-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-19" parent="1" style="whiteSpace=wrap;html=1;" value="使用注意事项1、2、3、4&lt;div&gt;CatLitterBoxGuideActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="2835" y="2790" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/deviceUseGuide" vertex="1">
           <mxGeometry height="30" width="60" x="2855" y="2760" as="geometry" />
-        </mxCell>
-        <mxCell id="b_LjW509A4XcyrHK4gIc-23" parent="1" style="whiteSpace=wrap;html=1;" value="猫砂盆CS106&lt;br&gt;DeviceCatLitterBoxCameraActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="3208.75" y="2980" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-24" parent="1" style="whiteSpace=wrap;html=1;" value="设置&lt;br&gt;DeviceCatLitterBoxSetActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" x="3420" y="2980" as="geometry" />
@@ -1561,9 +1561,6 @@
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-26" parent="1" style="whiteSpace=wrap;html=1;" value="定时清理计划&lt;br&gt;DeviceCatLitterBoxShovelPlanListActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" x="3662" y="2880" as="geometry" />
-        </mxCell>
-        <mxCell id="b_LjW509A4XcyrHK4gIc-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/catlitterbox" vertex="1">
-          <mxGeometry height="30" width="60" x="3238.75" y="2950" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/catlitterbox" vertex="1">
           <mxGeometry height="30" width="60" x="3450" y="2950" as="geometry" />
@@ -1603,6 +1600,18 @@
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-34" parent="b_LjW509A4XcyrHK4gIc-41" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
           <mxGeometry height="30" width="60" x="25.25" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-43" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="120" x="3200" y="2878" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-23" parent="b_LjW509A4XcyrHK4gIc-43" style="whiteSpace=wrap;html=1;" value="猫砂盆CS106&lt;br&gt;DeviceCatLitterBoxCameraActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-27" parent="b_LjW509A4XcyrHK4gIc-43" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/catlitterbox" vertex="1">
+          <mxGeometry height="30" width="60" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-44" edge="1" parent="1" source="b_LjW509A4XcyrHK4gIc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="b_LjW509A4XcyrHK4gIc-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
