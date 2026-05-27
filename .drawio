@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zn8EvlN72EoAIi1fGpZf">
-    <mxGraphModel dx="2879" dy="3018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2838" dy="3051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -597,7 +597,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-4" parent="1" style="whiteSpace=wrap;html=1;" value="APP操作问题&lt;br&gt;AppProblemListActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="660" y="-345" as="geometry" />
+          <mxGeometry height="60" width="120" x="660" y="-230" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-16" edge="1" parent="1" source="XqvdJ5ckLI_tYGUzw4AU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqvdJ5ckLI_tYGUzw4AU-8" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -630,7 +630,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-19" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="870" y="-375" as="geometry" />
+          <mxGeometry height="90" width="120" x="870" y="-260" as="geometry" />
         </mxCell>
         <mxCell id="XqvdJ5ckLI_tYGUzw4AU-6" parent="XqvdJ5ckLI_tYGUzw4AU-19" style="whiteSpace=wrap;html=1;" value="web页面，要url的&lt;br&gt;DWebViewActivity" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1049,7 +1049,7 @@
           <mxGeometry height="30" width="60" x="-400" y="632.5" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-88" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="110" width="131.25" x="433.13" y="-270" as="geometry" />
+          <mxGeometry height="110" width="131.25" x="433.13" y="-210" as="geometry" />
         </mxCell>
         <mxCell id="8I5Cx2IJCb_u6WwGWrg1-86" parent="8I5Cx2IJCb_u6WwGWrg1-88" style="whiteSpace=wrap;html=1;" value="下载管理&lt;br&gt;DownloadManagerActivity&lt;br&gt;(&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;DownloadManagerAdapter、&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;DownloadManagerService、&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;activity_download_manager.xml&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="131.25" y="30" as="geometry" />
@@ -1113,7 +1113,7 @@
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-44" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.974;exitY=0.393;exitDx=0;exitDy=0;exitPerimeter=0;" target="gN5Do3OfgaJWh-cyWPfq-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1481.25" y="2670" as="sourcePoint" />
+            <mxPoint x="1481.25" y="2960" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/air_purifier/activity" vertex="1">
@@ -1141,22 +1141,22 @@
           <mxGeometry height="30" width="60" x="30" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="猫砂盆的初次使用页面" vertex="1">
-          <mxGeometry height="30" width="60" x="1374.5" y="2560" as="geometry" />
+          <mxGeometry height="30" width="60" x="1374.5" y="2850" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-45" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gN5Do3OfgaJWh-cyWPfq-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-39" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置2&lt;br&gt;HrInitTwoCatLitterBoxActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="1676.75" y="2640" as="geometry" />
+          <mxGeometry height="60" width="120" x="1676.75" y="2930" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-47" edge="1" parent="1" source="gN5Do3OfgaJWh-cyWPfq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gN5Do3OfgaJWh-cyWPfq-42" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-41" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置3&lt;br&gt;HrInitThreeCatLitterBoxActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="1946.75" y="2640" as="geometry" />
+          <mxGeometry height="60" width="120" x="1946.75" y="2930" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-48" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="2206.75" y="2610" as="geometry" />
+          <mxGeometry height="90" width="120" x="2206.75" y="2900" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-42" parent="gN5Do3OfgaJWh-cyWPfq-48" style="whiteSpace=wrap;html=1;" value="使用注意事项&lt;br&gt;HrUserGuideCatLittBoxActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1439,7 +1439,7 @@
           <mxGeometry height="30" width="118" x="3664.25" y="1275" as="geometry" />
         </mxCell>
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-96" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="85" width="120" x="3200" y="2770" as="geometry" />
+          <mxGeometry height="85" width="120" x="3200" y="3060" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-49" parent="Fbldx4gPK4sKpbJMw1sH-96" style="whiteSpace=wrap;html=1;" value="智能猫砂盆CLB75V&lt;br&gt;HRCatLitterBoxActivity" vertex="1">
           <mxGeometry height="60" width="120" y="25" as="geometry" />
@@ -1448,7 +1448,7 @@
           <mxGeometry height="30" width="60" x="43.25" as="geometry" />
         </mxCell>
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-98" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="1361.25" y="2615" as="geometry" />
+          <mxGeometry height="90" width="120" x="1361.25" y="2905" as="geometry" />
         </mxCell>
         <mxCell id="gN5Do3OfgaJWh-cyWPfq-31" parent="Fbldx4gPK4sKpbJMw1sH-98" style="whiteSpace=wrap;html=1;" value="初次使用设置&lt;br&gt;HrInitOneCatLitterBoxActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1498,6 +1498,63 @@
         </mxCell>
         <mxCell id="Fbldx4gPK4sKpbJMw1sH-110" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="80" width="120" x="3188" y="1131" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-4" edge="1" parent="1" source="b_LjW509A4XcyrHK4gIc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b_LjW509A4XcyrHK4gIc-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;设备列表(接口)：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/devices/list&lt;/span&gt;&lt;/div&gt;问题指南类型（蓝恩）：&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;/app/v1/issueGuide/typeList&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="312.5" x="780" y="-425" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="d%-使用指南，这个不在使用指南里面，但是在string.xml里面的，我觉得是设备列表接口返回的字段&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;categ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，并且是在这个DeviceFeederAndCameraSetActivity页面intent跳转了这个页面，就有&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;categ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="410" x="1135" y="-425" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-11" edge="1" parent="1" source="b_LjW509A4XcyrHK4gIc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="b_LjW509A4XcyrHK4gIc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-5" parent="1" style="triangle;whiteSpace=wrap;html=1;" value="猫沙盆CS106" vertex="1">
+          <mxGeometry height="50" width="45" x="1550" y="2575" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-6" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置3(幼猫保护)&lt;div&gt;DeviceFirstSetStepThreeCatLitterBoxActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1920" y="2575" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="120" x="1685" y="2540" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-7" parent="b_LjW509A4XcyrHK4gIc-9" style="whiteSpace=wrap;html=1;" value="初次使用设置2&lt;br&gt;DeviceFirstSetStepTwoActivity&lt;br&gt;(activity_device_first_set_step_two.xml)" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-8" parent="b_LjW509A4XcyrHK4gIc-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
+          <mxGeometry height="30" width="60" x="10" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
+          <mxGeometry height="30" width="60" x="1930" y="2540" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-13" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置4(猫砂选择)&lt;br&gt;DeviceFirstSetStepSixCatLitterBoxActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="2158" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-14" parent="1" style="whiteSpace=wrap;html=1;" value="初次设置5（补砂模型）&lt;br&gt;DeviceFirstSetStepSevenCatLitterBoxActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="2400" y="2575" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
+          <mxGeometry height="30" width="60" x="2180" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
+          <mxGeometry height="30" width="60" x="2416.75" y="2545" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-17" parent="1" style="whiteSpace=wrap;html=1;" value="初次设置6(时区)&lt;br&gt;DeviceFirstSetStepTimeZoneActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="2630" y="2575" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/device" vertex="1">
+          <mxGeometry height="30" width="60" x="2640" y="2545" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-19" parent="1" style="whiteSpace=wrap;html=1;" value="使用注意事项1&lt;div&gt;CatLitterBoxGuideActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2840" y="2580" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/deviceUseGuide" vertex="1">
+          <mxGeometry height="30" width="60" x="2860" y="2550" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-21" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="3026.75" y="2580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
