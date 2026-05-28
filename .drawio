@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zn8EvlN72EoAIi1fGpZf">
-    <mxGraphModel dx="2800" dy="3028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2838" dy="3051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,9 +42,6 @@
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-10" parent="1" style="whiteSpace=wrap;html=1;" value="推送、锁区" vertex="1">
           <mxGeometry height="60" width="120" x="520" y="-1670" as="geometry" />
-        </mxCell>
-        <mxCell id="hoZQJb4CXLbXvTT0J9eF-11" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="770" y="-1660" as="geometry" />
         </mxCell>
         <mxCell id="hoZQJb4CXLbXvTT0J9eF-14" edge="1" parent="1" source="hoZQJb4CXLbXvTT0J9eF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoZQJb4CXLbXvTT0J9eF-13">
           <mxGeometry relative="1" as="geometry" />
@@ -1581,13 +1578,13 @@
           <mxGeometry height="30" width="60" x="3694.25" y="2920" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-36" parent="1" style="whiteSpace=wrap;html=1;" value="夜间模式&lt;br&gt;DeviceNightModelActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="3660" y="3050" as="geometry" />
+          <mxGeometry height="60" width="120" x="3660" y="3060" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
-          <mxGeometry height="30" width="60" x="3690" y="3020" as="geometry" />
+          <mxGeometry height="30" width="60" x="3690" y="3030" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-40" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="120" x="3662" y="3120" as="geometry" />
+          <mxGeometry height="90" width="120" x="3662" y="3230" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-37" parent="b_LjW509A4XcyrHK4gIc-40" style="whiteSpace=wrap;html=1;" value="WIFI网络&lt;br&gt;DeviceCatLitterBoxWiFiActivity&lt;br&gt;(activity_device_wifi_cat_litter_box.xml)" vertex="1">
           <mxGeometry height="60" width="120" y="30" as="geometry" />
@@ -1624,10 +1621,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-47" parent="1" style="whiteSpace=wrap;html=1;" value="固件升级&lt;br&gt;CatLitterBoxVersionListActivity&lt;br&gt;(&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;NewVersionListAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="3662.25" y="3260" as="geometry" />
+          <mxGeometry height="60" width="120" x="3662.25" y="3370" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/catlitterbox" vertex="1">
-          <mxGeometry height="30" width="60" x="3693.25" y="3230" as="geometry" />
+          <mxGeometry height="30" width="60" x="3693.25" y="3340" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-56" parent="1" style="whiteSpace=wrap;html=1;" value="余量&lt;br&gt;DeviceCatLitterBoxSurplusActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" x="3400" y="3170" as="geometry" />
@@ -1635,44 +1632,68 @@
         <mxCell id="b_LjW509A4XcyrHK4gIc-57" edge="1" parent="1" source="b_LjW509A4XcyrHK4gIc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="b_LjW509A4XcyrHK4gIc-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_LjW509A4XcyrHK4gIc-58" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;每日精彩CatLitterBoxCameraOdorlessModelSetActivity&lt;br&gt;净味模式&lt;/span&gt;CatLitterBoxCameraOdorlessModelSetActivity&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;说明书，带摄像头&lt;/span&gt;CatLitterBoxCameraPdfActivity&lt;br&gt;没有用的适配器CatLitterBoxDevicesDynamicListAdapter&lt;br&gt;带摄像头才用到的适配器CatLitterBoxDevicesDynamicListV2Adapter&lt;br&gt;智能侦测CatLitterBoxMonitorSetActivity&lt;br&gt;预览视频CatLitterBoxPortraitPlayActivity&lt;br&gt;看视频CatLitterBoxVideoPlayerActivity&lt;br&gt;初次使用设置DeviceBindCameraSetOdorlessActivity&lt;br&gt;100a没有净味物模型DeviceCatLitterBoxCameraOdorlessPlanActivity&lt;br&gt;无净味DeviceCatLitterBoxCameraOdorlessPlanListActivity&lt;br&gt;无净味OdorlessPlanListAdapter&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="b_LjW509A4XcyrHK4gIc-58" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;view/devicedetail/catlitterbox文件夹下面&lt;br&gt;每日精彩CatLitterBoxCameraOdorlessModelSetActivity&lt;br&gt;净味模式&lt;/span&gt;CatLitterBoxCameraOdorlessModelSetActivity&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;说明书，带摄像头&lt;/span&gt;CatLitterBoxCameraPdfActivity&lt;br&gt;没有用的适配器CatLitterBoxDevicesDynamicListAdapter&lt;br&gt;带摄像头才用到的适配器CatLitterBoxDevicesDynamicListV2Adapter&lt;br&gt;智能侦测CatLitterBoxMonitorSetActivity&lt;br&gt;预览视频CatLitterBoxPortraitPlayActivity&lt;br&gt;看视频CatLitterBoxVideoPlayerActivity&lt;br&gt;初次使用设置DeviceBindCameraSetOdorlessActivity&lt;br&gt;100a没有净味物模型DeviceCatLitterBoxCameraOdorlessPlanActivity&lt;br&gt;无净味DeviceCatLitterBoxCameraOdorlessPlanListActivity&lt;br&gt;无净味OdorlessPlanListAdapter&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="3170" y="2725" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
           <mxGeometry height="30" width="60" x="3420" y="3140" as="geometry" />
         </mxCell>
-        <mxCell id="b_LjW509A4XcyrHK4gIc-61" parent="1" style="whiteSpace=wrap;html=1;" value="智能烘干箱PD50&lt;br&gt;DeviceDryerActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="3100" y="3410" as="geometry" />
+        <mxCell id="dFkGocAmLgzkCQ94ILQY-3" edge="1" parent="1" source="b_LjW509A4XcyrHK4gIc-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b_LjW509A4XcyrHK4gIc-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_LjW509A4XcyrHK4gIc-62" parent="1" style="whiteSpace=wrap;html=1;" value="DeviceDrySetActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="3350" y="3410" as="geometry" />
+        <mxCell id="b_LjW509A4XcyrHK4gIc-61" parent="1" style="whiteSpace=wrap;html=1;" value="智能烘干箱PD50&lt;br&gt;DeviceDryerActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="3090" y="3547" as="geometry" />
+        </mxCell>
+        <mxCell id="dFkGocAmLgzkCQ94ILQY-5" edge="1" parent="1" source="b_LjW509A4XcyrHK4gIc-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b_LjW509A4XcyrHK4gIc-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFkGocAmLgzkCQ94ILQY-7" edge="1" parent="1" source="b_LjW509A4XcyrHK4gIc-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="b_LjW509A4XcyrHK4gIc-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_LjW509A4XcyrHK4gIc-62" parent="1" style="whiteSpace=wrap;html=1;" value="DeviceDryerSetActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="3340" y="3547" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
-          <mxGeometry height="30" width="60" x="3128" y="3380" as="geometry" />
+          <mxGeometry height="30" width="60" x="3118" y="3517" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
-          <mxGeometry height="30" width="60" x="3370" y="3380" as="geometry" />
+          <mxGeometry height="30" width="60" x="3360" y="3517" as="geometry" />
+        </mxCell>
+        <mxCell id="dFkGocAmLgzkCQ94ILQY-6" edge="1" parent="1" source="b_LjW509A4XcyrHK4gIc-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="b_LjW509A4XcyrHK4gIc-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-66" parent="1" style="whiteSpace=wrap;html=1;" value="其他设置&lt;br&gt;DeviceOtherSetActivity&lt;br&gt;()" vertex="1">
-          <mxGeometry height="60" width="120" x="3620" y="3400" as="geometry" />
+          <mxGeometry height="60" width="120" x="3610" y="3547" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-67" parent="1" style="whiteSpace=wrap;html=1;" value="连接设备&lt;br&gt;ConnectionGuideActivity" vertex="1">
-          <mxGeometry height="60" width="120" x="3867" y="3410" as="geometry" />
+          <mxGeometry height="60" width="120" x="3857" y="3547" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/distribution_network/activity" vertex="1">
-          <mxGeometry height="30" width="60" x="3904.75" y="3380" as="geometry" />
+          <mxGeometry height="30" width="60" x="3894.75" y="3517" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail" vertex="1">
-          <mxGeometry height="30" width="60" x="3635" y="3370" as="geometry" />
+          <mxGeometry height="30" width="60" x="3630" y="3517" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-70" parent="1" style="whiteSpace=wrap;html=1;" value="固件升级&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;VersionListActivity&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="3633.25" y="3530" as="geometry" />
+          <mxGeometry height="60" width="120" x="3610" y="3670" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/update" vertex="1">
-          <mxGeometry height="30" width="60" x="3650" y="3500" as="geometry" />
+          <mxGeometry height="30" width="60" x="3626.75" y="3640" as="geometry" />
         </mxCell>
         <mxCell id="b_LjW509A4XcyrHK4gIc-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5.27全扫了，右边标了的页面" vertex="1">
           <mxGeometry height="30" width="60" x="3090" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="dFkGocAmLgzkCQ94ILQY-8" parent="1" style="whiteSpace=wrap;html=1;" value="时区选择&lt;br&gt;TimeZoneActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="3660" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="dFkGocAmLgzkCQ94ILQY-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/common" vertex="1">
+          <mxGeometry height="30" width="60" x="3690" y="3130" as="geometry" />
+        </mxCell>
+        <mxCell id="dFkGocAmLgzkCQ94ILQY-10" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置，绑定摄像头&lt;div&gt;DeviceBindCameraSetOdorlessActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3400" y="3280" as="geometry" />
+        </mxCell>
+        <mxCell id="dFkGocAmLgzkCQ94ILQY-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/catlitterbox" vertex="1">
+          <mxGeometry height="30" width="60" x="3426.75" y="3250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
