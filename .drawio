@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zn8EvlN72EoAIi1fGpZf">
-    <mxGraphModel dx="3494" dy="3332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="2848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2012,6 +2012,39 @@
         </mxCell>
         <mxCell id="dFkGocAmLgzkCQ94ILQY-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="view/devicedetail/feeder" vertex="1">
           <mxGeometry height="30" width="60" x="3710" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-1" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置&lt;div&gt;HrlnitOneCatLitterBoxActivity&lt;br&gt;()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1339.5" y="2920" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/lnitialization/activity" vertex="1">
+          <mxGeometry height="30" width="60" x="1361" y="2890" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-4" edge="1" parent="1" source="yoC50pG-62FA27AmSLpO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.023;entryY=0.679;entryDx=0;entryDy=0;entryPerimeter=0;" target="yoC50pG-62FA27AmSLpO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-3" parent="1" style="triangle;whiteSpace=wrap;html=1;" value="新猫砂盆75v" vertex="1">
+          <mxGeometry height="60" width="40" x="1160" y="2920" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-5" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置2&lt;br&gt;HrlnitTwoCatLitterBoxActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="1528" y="2923" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-6" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置3&lt;br&gt;HrlnitTwoCatLitterBoxActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="1720" y="2923" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-7" parent="1" style="whiteSpace=wrap;html=1;" value="初次使用设置4&lt;br&gt;HrlnitThreeCatLitterBoxActivity&lt;br&gt;()" vertex="1">
+          <mxGeometry height="60" width="120" x="1970" y="2940" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-8" parent="1" style="whiteSpace=wrap;html=1;" value="使用注意事项1、2、3&lt;div&gt;&lt;div&gt;HrUserGuideCatLitterBoxActivity&lt;br&gt;()&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2170" y="2950" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/user_guide/activity" vertex="1">
+          <mxGeometry height="30" width="60" x="2205" y="2920" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-11" parent="1" style="whiteSpace=wrap;html=1;" value="HRCatLitterBoxActivity" vertex="1">
+          <mxGeometry height="60" width="120" x="2395" y="2990" as="geometry" />
+        </mxCell>
+        <mxCell id="yoC50pG-62FA27AmSLpO-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/cat_litter_box/activity" vertex="1">
+          <mxGeometry height="30" width="60" x="2440" y="2960" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
