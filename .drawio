@@ -2205,17 +2205,23 @@
         <mxCell id="jiGgYPQWDxwcqoMOOB_9-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/cat_litter_box/activity" vertex="1">
           <mxGeometry height="30" width="60" x="2493.75" y="3182.5" as="geometry" />
         </mxCell>
-        <mxCell id="jiGgYPQWDxwcqoMOOB_9-59" parent="1" style="whiteSpace=wrap;html=1;" value="HRTuTkLiveDetailActivity&lt;br&gt;()" vertex="1">
+        <mxCell id="jiGgYPQWDxwcqoMOOB_9-59" parent="1" style="whiteSpace=wrap;html=1;" value="列表回放视频&lt;br&gt;HRTuTkLiveDetailActivity&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" x="2471.75" y="3112.5" as="geometry" />
         </mxCell>
         <mxCell id="jiGgYPQWDxwcqoMOOB_9-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/cat_litter_box/activity" vertex="1">
           <mxGeometry height="30" width="60" x="2495" y="3082.5" as="geometry" />
         </mxCell>
-        <mxCell id="jiGgYPQWDxwcqoMOOB_9-61" parent="1" style="whiteSpace=wrap;html=1;" value="HRTutkPlaybackActivityV3&lt;br&gt;()" vertex="1">
+        <mxCell id="jiGgYPQWDxwcqoMOOB_9-61" parent="1" style="whiteSpace=wrap;html=1;" value="主播放视频页面&lt;br&gt;HRTutkPlaybackActivityV3&lt;br&gt;()" vertex="1">
           <mxGeometry height="60" width="120" x="2471.75" y="3010" as="geometry" />
         </mxCell>
         <mxCell id="jiGgYPQWDxwcqoMOOB_9-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/common" vertex="1">
           <mxGeometry height="30" width="60" x="2501.75" y="2980" as="geometry" />
+        </mxCell>
+        <mxCell id="jiGgYPQWDxwcqoMOOB_9-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2/device/common" vertex="1">
+          <mxGeometry height="30" width="60" x="2336.75" y="3930" as="geometry" />
+        </mxCell>
+        <mxCell id="jiGgYPQWDxwcqoMOOB_9-66" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;HRTutkPlaybackActivityV3&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;HRDeviceWifiInfoActivity&lt;br&gt;&lt;/span&gt;DevicesUpgradeActivity&lt;br&gt;HRDevicesNotificationSettingActivity&lt;br&gt;HRDeviceMaintenanceReminderActivity&lt;br&gt;CameraOperationPlanActivity&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="290" x="2296.75" y="3960" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
